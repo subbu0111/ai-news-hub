@@ -18,15 +18,22 @@ GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 RSS_SOURCES = [
-    {"url": "https://techcrunch.com/feed/", "category": "ai_agentic_tech", "name": "TechCrunch"},
-    {"url": "https://www.theverge.com/rss/index.xml", "category": "ai_agentic_tech", "name": "The Verge"},
-    {"url": "https://hnrss.org/frontpage", "category": "global_tech_breakthroughs", "name": "Hacker News"},
-    {"url": "https://feeds.bloomberg.com/markets/news.rss", "category": "us_markets_economy", "name": "Bloomberg"},
-    {"url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "category": "us_markets_economy", "name": "CNBC"},
+    # === INDIA NATIONAL (High Quality) ===
+    {"url": "https://www.thehindu.com/feeder/default.rss", "category": "india_national", "name": "The Hindu"},
+    {"url": "https://indianexpress.com/feed/", "category": "india_national", "name": "Indian Express"},
+    {"url": "https://www.livemint.com/rss/news", "category": "india_business", "name": "Mint"},
+
+    # === HYDERABAD / TELANGANA (Local Focus) ===
+    {"url": "https://www.thehindu.com/news/cities/Hyderabad/feeder/default.rss", "category": "hyderabad", "name": "The Hindu Hyderabad"},
+    {"url": "https://telanganatoday.com/feed", "category": "hyderabad", "name": "Telangana Today"},
+
+    # === INDIA TECH & STARTUPS ===
+    {"url": "https://yourstory.com/feed", "category": "india_tech", "name": "YourStory"},
+    {"url": "https://inc42.com/feed/", "category": "india_tech", "name": "Inc42"},
+
+    # === GLOBAL (Keep a few high-quality ones) ===
+    {"url": "https://techcrunch.com/feed/", "category": "global_tech", "name": "TechCrunch"},
     {"url": "https://feeds.reuters.com/reuters/topNews", "category": "global_geopolitics", "name": "Reuters"},
-    {"url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "category": "global_geopolitics", "name": "NYT World"},
-    {"url": "https://www.space.com/feeds/all", "category": "global_tech_breakthroughs", "name": "Space.com"},
-    {"url": "https://www.sciencedaily.com/rss/all.xml", "category": "global_tech_breakthroughs", "name": "ScienceDaily"},
 ]
 
 MAX_ARTICLES = 30
