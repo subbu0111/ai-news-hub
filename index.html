@@ -177,7 +177,7 @@
             <div class="flex items-center gap-x-3 text-sm">
                 <div class="px-4 py-2 bg-slate-900 border border-slate-800 rounded-3xl flex items-center gap-x-2">
                     <i class="fa-solid fa-robot text-blue-400"></i>
-                    <span class="font-medium">95% rejection rate</span>
+                    <span class="font-medium" id="editor-badge">Editor's Cut</span>
                 </div>
             </div>
         </div>
@@ -213,7 +213,7 @@
                 <i class="fa-solid fa-inbox text-3xl text-slate-600"></i>
             </div>
             <h3 class="font-semibold text-xl">No groundbreaking news yet</h3>
-            <p class="text-slate-400 mt-1 max-w-xs">The AI agent is scanning sources. News will appear automatically every 2 hours.</p>
+            <p class="text-slate-400 mt-1 max-w-xs">The AI agent is scanning sources. News will appear automatically every 30 minutes.</p>
         </div>
 
         <!-- Loading State -->
@@ -296,16 +296,66 @@
     <div id="toast-container" class="fixed bottom-5 right-5 z-[200] space-y-2"></div>
 
     <script>
+        // ==================== CONFIG (Global) ====================
+        const CONFIG = {
+            GROQ_API_URL: "https://api.groq.com/openai/v1/chat/completions",
+            GROQ_MODEL: "llama-3.3-70b-versatile",
+            MEMORY_EXPIRY_HOURS: 24
+        };
 
-
-        const CATEGORIES = [
-            { id: "all", label: "All", icon: "fa-globe" },
-            { id: "india_national", label: "India", icon: "fa-flag" },
-            { id: "hyderabad", label: "Hyderabad", icon: "fa-map-marker-alt" },
-            { id: "india_business", label: "Business", icon: "fa-chart-line" },
-            { id: "india_tech", label: "India Tech", icon: "fa-laptop-code" },
-            { id: "global_tech", label: "Global Tech", icon: "fa-microchip" }
+        // ==================== SMART BADGE ROTATION ====================
+        const EDITOR_BADGES = [
+            "Editor's Cut",
+            "Chief Editor Selection",
+            "Premium Curated",
+            "Top Tier Only",
+            "Verified & Curated",
+            "Gold Standard News",
+            "Newsroom Approved",
+            "Quality Assured"
         ];
+
+        function rotateEditorBadge() {
+            const badge = document.getElementById("editor-badge");
+            const randomBadge = EDITOR_BADGES[Math.floor(Math.random() * EDITOR_BADGES.length)];
+            badge.textContent = randomBadge;
+        }
+
+        // ==================== DYNAMIC CATEGORIES FROM NEWS ====================
+        let CATEGORIES = [
+            { id: "all", label: "All", icon: "fa-globe" }
+        ];
+
+        function extractCategoriesFromNews(articles) {
+            const categories = new Set();
+            articles.forEach(article => {
+                if (article.category) {
+                    categories.add(article.category);
+                }
+            });
+
+            const categoryMap = {
+                "india_national": { label: "India", icon: "fa-flag" },
+                "india_business": { label: "Business", icon: "fa-chart-line" },
+                "india_tech": { label: "India Tech", icon: "fa-laptop-code" },
+                "hyderabad": { label: "Hyderabad", icon: "fa-map-marker-alt" },
+                "global_tech": { label: "Global Tech", icon: "fa-microchip" },
+                "global_geopolitics": { label: "Geopolitics", icon: "fa-globe-europe" }
+            };
+
+            const dynamicCategories = Array.from(categories)
+                .map(cat => ({
+                    id: cat,
+                    label: categoryMap[cat]?.label || cat.replace(/_/g, " "),
+                    icon: categoryMap[cat]?.icon || "fa-newspaper"
+                }))
+                .sort((a, b) => a.label.localeCompare(b.label));
+
+            CATEGORIES = [
+                { id: "all", label: "All", icon: "fa-globe" },
+                ...dynamicCategories
+            ];
+        }
 
         // ==================== STATE ====================
         let currentFilter = "all";
@@ -480,7 +530,7 @@
             
             CATEGORIES.forEach(cat => {
                 const btn = document.createElement("button");
-                btn.className = `filter-chip flex items-center gap-x-2 px-4 py-1.5 text-sm rounded-3xl border transition-all ${currentFilter === cat.id ? 'active border-blue-600 bg-blue-600 text-white' : 'border-slate-700 hover:bg-slate-800 bg-slate-900'}`;
+                btn.className = `filter-chip flex items-center gap-x-2 px-4 py-1.5 text-sm rounded-3xl border transition-all ${currentFilter === cat.id ? 'active border-blue-600 bg-blue-600 text-white' : 'border-slate-700 hover:border-slate-600'}`;
                 
                 btn.innerHTML = `
                     <i class="fa-solid ${cat.icon} text-xs"></i>
@@ -582,8 +632,6 @@
             return Math.floor(diff / 86400) + "d ago";
         }
 
-
-
         // ==================== HYBRID: Load from news.json ====================
         async function loadNewsFromFile() {
             const grid = document.getElementById("news-grid");
@@ -610,6 +658,8 @@
                 }
 
                 newsArticles = articles;
+                extractCategoriesFromNews(articles);
+                renderCategoryFilters();
                 filterAndRenderNews();
                 document.getElementById("total-articles").textContent = articles.length;
                 showToast(`Loaded ${articles.length} stories`, "success");
@@ -698,7 +748,11 @@
             memory = loadMemory();
             updateMemoryCount();
             
-            // Render filters
+            // Rotate editor badge every 30 seconds
+            rotateEditorBadge();
+            setInterval(rotateEditorBadge, 30000);
+            
+            // Render filters (will be updated when news loads)
             renderCategoryFilters();
             
             // Show empty state initially
@@ -707,7 +761,7 @@
             // Keyboard shortcuts
             setupKeyboardShortcuts();
 
-            // Attach Settings button click handler (fixes gear not responding)
+            // Attach Settings button click handler
             const settingsBtn = document.getElementById("settings-btn");
             if (settingsBtn) {
                 settingsBtn.addEventListener("click", showSettings);
