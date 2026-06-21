@@ -292,39 +292,7 @@
     <div id="toast-container" class="fixed bottom-5 right-5 z-[200] space-y-2"></div>
 
     <script>
-        // ==================== CONFIG ====================
-        const CONFIG = {
-            GROQ_API_URL: "https://api.groq.com/openai/v1/chat/completions",
-            GROQ_MODEL: "llama-3.3-70b-versatile",
-            // Multiple CORS proxies for reliability (we try them in order)
-            CORS_PROXIES: [
-                "https://corsproxy.io/?",
-                "https://api.codetabs.com/v1/proxy?quest=",
-                "https://thingproxy.freeboard.io/fetch/"
-            ],
-            MAX_ARTICLES_PER_FETCH: 35,
-            MEMORY_EXPIRY_HOURS: 24
-        };
 
-        // RSS Sources (matching original topics.json categories)
-        const RSS_SOURCES = [
-            // AI & Tech
-            { url: "https://techcrunch.com/feed/", category: "ai_agentic_tech", name: "TechCrunch" },
-            { url: "https://www.theverge.com/rss/index.xml", category: "ai_agentic_tech", name: "The Verge" },
-            { url: "https://hnrss.org/frontpage", category: "global_tech_breakthroughs", name: "Hacker News" },
-            
-            // Markets & Economy
-            { url: "https://feeds.bloomberg.com/markets/news.rss", category: "us_markets_economy", name: "Bloomberg" },
-            { url: "https://www.cnbc.com/id/100003114/device/rss/rss.html", category: "us_markets_economy", name: "CNBC" },
-            
-            // Geopolitics
-            { url: "https://feeds.reuters.com/reuters/topNews", category: "global_geopolitics", name: "Reuters" },
-            { url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", category: "global_geopolitics", name: "NYT World" },
-            
-            // Science & Space
-            { url: "https://www.space.com/feeds/all", category: "global_tech_breakthroughs", name: "Space.com" },
-            { url: "https://www.sciencedaily.com/rss/all.xml", category: "global_tech_breakthroughs", name: "ScienceDaily" }
-        ];
 
         const CATEGORIES = [
             { id: "all", label: "All", icon: "fa-globe" },
@@ -609,134 +577,9 @@
             return Math.floor(diff / 86400) + "d ago";
         }
 
-        // ==================== RSS FETCHING (with multiple proxy fallback) ====================
-        async function fetchRSSWithProxy(source, proxyBase) {
-            const proxyUrl = proxyBase + encodeURIComponent(source.url);
-            const response = await fetch(proxyUrl, { 
-                signal: AbortSignal.timeout(12000) 
-            });
-            
-            if (!response.ok) throw new Error(`Proxy failed: ${response.status}`);
-            
-            const text = await response.text();
-            const parser = new DOMParser();
-            const xml = parser.parseFromString(text, "text/xml");
-            
-            const items = Array.from(xml.querySelectorAll("item")).slice(0, 8);
-            
-            return items.map(item => {
-                const title = item.querySelector("title")?.textContent || "";
-                const link = item.querySelector("link")?.textContent || "";
-                const pubDate = item.querySelector("pubDate")?.textContent || "";
-                
-                return {
-                    title: title.trim(),
-                    link: link.trim(),
-                    published: pubDate,
-                    source: source.name,
-                    category: source.category
-                };
-            });
-        }
 
-        async function fetchRSS(source) {
-            // Try each proxy in order until one works
-            for (let i = 0; i < CONFIG.CORS_PROXIES.length; i++) {
-                try {
-                    console.log(`Trying proxy ${i + 1} for ${source.name}...`);
-                    const articles = await fetchRSSWithProxy(source, CONFIG.CORS_PROXIES[i]);
-                    if (articles.length > 0) {
-                        console.log(`✅ Success with proxy ${i + 1} for ${source.name}`);
-                        return articles;
-                    }
-                } catch (err) {
-                    console.warn(`Proxy ${i + 1} failed for ${source.name}:`, err.message);
-                    // Continue to next proxy
-                }
-            }
-            
-            console.warn(`❌ All proxies failed for ${source.name}`);
-            return [];
-        }
 
-        // ==================== LLM ANALYSIS ====================
-        async function analyzeWithGroq(article) {
-            const apiKey = getApiKey();
-            if (!apiKey) {
-                throw new Error("No API key configured");
-            }
-            
-            const prompt = `You are a Cynical Chief Editor at a top-tier global news agency.
-Your Job: Filter for GROUNDBREAKING, WORLD-CHANGING, or HIGH-IMPACT news only.
-
-STRICT FILTERING RULES (Reject 95% of input):
-1. IMMEDIATE REJECT (Return relevant: false):
-   - Rumors, Speculation, "Analysts predict", "Experts say"
-   - Opinion pieces, Reviews, "How-to" guides, "Best of" lists
-   - Minor updates (e.g. "Software v1.1", "Small price dip")
-   - Clickbait (e.g. "You won't believe")
-   - DUPLICATE STORIES that everyone already knows
-
-2. ACCEPT ONLY (Return relevant: true):
-   - OFFICIAL Major Releases (e.g. "GPT-5 Launched")
-   - CRITICAL Market Events (Stock crash >5%)
-   - GOVERNMENT / GEOPOLITICS (War, Treaties, Bills)
-   - DISASTERS (Major earthquakes, Emergencies)
-
-Input News:
-Title: "${article.title}"
-Source: "${article.source}"
-Category: "${article.category}"
-
-If RELEVANT, return JSON:
-{
-  "relevant": true,
-  "topic": "URGENT HEADLINE",
-  "summary": ["Critical Fact 1", "Impact Fact 2"],
-  "impact": "HIGH"
-}
-
-If NOT RELEVANT, return: { "relevant": false }`;
-
-            const response = await fetch(CONFIG.GROQ_API_URL, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    "Authorization": `Bearer ${apiKey}`
-                },
-                body: JSON.stringify({
-                    model: CONFIG.GROQ_MODEL,
-                    messages: [
-                        { role: "system", content: "You are a strict news editor. Always respond with valid JSON only." },
-                        { role: "user", content: prompt }
-                    ],
-                    temperature: 0.1,
-                    max_tokens: 400,
-                    response_format: { type: "json_object" }
-                })
-            });
-
-            if (!response.ok) {
-                const errorText = await response.text();
-                throw new Error(`Groq API error: ${response.status} - ${errorText}`);
-            }
-
-            const data = await response.json();
-            const content = data.choices?.[0]?.message?.content;
-            
-            if (!content) throw new Error("Empty response from Groq");
-            
-            try {
-                return JSON.parse(content);
-            } catch {
-                // Try to extract JSON from text
-                const jsonMatch = content.match(/\{[\s\S]*\}/);
-                if (jsonMatch) return JSON.parse(jsonMatch[0]);
-                throw new Error("Invalid JSON from LLM");
-            }
-        }
-
-        // ==================== HYBRID: Load from news.json (Generated by Python Agent) ====================
+        // ==================== HYBRID: Load from news.json ====================
         async function loadNewsFromFile() {
             const grid = document.getElementById("news-grid");
             const empty = document.getElementById("empty-state");
@@ -749,12 +592,10 @@ If NOT RELEVANT, return: { "relevant": false }`;
             statusBar.classList.add("hidden");
 
             try {
-                // Add cache-busting to always get latest news.json
                 const response = await fetch("news.json?t=" + Date.now());
                 if (!response.ok) throw new Error("Failed to load news.json");
 
                 const articles = await response.json();
-
                 loading.classList.add("hidden");
 
                 if (!articles || articles.length === 0) {
@@ -766,108 +607,19 @@ If NOT RELEVANT, return: { "relevant": false }`;
                 newsArticles = articles;
                 filterAndRenderNews();
                 document.getElementById("total-articles").textContent = articles.length;
-
-                showToast(`Loaded ${articles.length} stories from AI agent`, "success");
+                showToast(`Loaded ${articles.length} stories`, "success");
 
             } catch (err) {
                 loading.classList.add("hidden");
-                showToast("Failed to load news.json: " + err.message, "error");
+                showToast("Error: " + err.message, "error");
                 empty.classList.remove("hidden");
             }
         }
 
-        // Auto-load news when page opens
+        // Auto-load on page open
         window.addEventListener("load", () => {
-            setTimeout(() => {
-                loadNewsFromFile();
-            }, 800);
+            setTimeout(loadNewsFromFile, 600);
         });
-            
-            try {
-                // Fetch all RSS sources
-                const fetchPromises = RSS_SOURCES.map(source => fetchRSS(source));
-                const results = await Promise.all(fetchPromises);
-                
-                results.forEach(articles => {
-                    allArticles.push(...articles);
-                });
-                
-                // Shuffle for fairness
-                allArticles.sort(() => Math.random() - 0.5);
-                allArticles = allArticles.slice(0, CONFIG.MAX_ARTICLES_PER_FETCH);
-                
-                loading.classList.add("hidden");
-                
-                // Process each article
-                for (const article of allArticles) {
-                    if (isDuplicate(article.title)) continue;
-                    
-                    try {
-                        const analysis = await analyzeWithGroq(article);
-                        
-                        if (analysis.relevant === true) {
-                            const processedArticle = {
-                                ...article,
-                                topic: analysis.topic || article.title,
-                                summary: analysis.summary || ["Major development reported."],
-                                impact: analysis.impact || "MEDIUM"
-                            };
-                            
-                            newsArticles.unshift(processedArticle);
-                            saveToMemory(article.title);
-                            accepted++;
-                            
-                            // Live update
-                            filterAndRenderNews();
-                            
-                            // Small delay to avoid rate limits
-                            await new Promise(r => setTimeout(r, 650));
-                        }
-                    } catch (err) {
-                        console.warn("Analysis failed:", err.message);
-                    }
-                    
-                    processed++;
-                    
-                    // Update status
-                    if (processed % 3 === 0) {
-                        updateStatusBar(processed, allArticles.length, accepted);
-                    }
-                }
-                
-                updateStatusBar(processed, allArticles.length, accepted, true);
-                filterAndRenderNews();
-                updateMemoryCount();
-                
-                if (accepted === 0) {
-                    showToast("No groundbreaking stories found in this cycle", "info");
-                } else {
-                    showToast(`Found ${accepted} high-impact stories`, "success");
-                }
-                
-            } catch (error) {
-                loading.classList.add("hidden");
-                showToast("Failed to fetch news: " + error.message, "error");
-                console.error(error);
-            }
-        }
-
-        function updateStatusBar(processed, total, accepted, finished = false) {
-            const bar = document.getElementById("status-bar");
-            const icon = document.getElementById("status-icon");
-            const text = document.getElementById("status-text");
-            
-            bar.classList.remove("hidden");
-            
-            if (finished) {
-                icon.innerHTML = `<i class="fa-solid fa-check-circle text-emerald-400"></i>`;
-                text.innerHTML = `Scan complete • ${accepted} stories surfaced`;
-                setTimeout(() => bar.classList.add("hidden"), 6000);
-            } else {
-                icon.innerHTML = `<i class="fa-solid fa-spinner fa-spin text-blue-400"></i>`;
-                text.innerHTML = `Analyzing ${processed}/${total} articles...`;
-            }
-        }
 
         // ==================== KEYBOARD SHORTCUTS ====================
         function setupKeyboardShortcuts() {
