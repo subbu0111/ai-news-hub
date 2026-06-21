@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add news.json memory.json
+          git add news.json memory.json rejected.json
           git commit -m "Auto-update: News refreshed $(date -u +'%Y-%m-%d %H:%M UTC')" || exit 0
           git push
         env:
