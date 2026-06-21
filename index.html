@@ -873,7 +873,7 @@ If NOT RELEVANT, return: { "relevant": false }`;
             document.addEventListener("keydown", function(e) {
                 if (e.key === " " && document.activeElement.tagName === "BODY") {
                     e.preventDefault();
-                    fetchNews();
+                    loadNewsFromFile();   // Updated for Hybrid system
                 }
                 
                 if (e.key === "/") {
