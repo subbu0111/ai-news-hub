@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 AI News Hub - Hybrid Agent (GitHub Actions Version)
-Runs every 2 hours via GitHub Actions.
-Fetches RSS → Filters with Groq LLM → Saves to news.json + memory.json
+Runs every 30 minutes via GitHub Actions.
+Fetches RSS → Filters with Groq LLM → Appends to news.json + maintains memory.json
 """
 
 import os
@@ -36,8 +36,9 @@ RSS_SOURCES = [
     {"url": "https://feeds.reuters.com/reuters/topNews", "category": "global_geopolitics", "name": "Reuters"},
 ]
 
-MAX_ARTICLES = 30
+MAX_ARTICLES = 50  # Keep up to 50 articles in feed
 MEMORY_EXPIRY_HOURS = 24
+ARTICLE_EXPIRY_HOURS = 24  # Remove articles older than 24 hours
 MAX_REJECTED = 500   # Keep only the latest 500 rejected articles
 
 # ==================== MEMORY MANAGEMENT ====================
@@ -62,6 +63,33 @@ def save_memory(titles: set):
     data = [{"title": t, "timestamp": time.time()} for t in titles]
     with open("memory.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def load_news() -> List[Dict]:
+    """Load existing news from news.json"""
+    if not os.path.exists("news.json"):
+        return []
+    try:
+        with open("news.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"⚠️ News load error: {e}")
+        return []
+
+
+def is_article_expired(article: Dict) -> bool:
+    """Check if article is older than ARTICLE_EXPIRY_HOURS"""
+    try:
+        if "fetched_at" not in article:
+            return False
+        
+        fetched_time = datetime.fromisoformat(article["fetched_at"].replace('Z', '+00:00'))
+        now = datetime.now(timezone.utc)
+        age_hours = (now - fetched_time).total_seconds() / 3600
+        return age_hours > ARTICLE_EXPIRY_HOURS
+    except Exception as e:
+        print(f"⚠️ Error checking article expiry: {e}")
+        return False
 
 
 def save_rejected(article: dict, reason: str = "Not relevant"):
@@ -188,6 +216,16 @@ def main():
     memory = load_memory()
     print(f"   Memory loaded: {len(memory)} titles")
 
+    # Load existing news
+    existing_news = load_news()
+    print(f"   Existing news: {len(existing_news)} articles")
+
+    # Remove expired articles (older than 24 hours)
+    unexpired_news = [article for article in existing_news if not is_article_expired(article)]
+    expired_count = len(existing_news) - len(unexpired_news)
+    if expired_count > 0:
+        print(f"   Removed {expired_count} expired articles (>24h old)")
+
     all_articles = []
     for source in RSS_SOURCES:
         print(f"🔎 Fetching: {source['name']}")
@@ -227,11 +265,18 @@ def main():
             save_rejected(article)
             print(f"   ❌ REJECTED: {article['title'][:60]}...")
 
-    print(f"\n📊 Results: {len(accepted)} groundbreaking stories found")
+    # Append new articles to existing ones (prepend for freshness)
+    all_news = accepted + unexpired_news
+    
+    # Keep only the most recent MAX_ARTICLES
+    all_news = all_news[:MAX_ARTICLES]
+
+    print(f"\n📊 Results: {len(accepted)} new stories found")
+    print(f"   Total in feed: {len(all_news)} articles (max {MAX_ARTICLES})")
 
     # Save outputs
     with open("news.json", "w", encoding="utf-8") as f:
-        json.dump(accepted, f, indent=2, ensure_ascii=False)
+        json.dump(all_news, f, indent=2, ensure_ascii=False)
 
     save_memory(memory)
 
