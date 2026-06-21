@@ -148,8 +148,9 @@
                         <span class="hidden sm:inline">Refresh</span>
                     </button>
                     
-                    <button onclick="showSettings()" 
-                            class="flex items-center justify-center w-10 h-10 hover:bg-slate-800 transition-colors rounded-2xl text-slate-400 hover:text-white">
+                    <button id="settings-btn" 
+                            class="flex items-center justify-center w-10 h-10 hover:bg-slate-800 transition-colors rounded-2xl text-slate-400 hover:text-white"
+                            title="Open Settings">
                         <i class="fa-solid fa-cog text-lg"></i>
                     </button>
                 </div>
@@ -948,6 +949,12 @@ If NOT RELEVANT, return: { "relevant": false }`;
             
             // Keyboard shortcuts
             setupKeyboardShortcuts();
+
+            // Attach Settings button click handler (fixes gear not responding)
+            const settingsBtn = document.getElementById("settings-btn");
+            if (settingsBtn) {
+                settingsBtn.addEventListener("click", showSettings);
+            }
             
             // Welcome toast on first visit
             if (!localStorage.getItem("visited_before")) {
