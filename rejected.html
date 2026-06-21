@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejected News • AI News Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .font-display { font-family: 'Space Grotesk', 'Inter', sans-serif; font-weight: 600; }
+        .rejected-row:hover { background-color: #1e2937; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+    <nav class="border-b border-slate-800 bg-slate-900/70 backdrop-blur-lg sticky top-0 z-50">
+        <div class="max-w-screen-xl mx-auto px-6">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-x-3">
+                    <div class="w-9 h-9 bg-red-600 rounded-2xl flex items-center justify-center">
+                        <i class="fa-solid fa-times text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <span class="font-display text-2xl font-semibold tracking-tighter">Rejected News</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-x-4">
+                    <a href="index.html" class="text-sm px-4 py-2 hover:bg-slate-800 rounded-2xl transition-colors flex items-center gap-x-2">
+                        <i class="fa-solid fa-newspaper"></i>
+                        <span>Back to News</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-screen-xl mx-auto px-6 pt-8 pb-12">
+        <div class="flex items-end justify-between mb-6">
+            <div>
+                <h1 class="font-display text-4xl tracking-tighter font-semibold">Rejected Articles</h1>
+                <p class="text-slate-400 mt-1">Articles filtered out by the AI Chief Editor</p>
+            </div>
+            <div class="text-right">
+                <div id="rejected-count" class="text-3xl font-mono font-semibold text-red-400">0</div>
+                <div class="text-xs text-slate-500">total rejected</div>
+            </div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="border-b border-slate-800 bg-slate-950">
+                        <th class="text-left px-6 py-4 font-medium text-slate-400">Title</th>
+                        <th class="text-left px-6 py-4 font-medium text-slate-400 w-40">Source</th>
+                        <th class="text-left px-6 py-4 font-medium text-slate-400 w-32">Category</th>
+                        <th class="text-left px-6 py-4 font-medium text-slate-400 w-44">Rejected At</th>
+                        <th class="text-right px-6 py-4 font-medium text-slate-400 w-20">Link</th>
+                    </tr>
+                </thead>
+                <tbody id="rejected-table" class="divide-y divide-slate-800"></tbody>
+            </table>
+        </div>
+
+        <div id="empty-state" class="hidden text-center py-16">
+            <i class="fa-solid fa-check-circle text-4xl text-emerald-400 mb-4"></i>
+            <p class="text-slate-400">No rejected articles yet. Great filtering!</p>
+        </div>
+    </div>
+
+    <script>
+        async function loadRejected() {
+            try {
+                const res = await fetch("rejected.json?t=" + Date.now());
+                const data = await res.json();
+
+                const tbody = document.getElementById("rejected-table");
+                const countEl = document.getElementById("rejected-count");
+                const empty = document.getElementById("empty-state");
+
+                tbody.innerHTML = "";
+                countEl.textContent = data.length;
+
+                if (!data || data.length === 0) {
+                    empty.classList.remove("hidden");
+                    return;
+                }
+
+                data.slice().reverse().forEach(item => {
+                    const row = document.createElement("tr");
+                    row.className = "rejected-row transition-colors";
+                    row.innerHTML = `
+                        <td class="px-6 py-4 font-medium">${item.title}</td>
+                        <td class="px-6 py-4 text-blue-400">${item.source}</td>
+                        <td class="px-6 py-4 text-xs text-slate-400">${item.category}</td>
+                        <td class="px-6 py-4 text-xs text-slate-400">${new Date(item.rejected_at).toLocaleString()}</td>
+                        <td class="px-6 py-4 text-right">
+                            <a href="${item.link}" target="_blank" class="text-blue-400 hover:text-blue-300">
+                                <i class="fa-solid fa-external-link-alt"></i>
+                            </a>
+                        </td>
+                    `;
+                    tbody.appendChild(row);
+                });
+
+            } catch (e) {
+                console.error("Failed to load rejected.json", e);
+            }
+        }
+
+        window.onload = loadRejected;
+    </script>
+</body>
+</html>
