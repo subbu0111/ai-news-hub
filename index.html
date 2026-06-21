@@ -283,6 +283,11 @@
                         class="px-5 py-2 text-sm font-medium hover:bg-slate-800 transition-colors rounded-2xl">Cancel</button>
                 <button onclick="saveSettings()" 
                         class="px-6 py-2 bg-white text-slate-900 hover:bg-slate-100 transition-colors text-sm font-semibold rounded-2xl">Save Settings</button>
+                <button onclick="testApiKey()" 
+                        class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium rounded-2xl flex items-center gap-x-2">
+                    <i class="fa-solid fa-vial"></i>
+                    <span>Test Key</span>
+                </button>
             </div>
         </div>
     </div>
@@ -294,9 +299,14 @@
         // ==================== CONFIG ====================
         const CONFIG = {
             GROQ_API_URL: "https://api.groq.com/openai/v1/chat/completions",
-            GROQ_MODEL: "llama-3.1-70b-versatile",
-            CORS_PROXY: "https://api.allorigins.win/raw?url=",
-            MAX_ARTICLES_PER_FETCH: 40,
+            GROQ_MODEL: "llama-3.3-70b-versatile",
+            // Multiple CORS proxies for reliability (we try them in order)
+            CORS_PROXIES: [
+                "https://corsproxy.io/?",
+                "https://api.codetabs.com/v1/proxy?quest=",
+                "https://thingproxy.freeboard.io/fetch/"
+            ],
+            MAX_ARTICLES_PER_FETCH: 35,
             MEMORY_EXPIRY_HOURS: 24
         };
 
@@ -452,6 +462,48 @@
             return localStorage.getItem("groq_api_key");
         }
 
+        // ==================== API KEY TESTING ====================
+        async function testApiKey() {
+            const input = document.getElementById("api-key-input");
+            const key = input.value.trim();
+            
+            if (!key) {
+                showToast("Please enter an API key first", "error");
+                return;
+            }
+
+            const btns = event.currentTarget;
+            const originalText = "Test Key";
+            
+            try {
+                showToast("Testing API key...", "info");
+                
+                const response = await fetch(CONFIG.GROQ_API_URL, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Authorization": `Bearer ${key}`
+                    },
+                    body: JSON.stringify({
+                        model: CONFIG.GROQ_MODEL,
+                        messages: [{ role: "user", content: "Say only: OK" }],
+                        max_tokens: 5
+                    })
+                });
+
+                if (response.ok) {
+                    showToast("✅ API Key is valid and working!", "success");
+                    // Auto-save the working key
+                    localStorage.setItem("groq_api_key", key);
+                } else {
+                    const errorData = await response.json().catch(() => ({}));
+                    showToast(`❌ Key failed: ${errorData.error?.message || response.status}`, "error");
+                }
+            } catch (err) {
+                showToast("❌ Connection error: " + err.message, "error");
+            }
+        }
+
         // ==================== CATEGORY FILTERS ====================
         function renderCategoryFilters() {
             const container = document.getElementById("category-filters");
@@ -561,38 +613,54 @@
             return Math.floor(diff / 86400) + "d ago";
         }
 
-        // ==================== RSS FETCHING ====================
+        // ==================== RSS FETCHING (with multiple proxy fallback) ====================
+        async function fetchRSSWithProxy(source, proxyBase) {
+            const proxyUrl = proxyBase + encodeURIComponent(source.url);
+            const response = await fetch(proxyUrl, { 
+                signal: AbortSignal.timeout(12000) 
+            });
+            
+            if (!response.ok) throw new Error(`Proxy failed: ${response.status}`);
+            
+            const text = await response.text();
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(text, "text/xml");
+            
+            const items = Array.from(xml.querySelectorAll("item")).slice(0, 8);
+            
+            return items.map(item => {
+                const title = item.querySelector("title")?.textContent || "";
+                const link = item.querySelector("link")?.textContent || "";
+                const pubDate = item.querySelector("pubDate")?.textContent || "";
+                
+                return {
+                    title: title.trim(),
+                    link: link.trim(),
+                    published: pubDate,
+                    source: source.name,
+                    category: source.category
+                };
+            });
+        }
+
         async function fetchRSS(source) {
-            try {
-                const proxyUrl = CONFIG.CORS_PROXY + encodeURIComponent(source.url);
-                const response = await fetch(proxyUrl);
-                
-                if (!response.ok) throw new Error("Failed to fetch");
-                
-                const text = await response.text();
-                const parser = new DOMParser();
-                const xml = parser.parseFromString(text, "text/xml");
-                
-                const items = Array.from(xml.querySelectorAll("item")).slice(0, 8);
-                
-                return items.map(item => {
-                    const title = item.querySelector("title")?.textContent || "";
-                    const link = item.querySelector("link")?.textContent || "";
-                    const pubDate = item.querySelector("pubDate")?.textContent || "";
-                    
-                    return {
-                        title: title.trim(),
-                        link: link.trim(),
-                        published: pubDate,
-                        source: source.name,
-                        category: source.category,
-                        raw: item
-                    };
-                });
-            } catch (err) {
-                console.warn("RSS fetch failed for", source.name, err);
-                return [];
+            // Try each proxy in order until one works
+            for (let i = 0; i < CONFIG.CORS_PROXIES.length; i++) {
+                try {
+                    console.log(`Trying proxy ${i + 1} for ${source.name}...`);
+                    const articles = await fetchRSSWithProxy(source, CONFIG.CORS_PROXIES[i]);
+                    if (articles.length > 0) {
+                        console.log(`✅ Success with proxy ${i + 1} for ${source.name}`);
+                        return articles;
+                    }
+                } catch (err) {
+                    console.warn(`Proxy ${i + 1} failed for ${source.name}:`, err.message);
+                    // Continue to next proxy
+                }
             }
+            
+            console.warn(`❌ All proxies failed for ${source.name}`);
+            return [];
         }
 
         // ==================== LLM ANALYSIS ====================
