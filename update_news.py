@@ -122,24 +122,30 @@ def save_rejected(article: dict, reason: str = "Not relevant"):
 
 # ==================== GROQ LLM ANALYSIS ====================
 def analyze_article(title: str, source: str, category: str, api_key: str) -> Dict[str, Any]:
-    """Send article to Groq with LENIENT News Editor prompt"""
-    prompt = f"""You are a Balanced News Editor at a reputable news organization.
-Your Job: Filter for IMPORTANT, NOTABLE, or HIGH-VALUE news.
+    """Send article to Groq for relevance evaluation - BALANCED FILTERING"""
+    prompt = f"""You are a News Curator at a quality news aggregator.
+Your Job: Identify INTERESTING, NEWSWORTHY, or NOTABLE stories worth reading.
 
-LENIENT FILTERING RULES (Accept ~40% of input):
-1. REJECT only these (Return relevant: false):
-   - Pure clickbait with no substance ("You won't believe")
-   - Complete rumors with zero evidence
-   - Duplicate stories already widely reported
-   - Pure opinion without facts
+BALANCED FILTERING RULES (Accept ~50-60% of input):
+1. REJECT ONLY these types (Return relevant: false):
+   - Spam, pure clickbait ("Top 10 shocking...", "You won't believe...")
+   - Unsubstantiated rumors with no credible source
+   - Duplicate/repeat stories already covered
+   - Entertainment fluff (celebrity gossip, movie reviews, quotes of the day)
+   - Weather reports, mundane local incidents
+   - Trivial stories with no real impact
 
-2. ACCEPT most other stories (Return relevant: true):
-   - Any official announcements or product launches
-   - Market movements, company updates, policy changes
-   - Technology developments, research findings
-   - Government decisions, international news
-   - Business earnings, funding news
-   - Analysis and reports from credible sources
+2. ACCEPT these types (Return relevant: true):
+   - Breaking news, official announcements
+   - Business & market news (company updates, earnings, funding, M&A)
+   - Technology developments & AI breakthroughs
+   - Policy changes & government decisions
+   - International relations & geopolitical news
+   - Infrastructure & development projects
+   - Crime/investigation with significance
+   - Health & science research findings
+   - Economic indicators & analysis
+   - Any news from credible sources with actual substance
 
 Input News:
 Title: "{title}"
@@ -166,10 +172,10 @@ If NOT RELEVANT, return: {{ "relevant": false }}"""
             json={
                 "model": GROQ_MODEL,
                 "messages": [
-                    {"role": "system", "content": "You are a strict news editor. Always respond with valid JSON only."},
+                    {"role": "system", "content": "You are a balanced news curator. Always respond with valid JSON only."},
                     {"role": "user", "content": prompt}
                 ],
-                "temperature": 0.1,
+                "temperature": 0.2,
                 "max_tokens": 400,
                 "response_format": {"type": "json_object"}
             },
