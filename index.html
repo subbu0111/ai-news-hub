@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI News Hub - Real-time groundbreaking news filtered by AI. Zero noise.">
+    <meta name="theme-color" content="#0f172a">
+    <title>AI News Hub • Groundbreaking News Only</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+        
+        :root {
+            --primary: #3b82f6;
+        }
+        
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .font-display {
+            font-family: 'Space Grotesk', 'Inter', sans-serif;
+            font-weight: 600;
+        }
+
+        .news-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .news-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+        .section-header {
+            font-size: 1.1rem;
+            letter-spacing: -.025em;
+        }
+
+        .filter-chip {
+            transition: all 0.2s ease;
+        }
+        
+        .filter-chip.active {
+            background-color: #3b82f6;
+            color: white;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+
+        .news-meta {
+            font-size: 0.75rem;
+            letter-spacing: -.5px;
+        }
+
+        .summary-bullet {
+            position: relative;
+            padding-left: 1.25rem;
+        }
+        
+        .summary-bullet::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.4rem;
+            width: 0.35rem;
+            height: 0.35rem;
+            background-color: #64748b;
+            border-radius: 50%;
+        }
+
+        .skeleton {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        .modal {
+            animation: modalPop 0.2s ease-out forwards;
+        }
+
+        @keyframes modalPop {
+            from {
+                opacity: 0;
+                transform: scale(0.95) translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .nav-active {
+            border-bottom: 2px solid #3b82f6;
+            color: white;
+        }
+
+        .stat-number {
+            font-variant-numeric: tabular-nums;
+        }
+
+        .news-source {
+            font-weight: 500;
+            letter-spacing: -.3px;
+        }
+
+        .impact-badge {
+            font-size: 0.65rem;
+            padding: 1px 7px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        .glass {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(16px);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+    <!-- Top Navigation -->
+    <nav class="border-b border-slate-800 bg-slate-900/70 backdrop-blur-lg sticky top-0 z-50">
+        <div class="max-w-screen-xl mx-auto px-6">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center gap-x-3">
+                    <div class="w-9 h-9 bg-blue-600 rounded-2xl flex items-center justify-center shadow-inner">
+                        <i class="fa-solid fa-newspaper text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <span class="font-display text-2xl font-semibold tracking-tighter">AI News Hub</span>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="hidden md:flex items-center gap-x-8 text-sm">
+                    <div class="flex items-center gap-x-2">
+                        <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                        <span class="text-slate-400">Live • </span>
+                        <span id="total-articles" class="font-mono font-medium text-emerald-400">0</span>
+                        <span class="text-slate-500 text-xs">articles today</span>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="flex items-center gap-x-2">
+                    <button onclick="fetchNews()" 
+                            class="flex items-center gap-x-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 transition-colors rounded-2xl text-sm font-medium shadow-lg shadow-blue-950/50">
+                        <i class="fa-solid fa-sync-alt mr-1.5"></i>
+                        <span class="hidden sm:inline">Fetch News</span>
+                    </button>
+                    
+                    <button onclick="showSettings()" 
+                            class="flex items-center justify-center w-10 h-10 hover:bg-slate-800 transition-colors rounded-2xl text-slate-400 hover:text-white">
+                        <i class="fa-solid fa-cog text-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="max-w-screen-xl mx-auto px-6 pt-10 pb-8">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-y-4">
+            <div>
+                <div class="inline-flex items-center gap-x-2 px-3 py-1 rounded-3xl bg-slate-900 border border-slate-800 text-xs font-medium mb-3">
+                    <div class="w-1.5 h-1.5 bg-emerald-400 rounded-full"></div>
+                    <span>POWERED BY GROQ + LLAMA 3.1</span>
+                </div>
+                <h1 class="font-display text-5xl md:text-6xl tracking-tighter font-semibold">Signal.<br>Zero noise.</h1>
+                <p class="mt-3 max-w-md text-lg text-slate-400">Only the most important news on the planet — filtered by AI with the strictness of a top-tier newsroom.</p>
+            </div>
+            
+            <div class="flex items-center gap-x-3 text-sm">
+                <div class="px-4 py-2 bg-slate-900 border border-slate-800 rounded-3xl flex items-center gap-x-2">
+                    <i class="fa-solid fa-robot text-blue-400"></i>
+                    <span class="font-medium">95% rejection rate</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="max-w-screen-xl mx-auto px-6 pb-6">
+        <div class="flex flex-wrap items-center gap-2" id="category-filters">
+            <!-- Populated by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-screen-xl mx-auto px-6 pb-16">
+        
+        <!-- Status Bar -->
+        <div id="status-bar" class="hidden mb-6 px-4 py-3 bg-slate-900 border border-slate-800 rounded-3xl text-sm flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <div id="status-icon"></div>
+                <span id="status-text" class="font-medium"></span>
+            </div>
+            <button onclick="clearMemory()" class="text-xs px-3 py-1 hover:bg-slate-800 rounded-2xl transition-colors text-slate-400">Clear Memory</button>
+        </div>
+
+        <!-- News Grid -->
+        <div id="news-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <!-- News cards populated here -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="empty-state" class="hidden flex flex-col items-center justify-center py-16 text-center">
+            <div class="w-16 h-16 bg-slate-900 rounded-3xl flex items-center justify-center mb-5">
+                <i class="fa-solid fa-inbox text-3xl text-slate-600"></i>
+            </div>
+            <h3 class="font-semibold text-xl">No groundbreaking news yet</h3>
+            <p class="text-slate-400 mt-1 max-w-xs">Click "Fetch News" to scan the latest sources with our AI Chief Editor.</p>
+            <button onclick="fetchNews()" 
+                    class="mt-6 px-6 py-2.5 bg-white text-slate-900 hover:bg-slate-200 transition-colors rounded-3xl text-sm font-semibold flex items-center gap-x-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Scan Now</span>
+            </button>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading-state" class="hidden">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="skeleton bg-slate-900 border border-slate-800 rounded-3xl p-5 h-[210px]"></div>
+                <div class="skeleton bg-slate-900 border border-slate-800 rounded-3xl p-5 h-[210px]"></div>
+                <div class="skeleton bg-slate-900 border border-slate-800 rounded-3xl p-5 h-[210px]"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 text-xs text-slate-500">
+        <div class="max-w-screen-xl mx-auto px-6 flex flex-col md:flex-row md:items-center justify-between gap-y-3 text-center md:text-left">
+            <div>
+                Built for clarity • <span class="font-mono">v1.0.0</span>
+            </div>
+            <div class="flex items-center justify-center gap-x-5">
+                <a href="#" onclick="showKeyboardHelp()" class="hover:text-slate-300 transition-colors">Keyboard shortcuts</a>
+                <span class="text-slate-700">•</span>
+                <a href="https://github.com" target="_blank" class="hover:text-slate-300 transition-colors">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" onclick="if (event.target.id === 'settings-modal') hideSettings()" class="hidden fixed inset-0 bg-black/70 backdrop-blur-sm z-[100] flex items-center justify-center p-4">
+        <div onclick="event.stopImmediatePropagation()" class="modal bg-slate-900 border border-slate-700 w-full max-w-md rounded-3xl overflow-hidden">
+            <div class="px-6 pt-6 pb-4 border-b border-slate-800 flex items-center justify-between">
+                <div class="font-semibold text-lg">Settings</div>
+                <button onclick="hideSettings()" class="text-slate-400 hover:text-white w-8 h-8 flex items-center justify-center">
+                    <i class="fa-solid fa-times text-xl"></i>
+                </button>
+            </div>
+            
+            <div class="p-6 space-y-6">
+                <!-- API Key -->
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-1.5">Groq API Key</label>
+                    <div class="relative">
+                        <input id="api-key-input" type="password" 
+                               class="w-full bg-slate-950 border border-slate-700 focus:border-blue-600 transition-colors rounded-2xl px-4 py-3 text-sm font-mono placeholder:text-slate-600"
+                               placeholder="gsk_xxxxxxxxxxxxxxxxxxxxxxxx">
+                        <div class="absolute right-3 top-3 text-xs px-2 py-0.5 bg-slate-800 rounded-xl text-emerald-400">Free</div>
+                    </div>
+                    <p class="text-[10px] text-slate-500 mt-1.5">Stored only in your browser. Never sent anywhere else.</p>
+                </div>
+
+                <div class="pt-2">
+                    <div class="flex items-center justify-between text-xs mb-2 px-1">
+                        <div class="font-medium text-slate-400">Memory</div>
+                        <button onclick="clearMemory(true)" class="text-red-400 hover:text-red-300 transition-colors">Clear all memory</button>
+                    </div>
+                    <div class="bg-slate-950 border border-slate-800 rounded-2xl p-3 text-xs flex justify-between items-center">
+                        <div>
+                            <span id="memory-count">0</span> 
+                            <span class="text-slate-500">articles remembered</span>
+                        </div>
+                        <div class="text-emerald-400 text-[10px]">24h expiry</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="px-6 py-4 bg-slate-950 border-t border-slate-800 flex justify-end gap-x-3">
+                <button onclick="hideSettings()" 
+                        class="px-5 py-2 text-sm font-medium hover:bg-slate-800 transition-colors rounded-2xl">Cancel</button>
+                <button onclick="saveSettings()" 
+                        class="px-6 py-2 bg-white text-slate-900 hover:bg-slate-100 transition-colors text-sm font-semibold rounded-2xl">Save Settings</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div id="toast-container" class="fixed bottom-5 right-5 z-[200] space-y-2"></div>
+
+    <script>
+        // ==================== CONFIG ====================
+        const CONFIG = {
+            GROQ_API_URL: "https://api.groq.com/openai/v1/chat/completions",
+            GROQ_MODEL: "llama-3.1-70b-versatile",
+            CORS_PROXY: "https://api.allorigins.win/raw?url=",
+            MAX_ARTICLES_PER_FETCH: 40,
+            MEMORY_EXPIRY_HOURS: 24
+        };
+
+        // RSS Sources (matching original topics.json categories)
+        const RSS_SOURCES = [
+            // AI & Tech
+            { url: "https://techcrunch.com/feed/", category: "ai_agentic_tech", name: "TechCrunch" },
+            { url: "https://www.theverge.com/rss/index.xml", category: "ai_agentic_tech", name: "The Verge" },
+            { url: "https://hnrss.org/frontpage", category: "global_tech_breakthroughs", name: "Hacker News" },
+            
+            // Markets & Economy
+            { url: "https://feeds.bloomberg.com/markets/news.rss", category: "us_markets_economy", name: "Bloomberg" },
+            { url: "https://www.cnbc.com/id/100003114/device/rss/rss.html", category: "us_markets_economy", name: "CNBC" },
+            
+            // Geopolitics
+            { url: "https://feeds.reuters.com/reuters/topNews", category: "global_geopolitics", name: "Reuters" },
+            { url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", category: "global_geopolitics", name: "NYT World" },
+            
+            // Science & Space
+            { url: "https://www.space.com/feeds/all", category: "global_tech_breakthroughs", name: "Space.com" },
+            { url: "https://www.sciencedaily.com/rss/all.xml", category: "global_tech_breakthroughs", name: "ScienceDaily" }
+        ];
+
+        const CATEGORIES = [
+            { id: "all", label: "All", icon: "fa-globe" },
+            { id: "ai_agentic_tech", label: "AI & Agents", icon: "fa-robot" },
+            { id: "global_tech_breakthroughs", label: "Tech Breakthroughs", icon: "fa-microchip" },
+            { id: "us_markets_economy", label: "Markets & Economy", icon: "fa-chart-line" },
+            { id: "global_geopolitics", label: "Geopolitics", icon: "fa-globe" }
+        ];
+
+        // ==================== STATE ====================
+        let currentFilter = "all";
+        let newsArticles = [];
+        let memory = new Set();
+
+        // ==================== UTILITIES ====================
+        function showToast(message, type = "success") {
+            const container = document.getElementById("toast-container");
+            const toast = document.createElement("div");
+            
+            const colors = {
+                success: "bg-emerald-600",
+                error: "bg-red-600",
+                info: "bg-slate-700"
+            };
+            
+            toast.className = `px-4 py-3 rounded-2xl text-sm flex items-center gap-x-3 shadow-xl ${colors[type]}`;
+            toast.innerHTML = `
+                <div class="flex-1">${message}</div>
+                <button class="text-white/70 hover:text-white"><i class="fa-solid fa-times"></i></button>
+            `;
+            
+            container.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.style.transition = "all 0.2s ease";
+                toast.style.opacity = "0";
+                setTimeout(() => toast.remove(), 200);
+            }, 4200);
+            
+            toast.querySelector("button").onclick = () => toast.remove();
+        }
+
+        function loadMemory() {
+            try {
+                const saved = localStorage.getItem("ai_news_memory");
+                if (!saved) return new Set();
+                
+                const parsed = JSON.parse(saved);
+                const now = Date.now();
+                const expiryMs = CONFIG.MEMORY_EXPIRY_HOURS * 60 * 60 * 1000;
+                
+                const valid = parsed.filter(item => (now - item.timestamp) < expiryMs);
+                
+                // Save cleaned version
+                if (valid.length !== parsed.length) {
+                    localStorage.setItem("ai_news_memory", JSON.stringify(valid));
+                }
+                
+                return new Set(valid.map(item => item.title));
+            } catch {
+                return new Set();
+            }
+        }
+
+        function saveToMemory(title) {
+            memory.add(title);
+            
+            const data = Array.from(memory).map(title => ({
+                title,
+                timestamp: Date.now()
+            }));
+            
+            localStorage.setItem("ai_news_memory", JSON.stringify(data));
+        }
+
+        function isDuplicate(title) {
+            return memory.has(title);
+        }
+
+        function updateMemoryCount() {
+            const countEl = document.getElementById("memory-count");
+            if (countEl) countEl.textContent = memory.size;
+        }
+
+        function clearMemory(showMessage = false) {
+            memory.clear();
+            localStorage.removeItem("ai_news_memory");
+            updateMemoryCount();
+            
+            if (showMessage) {
+                showToast("Memory cleared successfully");
+                document.getElementById("news-grid").innerHTML = "";
+                document.getElementById("empty-state").classList.remove("hidden");
+            }
+        }
+
+        // ==================== SETTINGS ====================
+        function showSettings() {
+            const modal = document.getElementById("settings-modal");
+            const input = document.getElementById("api-key-input");
+            
+            const savedKey = localStorage.getItem("groq_api_key") || "";
+            input.value = savedKey;
+            
+            updateMemoryCount();
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+        }
+
+        function hideSettings() {
+            const modal = document.getElementById("settings-modal");
+            modal.classList.remove("flex");
+            modal.classList.add("hidden");
+        }
+
+        function saveSettings() {
+            const input = document.getElementById("api-key-input");
+            const key = input.value.trim();
+            
+            if (key) {
+                localStorage.setItem("groq_api_key", key);
+                showToast("API key saved securely");
+            } else {
+                localStorage.removeItem("groq_api_key");
+            }
+            
+            hideSettings();
+        }
+
+        function getApiKey() {
+            return localStorage.getItem("groq_api_key");
+        }
+
+        // ==================== CATEGORY FILTERS ====================
+        function renderCategoryFilters() {
+            const container = document.getElementById("category-filters");
+            container.innerHTML = "";
+            
+            CATEGORIES.forEach(cat => {
+                const btn = document.createElement("button");
+                btn.className = `filter-chip flex items-center gap-x-2 px-4 py-1.5 text-sm rounded-3xl border transition-all ${currentFilter === cat.id ? 'active border-blue-600 bg-blue-600 text-white' : 'border-slate-700 hover:bg-slate-800 bg-slate-900'}`;
+                
+                btn.innerHTML = `
+                    <i class="fa-solid ${cat.icon} text-xs"></i>
+                    <span>${cat.label}</span>
+                `;
+                
+                btn.onclick = () => {
+                    currentFilter = cat.id;
+                    renderCategoryFilters();
+                    filterAndRenderNews();
+                };
+                
+                container.appendChild(btn);
+            });
+        }
+
+        function filterAndRenderNews() {
+            const grid = document.getElementById("news-grid");
+            grid.innerHTML = "";
+            
+            let filtered = newsArticles;
+            
+            if (currentFilter !== "all") {
+                filtered = newsArticles.filter(a => a.category === currentFilter);
+            }
+            
+            if (filtered.length === 0) {
+                document.getElementById("empty-state").classList.remove("hidden");
+                return;
+            } else {
+                document.getElementById("empty-state").classList.add("hidden");
+            }
+            
+            filtered.forEach(article => {
+                const card = createNewsCard(article);
+                grid.appendChild(card);
+            });
+            
+            document.getElementById("total-articles").textContent = newsArticles.length;
+        }
+
+        // ==================== NEWS CARD ====================
+        function createNewsCard(article) {
+            const card = document.createElement("div");
+            card.className = "news-card bg-slate-900 border border-slate-800 rounded-3xl p-5 flex flex-col h-full";
+            
+            const timeAgo = getTimeAgo(article.published);
+            const sourceName = article.source || "Unknown";
+            
+            let impactHTML = "";
+            if (article.impact) {
+                const impactColor = article.impact === "HIGH" ? "bg-red-500/10 text-red-400" : "bg-amber-500/10 text-amber-400";
+                impactHTML = `<span class="impact-badge ${impactColor}">${article.impact}</span>`;
+            }
+            
+            card.innerHTML = `
+                <div class="flex-1">
+                    <div class="flex items-start justify-between gap-x-3 mb-3">
+                        <div class="flex items-center gap-x-2">
+                            <span class="news-source text-blue-400 text-sm">${sourceName}</span>
+                            ${impactHTML}
+                        </div>
+                        <span class="text-[10px] text-slate-500 whitespace-nowrap">${timeAgo}</span>
+                    </div>
+                    
+                    <h3 class="font-semibold leading-tight text-[15px] tracking-[-0.2px] mb-3 line-clamp-3">${article.title}</h3>
+                    
+                    <div class="space-y-1.5 text-sm text-slate-300">
+                        ${article.summary.map(point => `
+                            <div class="summary-bullet">${point}</div>
+                        `).join("")}
+                    </div>
+                </div>
+                
+                <div class="pt-4 mt-auto flex items-center justify-between border-t border-slate-800">
+                    <a href="${article.link}" target="_blank" 
+                       class="inline-flex items-center text-xs font-medium text-blue-400 hover:text-blue-300 transition-colors">
+                        READ FULL STORY
+                        <i class="fa-solid fa-arrow-up-right-from-square ml-1.5 text-[10px]"></i>
+                    </a>
+                    
+                    <div class="text-[10px] px-2 py-0.5 bg-slate-800 rounded-xl text-slate-400">
+                        ${article.category.replace(/_/g, " ")}
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        function getTimeAgo(dateStr) {
+            if (!dateStr) return "now";
+            const date = new Date(dateStr);
+            const diff = Math.floor((Date.now() - date.getTime()) / 1000);
+            
+            if (diff < 60) return "just now";
+            if (diff < 3600) return Math.floor(diff / 60) + "m ago";
+            if (diff < 86400) return Math.floor(diff / 3600) + "h ago";
+            return Math.floor(diff / 86400) + "d ago";
+        }
+
+        // ==================== RSS FETCHING ====================
+        async function fetchRSS(source) {
+            try {
+                const proxyUrl = CONFIG.CORS_PROXY + encodeURIComponent(source.url);
+                const response = await fetch(proxyUrl);
+                
+                if (!response.ok) throw new Error("Failed to fetch");
+                
+                const text = await response.text();
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(text, "text/xml");
+                
+                const items = Array.from(xml.querySelectorAll("item")).slice(0, 8);
+                
+                return items.map(item => {
+                    const title = item.querySelector("title")?.textContent || "";
+                    const link = item.querySelector("link")?.textContent || "";
+                    const pubDate = item.querySelector("pubDate")?.textContent || "";
+                    
+                    return {
+                        title: title.trim(),
+                        link: link.trim(),
+                        published: pubDate,
+                        source: source.name,
+                        category: source.category,
+                        raw: item
+                    };
+                });
+            } catch (err) {
+                console.warn("RSS fetch failed for", source.name, err);
+                return [];
+            }
+        }
+
+        // ==================== LLM ANALYSIS ====================
+        async function analyzeWithGroq(article) {
+            const apiKey = getApiKey();
+            if (!apiKey) {
+                throw new Error("No API key configured");
+            }
+            
+            const prompt = `You are a Cynical Chief Editor at a top-tier global news agency.
+Your Job: Filter for GROUNDBREAKING, WORLD-CHANGING, or HIGH-IMPACT news only.
+
+STRICT FILTERING RULES (Reject 95% of input):
+1. IMMEDIATE REJECT (Return relevant: false):
+   - Rumors, Speculation, "Analysts predict", "Experts say"
+   - Opinion pieces, Reviews, "How-to" guides, "Best of" lists
+   - Minor updates (e.g. "Software v1.1", "Small price dip")
+   - Clickbait (e.g. "You won't believe")
+   - DUPLICATE STORIES that everyone already knows
+
+2. ACCEPT ONLY (Return relevant: true):
+   - OFFICIAL Major Releases (e.g. "GPT-5 Launched")
+   - CRITICAL Market Events (Stock crash >5%)
+   - GOVERNMENT / GEOPOLITICS (War, Treaties, Bills)
+   - DISASTERS (Major earthquakes, Emergencies)
+
+Input News:
+Title: "${article.title}"
+Source: "${article.source}"
+Category: "${article.category}"
+
+If RELEVANT, return JSON:
+{
+  "relevant": true,
+  "topic": "URGENT HEADLINE",
+  "summary": ["Critical Fact 1", "Impact Fact 2"],
+  "impact": "HIGH"
+}
+
+If NOT RELEVANT, return: { "relevant": false }`;
+
+            const response = await fetch(CONFIG.GROQ_API_URL, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": `Bearer ${apiKey}`
+                },
+                body: JSON.stringify({
+                    model: CONFIG.GROQ_MODEL,
+                    messages: [
+                        { role: "system", content: "You are a strict news editor. Always respond with valid JSON only." },
+                        { role: "user", content: prompt }
+                    ],
+                    temperature: 0.1,
+                    max_tokens: 400,
+                    response_format: { type: "json_object" }
+                })
+            });
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`Groq API error: ${response.status} - ${errorText}`);
+            }
+
+            const data = await response.json();
+            const content = data.choices?.[0]?.message?.content;
+            
+            if (!content) throw new Error("Empty response from Groq");
+            
+            try {
+                return JSON.parse(content);
+            } catch {
+                // Try to extract JSON from text
+                const jsonMatch = content.match(/\{[\s\S]*\}/);
+                if (jsonMatch) return JSON.parse(jsonMatch[0]);
+                throw new Error("Invalid JSON from LLM");
+            }
+        }
+
+        // ==================== MAIN FETCH LOGIC ====================
+        async function fetchNews() {
+            const apiKey = getApiKey();
+            if (!apiKey) {
+                showToast("Please add your Groq API key in Settings first", "error");
+                showSettings();
+                return;
+            }
+
+            const grid = document.getElementById("news-grid");
+            const empty = document.getElementById("empty-state");
+            const loading = document.getElementById("loading-state");
+            const statusBar = document.getElementById("status-bar");
+            
+            grid.innerHTML = "";
+            empty.classList.add("hidden");
+            loading.classList.remove("hidden");
+            statusBar.classList.add("hidden");
+            
+            memory = loadMemory();
+            
+            let allArticles = [];
+            let processed = 0;
+            let accepted = 0;
+            
+            try {
+                // Fetch all RSS sources
+                const fetchPromises = RSS_SOURCES.map(source => fetchRSS(source));
+                const results = await Promise.all(fetchPromises);
+                
+                results.forEach(articles => {
+                    allArticles.push(...articles);
+                });
+                
+                // Shuffle for fairness
+                allArticles.sort(() => Math.random() - 0.5);
+                allArticles = allArticles.slice(0, CONFIG.MAX_ARTICLES_PER_FETCH);
+                
+                loading.classList.add("hidden");
+                
+                // Process each article
+                for (const article of allArticles) {
+                    if (isDuplicate(article.title)) continue;
+                    
+                    try {
+                        const analysis = await analyzeWithGroq(article);
+                        
+                        if (analysis.relevant === true) {
+                            const processedArticle = {
+                                ...article,
+                                topic: analysis.topic || article.title,
+                                summary: analysis.summary || ["Major development reported."],
+                                impact: analysis.impact || "MEDIUM"
+                            };
+                            
+                            newsArticles.unshift(processedArticle);
+                            saveToMemory(article.title);
+                            accepted++;
+                            
+                            // Live update
+                            filterAndRenderNews();
+                            
+                            // Small delay to avoid rate limits
+                            await new Promise(r => setTimeout(r, 650));
+                        }
+                    } catch (err) {
+                        console.warn("Analysis failed:", err.message);
+                    }
+                    
+                    processed++;
+                    
+                    // Update status
+                    if (processed % 3 === 0) {
+                        updateStatusBar(processed, allArticles.length, accepted);
+                    }
+                }
+                
+                updateStatusBar(processed, allArticles.length, accepted, true);
+                filterAndRenderNews();
+                updateMemoryCount();
+                
+                if (accepted === 0) {
+                    showToast("No groundbreaking stories found in this cycle", "info");
+                } else {
+                    showToast(`Found ${accepted} high-impact stories`, "success");
+                }
+                
+            } catch (error) {
+                loading.classList.add("hidden");
+                showToast("Failed to fetch news: " + error.message, "error");
+                console.error(error);
+            }
+        }
+
+        function updateStatusBar(processed, total, accepted, finished = false) {
+            const bar = document.getElementById("status-bar");
+            const icon = document.getElementById("status-icon");
+            const text = document.getElementById("status-text");
+            
+            bar.classList.remove("hidden");
+            
+            if (finished) {
+                icon.innerHTML = `<i class="fa-solid fa-check-circle text-emerald-400"></i>`;
+                text.innerHTML = `Scan complete • ${accepted} stories surfaced`;
+                setTimeout(() => bar.classList.add("hidden"), 6000);
+            } else {
+                icon.innerHTML = `<i class="fa-solid fa-spinner fa-spin text-blue-400"></i>`;
+                text.innerHTML = `Analyzing ${processed}/${total} articles...`;
+            }
+        }
+
+        // ==================== KEYBOARD SHORTCUTS ====================
+        function setupKeyboardShortcuts() {
+            document.addEventListener("keydown", function(e) {
+                if (e.key === " " && document.activeElement.tagName === "BODY") {
+                    e.preventDefault();
+                    fetchNews();
+                }
+                
+                if (e.key === "/") {
+                    e.preventDefault();
+                    const firstChip = document.querySelector("#category-filters button");
+                    if (firstChip) firstChip.focus();
+                }
+                
+                if (e.key === "?") {
+                    e.preventDefault();
+                    showKeyboardHelp();
+                }
+                
+                if (e.key === "Escape") {
+                    const modal = document.getElementById("settings-modal");
+                    if (!modal.classList.contains("hidden")) {
+                        hideSettings();
+                    }
+                }
+            });
+            
+            // Show hint on first visit
+            if (!localStorage.getItem("keyboard_hint_shown")) {
+                setTimeout(() => {
+                    const hint = document.createElement("div");
+                    hint.className = "fixed bottom-20 left-1/2 -translate-x-1/2 text-[10px] bg-slate-900 border border-slate-700 px-3 py-1 rounded-3xl text-slate-400";
+                    hint.innerHTML = `Press <span class="font-mono">Space</span> to fetch news • <span class="font-mono">?</span> for help`;
+                    document.body.appendChild(hint);
+                    
+                    setTimeout(() => {
+                        hint.style.transition = "opacity 0.4s";
+                        hint.style.opacity = "0";
+                        setTimeout(() => hint.remove(), 400);
+                    }, 4200);
+                    
+                    localStorage.setItem("keyboard_hint_shown", "true");
+                }, 8000);
+            }
+        }
+
+        function showKeyboardHelp() {
+            const modal = document.createElement("div");
+            modal.className = "fixed inset-0 bg-black/70 backdrop-blur-sm z-[100] flex items-center justify-center p-4";
+            modal.innerHTML = `
+                <div onclick="event.target.remove()" class="modal bg-slate-900 border border-slate-700 w-full max-w-sm rounded-3xl p-6">
+                    <div class="font-semibold mb-4 flex items-center gap-x-2">
+                        <i class="fa-solid fa-keyboard"></i>
+                        <span>Keyboard Shortcuts</span>
+                    </div>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex justify-between"><span class="text-slate-400">Fetch news</span> <span class="font-mono bg-slate-800 px-2 rounded">Space</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Focus filters</span> <span class="font-mono bg-slate-800 px-2 rounded">/</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Help</span> <span class="font-mono bg-slate-800 px-2 rounded">?</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Close modals</span> <span class="font-mono bg-slate-800 px-2 rounded">Esc</span></div>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
+
+        // ==================== INITIALIZATION ====================
+        function initialize() {
+            // Load memory
+            memory = loadMemory();
+            updateMemoryCount();
+            
+            // Render filters
+            renderCategoryFilters();
+            
+            // Show empty state initially
+            document.getElementById("empty-state").classList.remove("hidden");
+            
+            // Keyboard shortcuts
+            setupKeyboardShortcuts();
+            
+            // Welcome toast on first visit
+            if (!localStorage.getItem("visited_before")) {
+                setTimeout(() => {
+                    showToast("Welcome! Add your Groq API key in Settings to begin.", "info");
+                    localStorage.setItem("visited_before", "true");
+                }, 1200);
+            }
+            
+            // Easter egg: Konami code
+            let konami = [];
+            const konamiCode = [38,38,40,40,37,39,37,39,66,65];
+            document.addEventListener("keydown", function(e) {
+                konami.push(e.keyCode);
+                if (konami.length > 10) konami.shift();
+                if (JSON.stringify(konami) === JSON.stringify(konamiCode)) {
+                    document.body.style.transition = "filter 0.4s";
+                    document.body.style.filter = "hue-rotate(45deg)";
+                    setTimeout(() => {
+                        document.body.style.filter = "";
+                    }, 1800);
+                    konami = [];
+                }
+            });
+            
+            console.log("%c[AI News Hub] Initialized successfully. Top 0.1% quality achieved.", "color:#64748b");
+        }
+
+        // Boot the app
+        window.onload = initialize;
+    </script>
+</body>
+</html>
