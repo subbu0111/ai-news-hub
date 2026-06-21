@@ -38,6 +38,7 @@ RSS_SOURCES = [
 
 MAX_ARTICLES = 30
 MEMORY_EXPIRY_HOURS = 24
+MAX_REJECTED = 500   # Keep only the latest 500 rejected articles
 
 # ==================== MEMORY MANAGEMENT ====================
 def load_memory() -> set:
@@ -61,6 +62,34 @@ def save_memory(titles: set):
     data = [{"title": t, "timestamp": time.time()} for t in titles]
     with open("memory.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def save_rejected(article: dict, reason: str = "Not relevant"):
+    """Append rejected article to rejected.json (keeps last 500)"""
+    try:
+        if os.path.exists("rejected.json"):
+            with open("rejected.json", "r", encoding="utf-8") as f:
+                rejected = json.load(f)
+        else:
+            rejected = []
+
+        rejected.append({
+            "title": article.get("title"),
+            "source": article.get("source"),
+            "category": article.get("category"),
+            "link": article.get("link"),
+            "rejected_at": datetime.now(timezone.utc).isoformat(),
+            "reason": reason
+        })
+
+        # Keep only the latest MAX_REJECTED entries
+        rejected = rejected[-MAX_REJECTED:]
+
+        with open("rejected.json", "w", encoding="utf-8") as f:
+            json.dump(rejected, f, indent=2, ensure_ascii=False)
+
+    except Exception as e:
+        print(f"   ⚠️ Failed to save rejected article: {e}")
 
 
 # ==================== GROQ LLM ANALYSIS ====================
@@ -193,6 +222,9 @@ def main():
             accepted.append(processed)
             memory.add(article["title"])
             print(f"   ✅ ACCEPTED: {article['title'][:60]}...")
+        else:
+            save_rejected(article)
+            print(f"   ❌ REJECTED: {article['title'][:60]}...")
 
     print(f"\n📊 Results: {len(accepted)} groundbreaking stories found")
 
