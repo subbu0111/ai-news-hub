@@ -94,23 +94,24 @@ def save_rejected(article: dict, reason: str = "Not relevant"):
 
 # ==================== GROQ LLM ANALYSIS ====================
 def analyze_article(title: str, source: str, category: str, api_key: str) -> Dict[str, Any]:
-    """Send article to Groq with strict Chief Editor prompt"""
-    prompt = f"""You are a Cynical Chief Editor at a top-tier global news agency.
-Your Job: Filter for GROUNDBREAKING, WORLD-CHANGING, or HIGH-IMPACT news only.
+    """Send article to Groq with LENIENT News Editor prompt"""
+    prompt = f"""You are a Balanced News Editor at a reputable news organization.
+Your Job: Filter for IMPORTANT, NOTABLE, or HIGH-VALUE news.
 
-STRICT FILTERING RULES (Reject 95% of input):
-1. IMMEDIATE REJECT (Return relevant: false):
-   - Rumors, Speculation, "Analysts predict", "Experts say"
-   - Opinion pieces, Reviews, "How-to" guides, "Best of" lists
-   - Minor updates (e.g. "Software v1.1", "Small price dip")
-   - Clickbait (e.g. "You won't believe")
-   - DUPLICATE STORIES that everyone already knows
+LENIENT FILTERING RULES (Accept ~40% of input):
+1. REJECT only these (Return relevant: false):
+   - Pure clickbait with no substance ("You won't believe")
+   - Complete rumors with zero evidence
+   - Duplicate stories already widely reported
+   - Pure opinion without facts
 
-2. ACCEPT ONLY (Return relevant: true):
-   - OFFICIAL Major Releases (e.g. "GPT-5 Launched")
-   - CRITICAL Market Events (Stock crash >5%)
-   - GOVERNMENT / GEOPOLITICS (War, Treaties, Bills)
-   - DISASTERS (Major earthquakes, Emergencies)
+2. ACCEPT most other stories (Return relevant: true):
+   - Any official announcements or product launches
+   - Market movements, company updates, policy changes
+   - Technology developments, research findings
+   - Government decisions, international news
+   - Business earnings, funding news
+   - Analysis and reports from credible sources
 
 Input News:
 Title: "{title}"
@@ -120,9 +121,9 @@ Category: "{category}"
 If RELEVANT, return JSON:
 {{
   "relevant": true,
-  "topic": "URGENT HEADLINE",
-  "summary": ["Critical Fact 1", "Impact Fact 2"],
-  "impact": "HIGH"
+  "topic": "HEADLINE",
+  "summary": ["Key point 1", "Key point 2"],
+  "impact": "MEDIUM"
 }}
 
 If NOT RELEVANT, return: {{ "relevant": false }}"""
