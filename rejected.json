@@ -1,365 +1,5 @@
 [
   {
-    "title": "Tata Electronics, a major tech supplier to Apple and Tesla, confirms data breach",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
-    "rejected_at": "2026-06-22T23:17:04.356997+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "A new unpatchable flaw in Apple chips opens the door to an iPhone jailbreak",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/",
-    "rejected_at": "2026-06-22T23:17:04.411363+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "FIFA World Cup 2026 | Norway vs Senegal LIVE updates: Haaland scores two as Norway leads 3-1",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/sport/football/norway-vs-senegal-fifa-world-cup-match-live-updates-june-22-2026/article71135102.ece",
-    "rejected_at": "2026-06-23T01:29:56.699768+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "FIFA World Cup: Another brace for Kylian Mbappe sends France to 3-0 win over Iraq in storm-affected match",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/sport/football/france-vs-iraq-fifa-world-cup-game-philadelphia-updates-june-22-2026/article71135128.ece",
-    "rejected_at": "2026-06-23T01:29:57.072805+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "FIFA World Cup 2026 | France vs Iraq Highlights: Mbappe, Dembele make merry after storm delays game",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/sport/football/france-vs-iraq-fifa-world-cup-match-live-updates-june-22-2026/article71134889.ece",
-    "rejected_at": "2026-06-23T01:29:58.885378+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Delhi Confidential: New Assignment",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/delhi-confidential/raghav-chadha-bjp-punjab-meet-10752656/",
-    "rejected_at": "2026-06-23T01:30:00.439440+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "40 years ago June 23, 1986: Maharashtra building collapse",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/opinion/40-years-ago/40-years-ago-june-23-1986-maharashtra-building-collapse-10752505/",
-    "rejected_at": "2026-06-23T01:30:00.664945+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Syngene International: Could India’s WuXi moment finally be here?",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/smart-stocks/syngene-international-growth-wuxi-apptec-us-sanctions-china-india-10752244/",
-    "rejected_at": "2026-06-23T01:30:01.157989+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Tubewell left dry for 3 years, farmer wins Rs 50,000 against Punjab Power Corporation",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/legal-news/tubewell-dry-3-years-farmer-wins-rs-50000-punjab-power-corporation-10751830/",
-    "rejected_at": "2026-06-23T01:30:01.293097+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Lucknow blaze: When an electric cable became a lifeline",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/cities/lucknow/lucknow-fire-electric-cable-lifeline-deaths-10752462/",
-    "rejected_at": "2026-06-23T01:30:01.419724+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Yogendra Yadav writes: Rahul Gandhi’s speech to INDIA frames Opposition’s task: Reclaim the Republic",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/opinion/columns/yogendra-yadav-writes-rahul-gandhis-speech-to-india-frames-oppositions-task-reclaim-the-republic-10752514/",
-    "rejected_at": "2026-06-23T01:30:01.520541+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "FBI expands probe as two more arrested from Missouri, Washington in foiled plot against Trump's White House UFC event",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/fbi-expands-probe-as-two-more-arrested-from-missouri-washington-in-foiled-plot-against-trumps-white-house-ufc-event-11782172059958.html",
-    "rejected_at": "2026-06-23T01:30:01.638694+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Trump threatens lawsuit against ABC News for reflecting pool coverage, claims Biden admin wanted to spend $100 million",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/trump-threatens-lawsuit-against-abc-news-for-reflecting-pool-coverage-claims-biden-admin-wanted-to-spend-100-million-11782175006953.html",
-    "rejected_at": "2026-06-23T01:30:01.758888+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Nancy Guthrie missing case update: Investigators believe ransom note saying she died came from abductors",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/nancy-guthrie-missing-case-update-investigators-believe-ransom-note-saying-she-died-came-from-abductors-11782174070097.html",
-    "rejected_at": "2026-06-23T01:30:01.890136+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "US-Iran news LIVE: ‘Will do what I have to do,’ says Trump as he stresses preventing Iran's nuclear weapons more crucial",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/world/us-iran-news-live-updates-latest-news-donald-trump-jd-vance-iran-ghalibaf-araghchi-war-news-updates-11782171404967.html",
-    "rejected_at": "2026-06-23T01:30:02.013850+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "US dominates India’s LPG basket as West Asia war reshapes energy flows",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/india-ups-cooking-gas-imports-from-us-american-lpg-top-source-for-meeting-2nd-largest-global-buyer-fuel-demand-11782127508202.html",
-    "rejected_at": "2026-06-23T01:30:02.115364+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Olivia Rodrigo announces all-women Daisy Chain Fields festival with Chappell Roan, Stevie Nicks",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/trends/olivia-rodrigo-announces-all-women-daisy-chain-fields-festival-with-chappell-roan-stevie-nicks-11782159693792.html",
-    "rejected_at": "2026-06-23T01:30:02.314716+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "India reports 15 lakh new cancer cases annually, focus must be on prevention and early diagnosis, says Anupriya Patel",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/cities/Hyderabad/india-reports-15-lakh-new-cancer-cases-annually-focus-must-be-on-prevention-and-early-diagnosis-says-anupriya-patel/article71134470.ece",
-    "rejected_at": "2026-06-23T01:30:02.441416+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Four of family found dead at home in Nalgonda, probe underway",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/four-of-family-found-dead-at-home-in-nalgonda-probe-underway/article71134284.ece",
-    "rejected_at": "2026-06-23T01:30:02.565756+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Sridhar Babu meets Piyush Goyal, seeks Central support for projects",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/cities/Hyderabad/sridhar-babu-meets-piyush-goyal-seeks-central-support-for-projects/article71134092.ece",
-    "rejected_at": "2026-06-23T01:30:02.690914+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "SBI team calls on Telangana Chief Secretary amid Raidurgam Knowledge City land controversy",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/cities/Hyderabad/sbi-delegation-calls-on-chief-secretary-amid-raidurgam-knowledge-city-land-controversy/article71133962.ece",
-    "rejected_at": "2026-06-23T01:30:02.804308+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "BJP leader slams govt. over police job issues, GO 46",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/bjp-leader-slams-govt-over-police-job-issues-go-46/article71133954.ece",
-    "rejected_at": "2026-06-23T01:30:02.935227+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Allu Arjun fails to appear before court in stampede case, hearing adjourned to July 6",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/allu-arjun-misses-to-appear-before-court-in-stampede-case-hearing-adjourned-to-july-6/article71132364.ece",
-    "rejected_at": "2026-06-23T01:30:03.029000+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Tilak’s ton helps Medak Falcons win against Warangal Warriors",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/tilaks-ton-helps-medak-falcons-win-against-warangal-warriors",
-    "rejected_at": "2026-06-23T01:30:03.151511+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Kamakhya Temple closes for annual Ambubachi Mahayog in Assam",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/kamakhya-temple-closes-for-annual-ambubachi-mahayog-in-assam",
-    "rejected_at": "2026-06-23T01:30:03.270371+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Lucknow fire tragedy: Four officials suspended, four arrested",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/lucknow-fire-tragedy-four-officials-suspended-four-arrested",
-    "rejected_at": "2026-06-23T01:30:03.384570+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "IOA seeks Telangana government support to resolve TOA disputes",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/ioa-seeks-telangana-government-support-to-resolve-toa-disputes",
-    "rejected_at": "2026-06-23T01:30:03.511869+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "M Raghunandan Rao says India emerging as a strong sporting nation",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/m-raghunandan-rao-says-india-emerging-as-a-strong-sporting-nation",
-    "rejected_at": "2026-06-23T01:30:03.623300+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "HYDRAA team rescues auto driver after iron rod pierces leg in Hyderabad",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/hydraa-team-rescues-auto-driver-after-iron-rod-pierces-leg-in-hyderabad",
-    "rejected_at": "2026-06-23T01:30:03.727889+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Tanay Thyagarajan powers Ranga Reddy Risers to thrilling five-wicket win",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/tanay-thyagarajan-powers-ranga-reddy-risers-to-thrilling-five-wicket-win",
-    "rejected_at": "2026-06-23T01:30:03.833080+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Hyderabad Heroes crush Bengaluru Bravehearts 45-7 in Rugby Premier League",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/hyderabad-heroes-crush-bengaluru-bravehearts-45-7-in-rugby-premier-league",
-    "rejected_at": "2026-06-23T01:30:03.958267+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Meta leads Rs 8,550 Cr investment in CRED, Kunal Shah to head WhatsApp",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/meta-rs-8550-cr-investment-cred-kunal-shah-lead-whatsapp",
-    "rejected_at": "2026-06-23T01:30:04.065835+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Scaling Enterprise IT with Agentic AI - Engineering an Autonomous Service Desk",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/scaling-enterprise-it-agentic-ai-engineering-an-autonomous-service-desk-",
-    "rejected_at": "2026-06-23T01:30:04.165397+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "India built a startup ecosystem. Now it needs an innovation ecosystem",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/india-built-a-startup-ecosystem-now-it-needs-an-innovation-ecosystem",
-    "rejected_at": "2026-06-23T01:30:04.272448+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Zerodha Capital registers 44% rise in total income",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/zerodha-capital-registers-44-rise-revenue",
-    "rejected_at": "2026-06-23T01:30:04.381457+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "6 hidden tourist places in India you must visit before they get crowded",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/hidden-tourist-destinations-india-nature-culture-adventure",
-    "rejected_at": "2026-06-23T01:30:04.501794+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Jio to step up satellite communications game with indigenous constellation: Akash Ambani",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/jio-to-step-up-satellite-communications-game-with-indigenous-constellation",
-    "rejected_at": "2026-06-23T01:30:04.606581+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "NORI is building luggage around how women actually travel",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/03/nori-is-building-luggage-around-how-women-actually-travel",
-    "rejected_at": "2026-06-23T01:30:04.716176+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Cyber Risk And Insurance Startup Mitigata Raises $15 Mn",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/cyber-risk-and-insurance-startup-mitigata-raises-15-mn/",
-    "rejected_at": "2026-06-23T01:30:04.825457+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Meta’s $900 Mn CRED Deal And Why Kunal Shah Stepped Away",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/features/metas-900-mn-cred-deal-and-why-kunal-shah-stepped-away/",
-    "rejected_at": "2026-06-23T01:30:04.930541+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "91Trucks Fires 30% Workforce, Pulls Out From South & Central Indian Markets",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/91trucks-fires-30-workforce-pulls-out-from-south-central-indian-markets/",
-    "rejected_at": "2026-06-23T01:30:05.040126+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "CRED Raises $900 Mn In Round Led By Meta",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/cred-raises-900-mn-from-meta/",
-    "rejected_at": "2026-06-23T01:30:05.164981+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Kunal Shah Leaves CRED For Top Role At WhatsApp",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/kunal-shah-leaves-cred-for-top-role-at-whatsapp/",
-    "rejected_at": "2026-06-23T01:30:05.257747+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Info Edge’s AI, Deeptech Playbook: ₹1,003 Cr Portfolio Across Over 50 Startups",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/info-edges-ai-deeptech-playbook-%e2%82%b91003-cr-portfolio-across-54-startups/",
-    "rejected_at": "2026-06-23T01:30:05.370293+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "[Update] Turtlemint IPO: Issue Subscribed 52% On Day 2",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/turtlemint-ipo-issue-subscribed-50-on-day-2-so-far/",
-    "rejected_at": "2026-06-23T01:30:05.493748+00:00",
-    "reason": "Not relevant"
-  },
-  {
     "title": "The running list: major tech layoffs in 2026 where employers cited AI",
     "source": "TechCrunch",
     "category": "global_tech",
@@ -3997,6 +3637,366 @@
     "category": "global_tech",
     "link": "https://techcrunch.com/2026/06/23/password-manager-maker-lastpass-says-hackers-stole-customer-support-case-data-during-klue-breach/",
     "rejected_at": "2026-06-24T01:24:55.748475+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "FIFA World Cup 2026: Colombia into Round of 32 as Munoz strikes against DR Congo",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/sport/football/fifa-world-cup-2026-colombia-into-round-of-32-as-munoz-strikes-against-dr-congo/article71140565.ece",
+    "rejected_at": "2026-06-24T05:35:05.676277+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "The goddess of instant gratification",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/tamil-nadu/the-goddess-of-instant-gratification/article71139131.ece",
+    "rejected_at": "2026-06-24T05:35:07.484502+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "‘Watch me’: Pinkie Roshan, 71, returns stronger after injury",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/lifestyle/fitness/pinkie-roshan-71-fitness-injury-recovery-expert-10751270/",
+    "rejected_at": "2026-06-24T05:35:09.932758+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "PM Modi meets Panchayat actors Binod and Bhushan, asks ‘Panchayat sunta hai ki nahi?’",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/entertainment/web-series/pm-modi-meets-panchayat-actors-binod-and-bhushan-video-goes-viral-10754527/",
+    "rejected_at": "2026-06-24T05:35:12.051419+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Office-zombie alert: How to be job-ready after watching late-night FIFA World Cup 2026 matches? I asked ChatGPT",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/trends/officezombie-alert-how-to-be-job-ready-after-watching-late-night-fifa-world-cup-2026-matches-i-asked-chatgpt-11782270947450.html",
+    "rejected_at": "2026-06-24T05:35:14.372254+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "UK court orders Nirav Modi to pay  ₹100 crore to Bank of India",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/uk-court-orders-nirav-modi-to-pay-rs-100-crore-to-bank-of-india-11782268485478.html",
+    "rejected_at": "2026-06-24T05:35:15.697733+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "LPG prices today, 24 June: Domestic and commercial cylinder rates in Delhi, Mumbai, Bengaluru, Kolkata and other cities",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/lpg-prices-today-24-june-domestic-and-commercial-cylinder-rates-in-delhi-mumbai-bengaluru-kolkata-and-other-cities-11782263862967.html",
+    "rejected_at": "2026-06-24T05:35:15.765409+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Cockroach infestation, expired FSSAI licence among hygiene violations flagged at Hyderabad’s Zepto warehouse",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/cities/Hyderabad/cockroach-infestation-expired-fssai-licence-among-hygiene-violations-flagged-at-hyderabads-zepto-warehouse/article71140445.ece",
+    "rejected_at": "2026-06-24T05:35:15.828698+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "The man behind 150 lake restoration projects wants to transform Hyderabad’s water bodies",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/life-and-style/the-man-behind-150-lake-restoration-projects-wants-to-transform-hyderabads-water-bodies/article71064762.ece",
+    "rejected_at": "2026-06-24T05:35:15.897866+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "U.S. marks Freedom 250 in Hyderabad, road near Consulate renamed ‘Donald Trump Avenue’",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/cities/Hyderabad/us-marks-freedom-250-in-hyderabad-road-near-consulate-renamed-donald-trump-avenue/article71138434.ece",
+    "rejected_at": "2026-06-24T05:35:15.961847+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Cyberabad civic body recommends ₹20.6 crore for HYDRAA’s monsoon operations, approves key infrastructure projects",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-civic-body-recommends-206-crore-for-hydraas-monsoon-operations-approves-key-infrastructure-projects/article71138718.ece",
+    "rejected_at": "2026-06-24T05:35:16.038117+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "3rd Corps of EME Sailing Regatta concludes in Hyderabad",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/cities/Hyderabad/3rd-corps-of-eme-sailing-regatta-concludes-in-hyderabad/article71138794.ece",
+    "rejected_at": "2026-06-24T05:35:16.104264+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Venkaiah Naidu calls for stricter anti-defection law, flags ‘freebie’ culture",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/venkaiah-naidu-calls-for-stricter-anti-defection-law-flags-freebie-culture/article71138896.ece",
+    "rejected_at": "2026-06-24T05:35:16.165260+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Jaju comes back to Telangana as CS race heats up",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/jaju-comes-back-to-telangana-as-cs-race-heats-up/article71138922.ece",
+    "rejected_at": "2026-06-24T05:35:16.233760+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Harish Rao demands CBI or Central vigilance inquiry into alleged scams in SCCL",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/harish-rao-demands-cbi-or-central-vigilance-inquiry-into-alleged-scams-in-sccl/article71138805.ece",
+    "rejected_at": "2026-06-24T05:35:16.299834+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Rubio says Gulf partners vital to advancing Iran peace framework",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/rubio-says-gulf-partners-vital-to-advancing-iran-peace-framework",
+    "rejected_at": "2026-06-24T05:35:16.362286+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Hyderabad: Toddler dies after falling into water sump",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/toddler-dies-after-falling-into-water-sump",
+    "rejected_at": "2026-06-24T05:35:16.428712+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "FIFA WC 2026: Colombia edges Congo DR to seal Round of 32 berth",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/fifa-wc-2026-colombia-edges-congo-dr-to-seal-round-of-32-berth",
+    "rejected_at": "2026-06-24T05:35:16.500031+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Cartoon Today on June 24, 2026",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/cartoon-today-on-june-24-2026",
+    "rejected_at": "2026-06-24T05:35:16.565444+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Anthropic AI model identifies vulnerabilities in sensitive US government systems during testing",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/anthropic-ai-model-identifies-vulnerabilities-in-sensitive-us-government-systems-during-testing",
+    "rejected_at": "2026-06-24T05:35:16.628593+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Germany rail network grinds to a halt after communications system failure strands passengers",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/germany-rail-network-grinds-to-a-halt-after-communications-system-failure-strands-passengers",
+    "rejected_at": "2026-06-24T05:35:16.693535+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Trump claims Iran agreed to abandon nuclear weapons under ‘historic peace agreement’",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/trump-claims-iran-agreed-to-abandon-nuclear-weapons-under-historic-peace-agreement",
+    "rejected_at": "2026-06-24T05:35:16.756886+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "US Senate passes resolution to limit Trump’s military action against Iran",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/us-senate-passes-resolution-to-limit-trumps-military-action-against-iran",
+    "rejected_at": "2026-06-24T05:35:16.824726+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Can NRIs hold joint NRO accounts with residents - and what they need to know",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/can-nris-hold-joint-nro-accounts-with-residents---and-what-they-need-to-know",
+    "rejected_at": "2026-06-24T05:35:16.901435+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Why the definition of a successful startup has changed in VC",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/why-the-definition-of-a-successful-startup-has-changed-in-vc-",
+    "rejected_at": "2026-06-24T05:35:16.966569+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "India built a startup ecosystem. Now it needs an innovation ecosystem",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/india-built-a-startup-ecosystem-now-it-needs-an-innovation-ecosystem",
+    "rejected_at": "2026-06-24T05:35:17.031671+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Meta leads Rs 8,550 Cr investment in CRED, Kunal Shah to head WhatsApp",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/meta-rs-8550-cr-investment-cred-kunal-shah-lead-whatsapp",
+    "rejected_at": "2026-06-24T05:35:17.096900+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "NORI is building luggage around how women actually travel",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/03/nori-is-building-luggage-around-how-women-actually-travel",
+    "rejected_at": "2026-06-24T05:35:17.597477+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Info Edge reveals its AI and deeptech bets, and stays honest about the early scorecard",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/info-edge-ai-deeptech-startup-investments-1003-crore",
+    "rejected_at": "2026-06-24T05:35:17.663630+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "India Wants Its AI Talent Back; But What’s The Incentive?",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/india-wants-its-ai-talent-back-but-whats-the-incentive/",
+    "rejected_at": "2026-06-24T05:35:17.729606+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "The Lendbox Puzzle, Turtlemint’s IPO & More",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/the-lendbox-puzzle-turtlemints-ipo-more/",
+    "rejected_at": "2026-06-24T05:35:17.792815+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indian Unicorn Tracker: Funding, Investors, Revenue And More",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/indian-unicorn-tracker-funding-investors-revenue-and-more/",
+    "rejected_at": "2026-06-24T05:35:17.865511+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Nexus Venture Partners Sells More Delhivery Shares Worth ₹208 Cr",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/nexus-venture-partners-sells-more-delhivery-shares-worth-%e2%82%b9208-cr/",
+    "rejected_at": "2026-06-24T05:35:17.936588+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Honasa Consumer Acquires Majority Stake In Fluence Pharma For ₹135 Cr",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/honasa-consumer-acquires-majority-stake-in-fluence-pharma-for-%e2%82%b9135-cr/",
+    "rejected_at": "2026-06-24T05:35:17.999644+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "SEBI’s ‘GARUDA’ Framework Eases Key Bottlenecks For Indian Startup Investors",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/sebis-garuda-framework-eases-key-bottlenecks-for-indian-startup-investors/",
+    "rejected_at": "2026-06-24T05:35:18.065889+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "[Update] Turtlemint IPO Closes With 1.2X Oversubscription",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/turtlemint-ipo-closes-with-1-2x-oversubscription/",
+    "rejected_at": "2026-06-24T05:35:18.128133+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Optimo Capital’s FY26 PAT Grows 4.8X YoY To ₹10.5 Cr",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/optimo-capitals-fy26-pat-grows-4-8x-yoy-to-%e2%82%b910-5-cr/",
+    "rejected_at": "2026-06-24T05:35:18.195850+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Walmart-backed Flipkart expands quick-commerce push as Amazon ramps up in India",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/23/walmart-backed-flipkart-expands-quick-commerce-push-as-amazon-ramps-up-in-india/",
+    "rejected_at": "2026-06-24T05:35:18.274714+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+    "rejected_at": "2026-06-24T05:35:18.338350+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Superhuman acquires AI detection startup GPTZero",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/",
+    "rejected_at": "2026-06-24T05:35:18.400770+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "After betting the firm on Anthropic, Menlo Ventures raises victorious $3B fund",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/",
+    "rejected_at": "2026-06-24T05:35:18.463444+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Klue says hackers stole credential from 2022 that led to customer data breaches",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/23/klue-says-hackers-stole-credential-from-2022-that-led-to-customer-data-breaches/",
+    "rejected_at": "2026-06-24T05:35:18.527748+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Mark Zuckerberg wants Meta to launch its own prediction market",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/23/mark-zuckerberg-wants-meta-to-launch-its-own-prediction-market/",
+    "rejected_at": "2026-06-24T05:35:18.593384+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+    "rejected_at": "2026-06-24T05:35:18.656078+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Password manager maker LastPass says hackers stole customer support case data during Klue breach",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/23/password-manager-maker-lastpass-says-hackers-stole-customer-support-case-data-during-klue-breach/",
+    "rejected_at": "2026-06-24T05:35:18.719396+00:00",
     "reason": "Not relevant"
   }
 ]
