@@ -1,5 +1,61 @@
 [
   {
+    "title": "Bihar on verge of bankruptcy, says Tejashwi",
+    "link": "https://www.thehindu.com/news/national/bihar/bihar-on-verge-of-bankruptcy-says-tejashwi/article71157817.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Mon, 29 Jun 2026 02:34:27 +0530",
+    "topic": "Economic Crisis in Bihar",
+    "summary": [
+      "Bihar is on the verge of bankruptcy according to Tejashwi",
+      "The statement highlights the state's financial struggles"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-06-28T21:37:19.016142+00:00"
+  },
+  {
+    "title": "West Asia war LIVE: U.S., Iran agree to halt attacks and hold talks in Doha this week, report says",
+    "link": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-israel-lebanon-strikes-tehran-washington-ceasefire-live-updates-june-28-2026/article71156840.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Mon, 29 Jun 2026 02:25:20 +0530",
+    "topic": "International Relations",
+    "summary": [
+      "The U.S. and Iran have agreed to halt attacks and hold talks in Doha",
+      "The talks are scheduled to take place this week, according to reports"
+    ],
+    "impact": "HIGH",
+    "fetched_at": "2026-06-28T21:37:19.659372+00:00"
+  },
+  {
+    "title": "Pakistan says it carried out ground operation, strikes along Afghan border; 29 militants killed",
+    "link": "https://www.thehindu.com/news/international/pakistan-ground-operation-strikes-afghanistan-border-casualties-updates/article71159048.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Mon, 29 Jun 2026 02:16:16 +0530",
+    "topic": "Geopolitics",
+    "summary": [
+      "Pakistan conducted a ground operation along the Afghan border",
+      "29 militants were killed in the operation"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-06-28T21:37:19.995170+00:00"
+  },
+  {
+    "title": "Iran warns ships not to bypass its chosen Hormuz route",
+    "link": "https://www.thehindu.com/news/international/iran-warns-ships-not-to-bypass-its-chosen-hormuz-route/article71159031.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Mon, 29 Jun 2026 01:53:09 +0530",
+    "topic": "Geopolitics",
+    "summary": [
+      "Iran has warned ships to use its designated route in the Strait of Hormuz",
+      "The move is seen as a response to attempts to bypass Iranian waters"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-06-28T21:37:20.405511+00:00"
+  },
+  {
     "title": "West Asia war LIVE: Iran cancelled participation in technical talks over recent attacks, official tells state TV",
     "link": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-israel-lebanon-strikes-tehran-washington-ceasefire-live-updates-june-28-2026/article71156840.ece",
     "source": "The Hindu",
@@ -642,61 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-06-28T10:39:21.516269+00:00"
-  },
-  {
-    "title": "The evolution of pension reforms in India",
-    "link": "https://www.thehindu.com/data/the-evolution-of-pension-reforms-in-india/article70375016.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sun, 28 Jun 2026 15:56:00 +0530",
-    "topic": "Pension Reforms in India",
-    "summary": [
-      "The Indian government has been implementing pension reforms to ensure a sustainable and equitable retirement system",
-      "These reforms aim to increase coverage, improve benefits, and reduce the financial burden on the state"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-06-28T10:39:21.959139+00:00"
-  },
-  {
-    "title": "AIDSO opposes STEAM initiative, calls it ‘backdoor implementation’ of National Education Policy 2020",
-    "link": "https://www.thehindu.com/news/national/karnataka/aidso-opposes-steam-initiative-calls-it-backdoor-implementation-of-national-education-policy-2020/article71157432.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sun, 28 Jun 2026 15:52:41 +0530",
-    "topic": "Education Policy",
-    "summary": [
-      "AIDSO opposes STEAM initiative",
-      "Calls it a ‘backdoor implementation’ of National Education Policy 2020"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-06-28T10:39:22.198032+00:00"
-  },
-  {
-    "title": "West Asia war LIVE: Iraq's Foreign Minister tells Iran counterpart Hormuz should reopen",
-    "link": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-israel-lebanon-strikes-tehran-washington-ceasefire-live-updates-june-28-2026/article71156840.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sun, 28 Jun 2026 15:51:44 +0530",
-    "topic": "International Relations",
-    "summary": [
-      "Iraq's Foreign Minister discusses reopening of Hormuz with Iran counterpart",
-      "Development has implications for regional stability and global oil trade"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-06-28T10:39:22.620268+00:00"
-  },
-  {
-    "title": "AI-fueled demand boosts U.S. chip producer Micron to record results",
-    "link": "https://www.thehindu.com/sci-tech/technology/ai-fueled-demand-boosts-us-chip-producer-micron-to-record-results/article71144656.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sun, 28 Jun 2026 15:51:18 +0530",
-    "topic": "Business & Technology",
-    "summary": [
-      "Micron, a U.S. chip producer, has achieved record results due to AI-fueled demand",
-      "The company's success highlights the growing importance of artificial intelligence in driving technological advancements"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-06-28T10:39:22.942281+00:00"
   }
 ]
