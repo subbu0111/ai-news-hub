@@ -1,421 +1,5 @@
 [
   {
-    "title": "Cyberabad Police hold security awareness programme for private agencies, CCTV vendors",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-police-hold-security-awareness-programme-for-private-agencies-cctv-vendors/article71154934.ece",
-    "rejected_at": "2026-06-27T19:52:02.479590+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Bhadrachalam temple redevelopment works begin under Phase-I",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/bhadrachalam-temple-redevelopment-works-begin-under-phase-i/article71154924.ece",
-    "rejected_at": "2026-06-27T19:52:02.547594+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Harish demands clarity from CM on three-State water talks",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/harish-demands-clarity-from-cm-on-three-state-water-talks/article71154799.ece",
-    "rejected_at": "2026-06-27T19:52:02.619367+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Cyberabad civic body removes 506 encroachments from footpaths on 15 road stretches",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-civic-body-removes-506-encroachments-from-footpaths-on-15-road-stretches/article71154522.ece",
-    "rejected_at": "2026-06-27T19:52:02.687154+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Thirteen college buses inspected, multiple safety lapses found at engineering college",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/thirteen-college-buses-inspected-multiple-safety-lapses-found-at-engineering-college/article71154537.ece",
-    "rejected_at": "2026-06-27T19:52:02.756097+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "KTR showcased his ignorance at Parigi meeting: MLA Ram Mohan Reddy",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/ktr-showcased-his-ignorance-at-parigi-meeting-mla-ram-mohan-reddy/article71153953.ece",
-    "rejected_at": "2026-06-27T19:52:02.820966+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Record heat grips Europe; disrupts travel and healthcare",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/record-heat-grips-europe-disrupts-travel-and-healthcare",
-    "rejected_at": "2026-06-27T19:52:02.900732+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Karachi terror attack: Gunfire, blast reports rock Gulistan-i-Jauhar, 3 Rangers killed",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/karachi-terror-attack-gunfire-blast-reports-rock-gulistan-i-jauhar-3-rangers-killed",
-    "rejected_at": "2026-06-27T19:52:02.965163+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Rewind: Hindi hurdles for Telangana’s tribal students",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/rewind-hindi-hurdles-for-telanganas-tribal-students",
-    "rejected_at": "2026-06-27T19:52:03.029741+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Shivani Karra and Nithya Sagi selected for Asian Age Group Swimming Championship",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/shivani-karra-and-nithya-sagi-selected-for-asian-age-group-swimming-championship",
-    "rejected_at": "2026-06-27T19:52:03.102130+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Congress slams PM Modi’s Seychelles visit as ‘Masterly hypocrisy’",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/congress-slams-pm-modis-seychelles-visit-as-masterly-hypocrisy",
-    "rejected_at": "2026-06-27T19:52:03.171403+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Iran drone strike targets Bahrain amid Gulf tensions, ship struck in Strait of Hormuz",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/iran-drone-strike-targets-bahrain-amid-gulf-tensions-ship-struck-in-strait-of-hormuz",
-    "rejected_at": "2026-06-27T19:52:03.239472+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Unidentified man’s death in Mailardevpally godown solved; four arrested",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/unidentified-mans-death-in-mailardevpally-godown-solved-four-arrested",
-    "rejected_at": "2026-06-27T19:52:03.304621+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "SOAS MRU convocation highlights ICAR accreditation, AI in farming education",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/soas-mru-convocation-highlights-icar-accreditation-ai-in-farming-education",
-    "rejected_at": "2026-06-27T19:52:03.372120+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Meet the app where every influencer is an AI — and anyone can build one in two minutes",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/05/app-influencer-ai-anyone-can-build",
-    "rejected_at": "2026-06-27T19:52:03.443905+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "How Shashi Kumar built Akshayakalpa into a Rs 700 Cr enterprise with just 2,800 farmers",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/shashi-kumar-akshayakalpa-700-crore-enterprise-2800-farmers",
-    "rejected_at": "2026-06-27T19:52:03.520888+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Why value fashion is becoming India’s dominant retail story",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/why-value-fashion-is-becoming-indias-dominant-retail-story",
-    "rejected_at": "2026-06-27T19:52:03.586584+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "The next phase of fraud prevention in India’s fintech ecosystem",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/the-next-phase-of-fraud-prevention-in-indias-fintech-ecosystem",
-    "rejected_at": "2026-06-27T19:52:03.665338+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "From code to captaincy: AWS’ agentic AI playbook",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/code-captaincy-aws-agentic-ai-playbook",
-    "rejected_at": "2026-06-27T19:52:03.732777+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Why Sachin Tendulkar is betting on sportswear built for Indian feet",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/why-sachin-tendulkar-is-betting-on-sportswear-built-for-indian-feet",
-    "rejected_at": "2026-06-27T19:52:03.801384+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "From crop insurance to conversational analytics: Inside the winning ideas from the AI for Bharat Hackathon",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/crop-insurance-conversational-analytics-ai-for-bharat-hackathon",
-    "rejected_at": "2026-06-27T19:52:03.867592+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
-    "rejected_at": "2026-06-27T19:52:03.941758+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Exclusive: Vibe Coding Startup Rocket Eyes Fresh Funding In SIG-Led Round",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/vibe-coding-startup-rocket-eyes-fresh-funding-in-sig-led-round/",
-    "rejected_at": "2026-06-27T19:52:04.012686+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Bharat Taxi To Expand To 500 Cities In 2 Years: HM Amit Shah",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/bharat-taxi-to-expand-to-500-cities-in-2-years-hm-amit-shah/",
-    "rejected_at": "2026-06-27T19:52:04.077908+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "New-Age Tech Stocks: Meesho, Smartworks Rally; ideaForge, EaseMyTrip Tumble",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/new-age-tech-stocks-meesho-smartworks-rally-ideaforge-easemytrip-tumble/",
-    "rejected_at": "2026-06-27T19:52:04.145252+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Info Edge Appoints Former Bennett Coleman CFO Himanshu Agarwal As Finance Chief",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/info-edge-appoints-former-bennett-coleman-cfo-himanshu-agarwal-as-finance-chief/",
-    "rejected_at": "2026-06-27T19:52:04.208959+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "After NEET Row, NCB Flags Telegram As Top Platform For Drug Advertising",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/after-neet-row-ncb-flags-telegram-as-top-platform-for-drug-advertising/",
-    "rejected_at": "2026-06-27T19:52:04.271260+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Turtlemint IPO: Peak XV Nets ₹66.2 Cr, Nexus Venture Books 8.8X Gain",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/turtlemint-ipo-peak-xv-nets-%e2%82%b966-2-cr-nexus-venture-books-8-8x-gain/",
-    "rejected_at": "2026-06-27T19:52:04.334937+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "From CRED To Square Yards — Indian Startups Raised $1.1 Bn This Week",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/from-cred-to-square-yards-indian-startups-raised-1-1-bn-this-week/",
-    "rejected_at": "2026-06-27T19:52:04.403506+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-    "rejected_at": "2026-06-27T19:52:04.476699+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
-    "rejected_at": "2026-06-27T19:52:04.550008+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-    "rejected_at": "2026-06-27T19:52:04.612905+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
-    "rejected_at": "2026-06-27T19:52:04.685517+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Novak Djokovic has a new job —  advisor to private equity firm General Atlantic",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/06/26/novak-djokovic-has-a-new-job-advisor-to-private-equity-firm-general-atlantic/",
-    "rejected_at": "2026-06-27T19:52:04.757432+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
-    "rejected_at": "2026-06-27T19:52:04.822553+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Mobile phones seized from Kannur Central Jail again",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/kerala/mobile-phones-seized-from-kannur-central-jail-again/article71153741.ece",
-    "rejected_at": "2026-06-27T21:00:41.555510+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Portugal vs Colombia, FIFA World Cup 2026 Live Score: Top spot in Group K on the line today",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/sports/football/portugal-vs-colombia-fifa-world-cup-2026-live-score-game-group-k-football-match-game-ronaldo-rodriguez-florida-updates-10760449/",
-    "rejected_at": "2026-06-27T21:00:41.617851+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Desperation mounts as earthquake death toll rises to 1,430 in in Venezuela",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/world/desperation-mounts-as-earthquake-death-toll-rises-to-1430-in-in-venezuela-10760744/",
-    "rejected_at": "2026-06-27T21:00:41.681552+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "‘Perfume is chemistry’: Why your favourite scent smells different on someone else",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/lifestyle/perfume-fragrance-scents-smell-different-people-10662454/",
-    "rejected_at": "2026-06-27T21:00:41.746028+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "What is Slate Auto, and how is its $25,000 electric truck different from other EVs?",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/technology/tech-news-technology/what-is-slate-auto-and-how-is-its-25000-electric-truck-different-from-other-evs-10760723/",
-    "rejected_at": "2026-06-27T21:00:41.808934+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Honey Singh can ‘never say no’ to this Indian sweet; learn how to make it at home",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/lifestyle/food-wine/yo-yo-honey-singh-never-say-no-to-indian-sweet-10740117/",
-    "rejected_at": "2026-06-27T21:00:41.866856+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "The case of two dead Elenas: Chilling double murder of Russian women in Goa reaches court",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/legal-news/goa-sessions-court-elena-russian-national-alexie-leonov-double-murder-10760708/",
-    "rejected_at": "2026-06-27T21:00:41.922032+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Malik Ambar Mahal: Built by a slave-turned-statesman, once a refuge for Shah Jahan",
-    "source": "Indian Express",
-    "category": "india_national",
-    "link": "https://indianexpress.com/article/cities/pune/habshi-mahal-junnar-malik-ambar-history-pune-10760706/",
-    "rejected_at": "2026-06-27T21:00:41.986556+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "World News Today Live Updates on June 28, 2026 : Venezuela hit by fresh 5.6 earthquake after twin quakes left over 1,400 dead",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/world/total-world-latest-news-on-june-28-2026-live-updates-11782590718278.html",
-    "rejected_at": "2026-06-27T21:00:42.047179+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Venezuela hit by fresh 5.6 earthquake after twin quakes left over 1,400 dead",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/world/venezuela-hit-by-fresh-5-6-earthquake-after-twin-quakes-left-over-1-400-dead-11782589627371.html",
-    "rejected_at": "2026-06-27T21:00:42.104204+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Jeffrey Epstein files: Judge orders DOJ to release unredacted docs including ‘torture video’ email or justify redactions",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/jeffrey-epstein-files-judge-orders-doj-to-release-unredacted-docs-including-torture-video-email-or-justify-redactions-11782587079546.html",
-    "rejected_at": "2026-06-27T21:00:42.166568+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Quote of the Day by BTS' Jungkook: ‘Effort makes you. You will regret someday if you don’t do your best now’",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/quote-of-the-day-by-bts-jungkook-effort-makes-you-you-will-regret-someday-if-you-don-t-do-your-best-now-11782581220860.html",
-    "rejected_at": "2026-06-27T21:00:42.233961+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Quote of the Day by Estée Lauder: ‘I never dreamed about success. I worked for it’",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/quote-of-the-day-by-est-e-lauder-i-never-dreamed-about-success-i-worked-for-it-11782580024595.html",
-    "rejected_at": "2026-06-27T21:00:42.295228+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "‘Earth still shaking’: Venezuela faces ongoing aftershock after twin earthquakes | Expert explains dire situation",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/world/earth-still-shaking-venezuela-faces-ongoing-aftershock-after-twin-earthquakes-expert-explains-dire-situation-11782577527566.html",
-    "rejected_at": "2026-06-27T21:00:42.353371+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Europe's heatwave: 200 million face extreme temperatures; Germany, Denmark and Czech Republic see hottest days ever",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/world/europes-heatwave-200-million-face-extreme-temperatures-germany-denmark-and-czech-republic-see-hottest-days-ever-11782576383861.html",
-    "rejected_at": "2026-06-27T21:00:42.410767+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Karachi attack: 3 Pakistan Rangers killed as militants attack paramilitary headquarters",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/world/explosion-gunfire-reported-near-universities-in-karachi-local-media-11782579188606.html",
-    "rejected_at": "2026-06-27T21:00:42.489280+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Four arrested for murder in Mailardevpally",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/four-arrested-for-murder-in-mailardevpally/article71154946.ece",
-    "rejected_at": "2026-06-27T21:00:42.546167+00:00",
-    "reason": "Not relevant"
-  },
-  {
     "title": "Gachibowli police arrest man for blackmailing women with intimate videos, extorting money",
     "source": "The Hindu Hyderabad",
     "category": "hyderabad",
@@ -3997,6 +3581,422 @@
     "category": "global_tech",
     "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
     "rejected_at": "2026-06-28T15:48:29.158806+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Students stage protest against indiscriminate fee hike in KSLU",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/karnataka/students-stage-protest-against-indiscriminate-fee-hike-in-kslu/article71123106.ece",
+    "rejected_at": "2026-06-28T17:08:30.474661+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "18 years of tiger reintroduction in Sariska: Centre flags priority intervention need in 25 of 58 tiger reserves with low, absent tigers",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/india/tiger-reintroduction-sariska-government-tiger-reserve-10761863/",
+    "rejected_at": "2026-06-28T17:08:30.528870+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "India stunned by Ireland for 2nd game in row to lose series 2-0",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/sports/cricket/india-stunned-by-ireland-for-second-game-in-row-to-lose-2-0-10761855/",
+    "rejected_at": "2026-06-28T17:08:30.582803+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "TET paper leak probe widens; teams sent to Delhi, Haryana, UP, Bihar",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/cities/mumbai/tet-paper-leak-probe-widens-teams-sent-to-delhi-haryana-up-bihar-10761865/",
+    "rejected_at": "2026-06-28T17:08:30.634466+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "India crash out of Women’s T20 World Cup 2026 after losing to Australia in must-win clash",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/sports/cricket/india-crash-out-t20-world-cup-australia-beat-lords-2026-10761844/",
+    "rejected_at": "2026-06-28T17:08:30.693080+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Iran draws red line on Hormuz after fresh round of strikes with US: Major developments",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/world/strait-of-hormuz-us-iran-conflict-donald-trump-strikes-ceasefire-10761805/",
+    "rejected_at": "2026-06-28T17:08:30.750221+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Claims of lack of development funds by rebel MPs expose Mahayuti: Congress",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/cities/pune/development-funds-rebel-mps-mahayuti-congress-10761843/",
+    "rejected_at": "2026-06-28T17:08:30.804812+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Muharram poisoning: Mumbai police question accused’s family, source of zinc phosphide still not found",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/cities/mumbai/mumbai-muharram-poisoning-case-zinc-phosphide-faiyaz-premji-police-probe-10761845/",
+    "rejected_at": "2026-06-28T17:08:30.983024+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Ameesha recalls getting tanned for ‘Kaho Naa.. Pyaar Hai’: Here are some beach skin care tips",
+    "source": "Indian Express",
+    "category": "india_national",
+    "link": "https://indianexpress.com/article/lifestyle/haalat-bahot-kharab-the-ameesha-patel-recalls-getting-tanned-shooting-kaho-naa-pyaar-hai-10734886/",
+    "rejected_at": "2026-06-28T17:08:31.039098+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Iran's Mojtaba Khamenei demands US-Israel must face courts for child killings, hospital attacks, war crimes",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/world/irans-mojtaba-khamenei-demands-us-israel-must-face-courts-for-child-killings-hospital-attacks-war-crimes-11782660160360.html",
+    "rejected_at": "2026-06-28T17:08:31.100734+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Delhi, UP to get monsoon relief soon? IMD says wait for 5-6 days, issues heavy rainfall alert for Bengal, North-East",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/delhi-up-to-get-monsoon-relief-soon-imd-says-wait-for-5-6-days-issues-heavy-rainfall-alert-for-bengal-northeast-11782662488896.html",
+    "rejected_at": "2026-06-28T17:08:31.156333+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Ladakh fines tourists  ₹2 lakh for illegal off-roading in Pangong Lake, protected wildlife areas",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/ladakh-fines-tourists-rs-2-lakh-for-illegal-off-roading-in-pangong-lake-protected-wildlife-areas-11782661096367.html",
+    "rejected_at": "2026-06-28T17:08:31.209583+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "US election battle heats up as courts block Donald Trump's voting rule overhaul | What we know so far",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/world/us-election-battle-heats-up-as-courts-block-donald-trumps-voting-rule-overhaul-what-we-know-so-far-11782660015953.html",
+    "rejected_at": "2026-06-28T17:08:31.262264+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "CertIn warns against malware campaign for WhatsApp web — ‘Do not open attachments you were not expecting’",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/certin-warns-against-malware-campaign-for-whatsapp-web-do-not-open-attachments-you-were-not-expecting-11782660630053.html",
+    "rejected_at": "2026-06-28T17:08:31.314748+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Bengaluru auto driver is winning over the Internet with his AI skills; ChatGPT calls him ‘Pookie uncle-ge’",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/trends/bengaluru-auto-driver-is-winning-over-the-internet-with-his-ai-skills-chatgpt-calls-him-pookie-unclege-11782655572149.html",
+    "rejected_at": "2026-06-28T17:08:31.498323+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Putin admits Russia is in a ‘difficult period’ as Ukraine's drone strikes intensify, vows to ‘overcome challenges’",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/world/putin-admits-russia-is-in-a-difficult-period-as-ukraines-drone-strikes-intensify-vows-to-overcome-challenges-11782658160881.html",
+    "rejected_at": "2026-06-28T17:08:31.551088+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "‘Horrific Scene’: Over 100 dead dogs found at California ‘No-Kill’ shelter with gunshot wound",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/world/horrific-scene-over-100-dead-dogs-found-at-california-no-kill-shelter-with-gunshot-wound-11782658229785.html",
+    "rejected_at": "2026-06-28T17:08:31.606019+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Revanth challenges Opposition to Assembly debate on his govt. performance",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/revanth-challenges-opposition-to-assembly-debate-on-his-govt-performance/article71158336.ece",
+    "rejected_at": "2026-06-28T17:08:31.658207+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Vanajeevi Ramaiah’s green legacy finds place in Intermediate first year Botany textbook",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/vanajeevi-ramaiahs-green-legacy-finds-place-in-intermediate-first-year-botany-textbook/article71158473.ece",
+    "rejected_at": "2026-06-28T17:08:31.711278+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Traffic diversions announced for elevated corridor work from Saidabad to Yadagiri Theatre",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/cities/Hyderabad/traffic-diversions-announced-for-elevated-corridor-work-from-saidabad-to-yadagiri-theatre/article71158055.ece",
+    "rejected_at": "2026-06-28T17:08:31.764166+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "694 motorists booked for drunk driving Hyderabad, Cyberabad",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/694-motorists-booked-for-drunk-driving-hyderabad-cyberabad/article71158112.ece",
+    "rejected_at": "2026-06-28T17:08:31.816453+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Three detained after mob attack at housewarming function in Medipally",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/three-detained-after-mob-attack-at-housewarming-function-in-medipally/article71158074.ece",
+    "rejected_at": "2026-06-28T17:08:31.869214+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "‘Promoting experiential science education to build future-ready students’",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/cities/Hyderabad/promoting-experiential-science-education-to-build-future-ready-students/article71158247.ece",
+    "rejected_at": "2026-06-28T17:08:31.920321+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Tiger sighted on Telangana–Andhra border; forest staff alert villagers",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/tiger-sighted-on-telangana-andhra-border-forest-staff-alert-villagers",
+    "rejected_at": "2026-06-28T17:08:31.973911+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Himayat Sagar floodgates lifted, alerted low-lying areas of Musi River",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/himayat-sagar-floodgates-lifted-alerted-low-lying-areas-of-musi-river",
+    "rejected_at": "2026-06-28T17:08:32.027617+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Harish Rao dares Revanth Reddy to dissolve Assembly, seek fresh mandate",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/harish-rao-dares-revanth-reddy-to-dissolve-assembly-seek-fresh-mandate",
+    "rejected_at": "2026-06-28T17:08:32.079795+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Kerala to get one of India’s first university townships: Rajeev Chandrasekhar",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/kerala-to-get-one-of-indias-first-university-townships-rajeev-chandrasekhar",
+    "rejected_at": "2026-06-28T17:08:32.134858+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Skydiving aircraft crashes after take-off in France, killing 11",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/skydiving-aircraft-crashes-after-take-off-in-france-killing-11",
+    "rejected_at": "2026-06-28T17:08:32.186108+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Ladakh cracks down on illegal off-roading, fines tourists Rs 2 Lakh",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/ladakh-cracks-down-on-illegal-off-roading-fines-tourists-rs-2-lakh",
+    "rejected_at": "2026-06-28T17:08:32.245005+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Two killed, four injured in separate accidents in Warangal",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/two-killed-four-injured-in-separate-accidents-in-warangal",
+    "rejected_at": "2026-06-28T17:08:32.297923+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Tanmay Agarwal’s maiden century powers Karimnagar Diamonds to first win",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/tanmay-agarwals-maiden-century-powers-karimnagar-diamonds-to-first-win",
+    "rejected_at": "2026-06-28T17:08:32.377675+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Why Sachin Tendulkar is betting on sportswear built for Indian feet",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/why-sachin-tendulkar-is-betting-on-sportswear-built-for-indian-feet",
+    "rejected_at": "2026-06-28T17:08:32.438353+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "One accident, lakhs in costs: Why the right car insurance matters",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/one-accident-lakhs-in-costs-why-the-right-car-insurance-matters",
+    "rejected_at": "2026-06-28T17:08:32.492564+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "From crop insurance to conversational analytics: Inside the winning ideas from the AI for Bharat Hackathon",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/crop-insurance-conversational-analytics-ai-for-bharat-hackathon",
+    "rejected_at": "2026-06-28T17:08:32.545674+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Meet Arjun Shetty, the fitness entrepreneur training clients across the world",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/arjun-shetty-fitness-entrepreneur-training-clients-across-the-world",
+    "rejected_at": "2026-06-28T17:08:32.597196+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "From code to captaincy: AWS’ agentic AI playbook",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/code-captaincy-aws-agentic-ai-playbook",
+    "rejected_at": "2026-06-28T17:08:32.776090+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "History, power, talent: Montreal Museum of Fine Arts showcases beauty of Roman sculpture",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/montreal-museum-of-fine-arts-roman-sculpture-exhibition-photography",
+    "rejected_at": "2026-06-28T17:08:32.830112+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Fintech Startups To Watch: Startups That Caught Our Eye In June",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/fintech-startups-to-watch-startups-that-caught-our-eye-in-june/",
+    "rejected_at": "2026-06-28T17:08:32.881635+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Kunal Shah & The WhatsApp Acid Test",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/kunal-shah-the-whatsapp-acid-test/",
+    "rejected_at": "2026-06-28T17:08:32.935475+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
+    "rejected_at": "2026-06-28T17:08:32.988334+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Exclusive: Vibe Coding Startup Rocket Eyes Fresh Funding In SIG-Led Round",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/vibe-coding-startup-rocket-eyes-fresh-funding-in-sig-led-round/",
+    "rejected_at": "2026-06-28T17:08:33.040290+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Bharat Taxi To Expand To 500 Cities In 2 Years: HM Amit Shah",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/bharat-taxi-to-expand-to-500-cities-in-2-years-hm-amit-shah/",
+    "rejected_at": "2026-06-28T17:08:33.095702+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "New-Age Tech Stocks: Meesho, Smartworks Rally; ideaForge, EaseMyTrip Tumble",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/new-age-tech-stocks-meesho-smartworks-rally-ideaforge-easemytrip-tumble/",
+    "rejected_at": "2026-06-28T17:08:33.150205+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Info Edge Appoints Former Bennett Coleman CFO Himanshu Agarwal As Finance Chief",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/info-edge-appoints-former-bennett-coleman-cfo-himanshu-agarwal-as-finance-chief/",
+    "rejected_at": "2026-06-28T17:08:33.205878+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "After NEET Row, NCB Flags Telegram As Top Platform For Drug Advertising",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/after-neet-row-ncb-flags-telegram-as-top-platform-for-drug-advertising/",
+    "rejected_at": "2026-06-28T17:08:33.259507+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Writer Ian Bogost says ‘The Small Stuff’ can help us reclaim our lives from dematerialization",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/28/writer-ian-bogost-says-the-small-stuff-can-help-us-reclaim-our-lives-from-dematerialization/",
+    "rejected_at": "2026-06-28T17:08:33.316399+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "TechCrunch Mobility: All eyes on Tesla FSD",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/28/techcrunch-mobility-all-eyes-on-tesla-fsd/",
+    "rejected_at": "2026-06-28T17:08:33.365335+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+    "rejected_at": "2026-06-28T17:08:33.420915+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Govee’s smart nugget ice maker makes every iced drink feel like a luxury",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/28/govees-smart-nugget-ice-maker-makes-every-iced-drink-feel-like-a-luxury/",
+    "rejected_at": "2026-06-28T17:08:33.471620+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
+    "rejected_at": "2026-06-28T17:08:33.524690+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Instagram is testing more ways to customize ‘Your Algorithm’",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/",
+    "rejected_at": "2026-06-28T17:08:33.578280+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+    "rejected_at": "2026-06-28T17:08:33.632512+00:00",
     "reason": "Not relevant"
   }
 ]
