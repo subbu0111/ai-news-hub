@@ -1,5 +1,61 @@
 [
   {
+    "title": "Murder accused on the run for seven years arrested",
+    "link": "https://www.thehindu.com/news/cities/Coimbatore/murder-accused-on-the-run-for-seven-years-arrested/article71241360.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 19 Jul 2026 18:33:27 +0530",
+    "topic": "Crime",
+    "summary": [
+      "A murder accused who was on the run for seven years has been arrested",
+      "The arrest was made possible through a coordinated effort by law enforcement"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-19T13:13:33.941144+00:00"
+  },
+  {
+    "title": "Oommen Chandy set the benchmark for public service, says Kerala Minister Anilkumar",
+    "link": "https://www.thehindu.com/news/national/kerala/oommen-chandy-set-the-benchmark-for-public-service-says-kerala-minister-anil-kumar/article71240987.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 19 Jul 2026 18:32:43 +0530",
+    "topic": "POLITICS",
+    "summary": [
+      "Kerala Minister Anilkumar praises Oommen Chandy's public service",
+      "Chandy's legacy is considered a benchmark for public service in Kerala"
+    ],
+    "impact": "LOW",
+    "fetched_at": "2026-07-19T13:13:34.743324+00:00"
+  },
+  {
+    "title": "West Asia war LIVE: Iranian missiles towards Jordan intercepted, Israel says",
+    "link": "https://www.thehindu.com/news/international/iran-israel-war-july-19-2026-live-updates-kuwait-us/article71240587.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 19 Jul 2026 18:32:15 +0530",
+    "topic": "Geopolitics",
+    "summary": [
+      "Iranian missiles headed towards Jordan were intercepted, according to Israel",
+      "The incident is part of the ongoing West Asia conflict"
+    ],
+    "impact": "HIGH",
+    "fetched_at": "2026-07-19T13:13:35.030820+00:00"
+  },
+  {
+    "title": "Rule changes on the cards to streamline land conversion, title deed distribution, says Kerala Revenue Minister",
+    "link": "https://www.thehindu.com/news/national/kerala/rule-changes-on-the-cards-to-streamline-land-conversion-title-deed-distribution-says-kerala-revenue-minister/article71240999.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 19 Jul 2026 18:31:59 +0530",
+    "topic": "Policy Change",
+    "summary": [
+      "Kerala Revenue Minister announces potential rule changes",
+      "Aims to streamline land conversion and title deed distribution"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-19T13:13:35.273185+00:00"
+  },
+  {
     "title": "Question paper leaks a national crisis, says Kerala Minister; Congress to stage youth protest on August 1",
     "link": "https://www.thehindu.com/news/national/kerala/question-paper-leaks-a-national-crisis-says-kerala-minister-congress-to-stage-youth-protest-on-august-1/article71240788.ece",
     "source": "The Hindu",
@@ -642,61 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-07-18T20:06:44.203832+00:00"
-  },
-  {
-    "title": "K. K. Nagar entrance arch in Madurai demolished",
-    "link": "https://www.thehindu.com/news/cities/Madurai/k-k-nagar-entrance-arch-in-madurai-demolished/article71239323.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sun, 19 Jul 2026 01:21:33 +0530",
-    "topic": "Infrastructure Development",
-    "summary": [
-      "The K. K. Nagar entrance arch in Madurai has been demolished",
-      "The demolition is likely part of infrastructure development or urban planning projects in the area"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-18T20:06:44.552340+00:00"
-  },
-  {
-    "title": "HARMAN collaborates with city university on automobile tech",
-    "link": "https://www.thehindu.com/news/national/karnataka/harman-collaborates-with-city-university-on-automobile-tech/article71211570.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sun, 19 Jul 2026 01:05:38 +0530",
-    "topic": "Technology Collaboration",
-    "summary": [
-      "HARMAN collaborates with a city university on automobile technology",
-      "The partnership aims to advance research and development in the automotive sector"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-18T20:06:44.971265+00:00"
-  },
-  {
-    "title": "Loyola College hosts workshop on digital accessibility for persons with low vision",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/loyola-college-hosts-workshop-on-digital-accessibility-for-persons-with-low-vision/article71238696.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sun, 19 Jul 2026 01:04:07 +0530",
-    "topic": "Digital Accessibility Workshop",
-    "summary": [
-      "Loyola College hosted a workshop on digital accessibility for persons with low vision",
-      "The event aimed to promote inclusivity and equal access to technology for people with visual impairments"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-18T20:06:45.318590+00:00"
-  },
-  {
-    "title": "T.N. government contemplates reducing VAT rate on aviation turbine fuel",
-    "link": "https://www.thehindu.com/news/national/tamil-nadu/tn-government-contemplates-reducing-vat-rate-on-aviation-turbine-fuel/article71238053.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sun, 19 Jul 2026 01:03:22 +0530",
-    "topic": "Aviation Turbine Fuel VAT Reduction",
-    "summary": [
-      "The T.N. government is considering reducing the Value-Added Tax (VAT) rate on aviation turbine fuel",
-      "This move could potentially reduce costs for airlines and make air travel more affordable"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-18T20:06:45.708588+00:00"
   }
 ]
