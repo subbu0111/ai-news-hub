@@ -1,5 +1,187 @@
 [
   {
+    "title": "Delhi Metro shuts 16 stations due to ‘security reasons’",
+    "link": "https://www.thehindu.com/news/cities/Delhi/many-delhi-metro-stations-shut-due-to-security-reasons/article71252396.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 12:33:16 +0530",
+    "topic": "Transportation Disruption",
+    "summary": [
+      "Delhi Metro has shut down 16 stations due to security reasons",
+      "The shutdown is likely to cause significant disruptions to commuters"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:35.883339+00:00"
+  },
+  {
+    "title": "Zohran Mamdani skips annual parade celebrating Israel",
+    "link": "https://www.thehindu.com/news/international/zohran-mamdani-skips-annual-parade-celebrating-israel/article71046837.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 12:32:40 +0530",
+    "topic": "Geopolitics",
+    "summary": [
+      "Zohran Mamdani, an Indian-American politician, skipped the annual parade celebrating Israel",
+      "The move is seen as a significant gesture in the context of India's relations with Israel and the Middle East"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:36.215904+00:00"
+  },
+  {
+    "title": "Parliament Monsoon Session Day 3 LIVE: Kiren Rijiju says government ready for discussion on NEET-UG paper leak issue",
+    "link": "https://www.thehindu.com/news/national/monsoon-session-parliament-live-updates-lok-sabha-rajya-sabha-amit-shah-modi-vande-mataram-neet-exam-leak-cjp-protests/article71252022.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 12:32:38 +0530",
+    "topic": "Government and Policy",
+    "summary": [
+      "The Indian government is open to discussing the NEET-UG paper leak issue",
+      "Law Minister Kiren Rijiju made the statement during the Parliament Monsoon Session"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:36.538378+00:00"
+  },
+  {
+    "title": "Analysing India’s trade bottlenecks",
+    "link": "https://www.thehindu.com/opinion/op-ed/analysing-indias-trade-bottlenecks/article71250862.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 12:32:33 +0530",
+    "topic": "India's Trade Bottlenecks",
+    "summary": [
+      "India faces significant trade bottlenecks that hinder its economic growth",
+      "Identifying and addressing these bottlenecks is crucial for improving trade efficiency and competitiveness"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:36.952311+00:00"
+  },
+  {
+    "title": "Hyderabad airport suggests passengers to plan commute in advance amid Telangana-wide strike by app-based cab, auto services",
+    "link": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-airport-suggests-passengers-to-plan-commute-in-advance-amid-telangana-wide-strike-by-app-based-cab-auto-services/article71252150.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 12:31:56 +0530",
+    "topic": "TRANSPORTATION DISRUPTION",
+    "summary": [
+      "A Telangana-wide strike by app-based cab and auto services is expected to cause disruptions",
+      "Hyderabad airport is advising passengers to plan their commute in advance to minimize the impact of the strike"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:37.411375+00:00"
+  },
+  {
+    "title": "Jantar Mantar protest LIVE: Will not let FIRs be lodged against any protester, CJP says as 'thousands' continue to gather",
+    "link": "https://www.thehindu.com/news/national/cjp-jantar-mantar-protest-live-updates-rahul-gandhi-news-abhijeet-dipke-sonam-wangchuk-saurav-das-parliament-session/article71251952.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 12:31:52 +0530",
+    "topic": "Protest at Jantar Mantar",
+    "summary": [
+      "Thousands of protesters gather at Jantar Mantar",
+      "CJP vows not to let FIRs be lodged against protesters"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:37.642944+00:00"
+  },
+  {
+    "title": "Mamdani says NYC can’t arrest Netanyahu but the federal government should",
+    "link": "https://www.thehindu.com/news/international/mamdani-says-nyc-cant-arrest-netanyahu-but-the-federal-government-should/article71252405.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 12:31:41 +0530",
+    "topic": "International Relations",
+    "summary": [
+      "Mamdani's statement regarding NYC's inability to arrest Netanyahu",
+      "The suggestion that the federal government should take action"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:37.917451+00:00"
+  },
+  {
+    "title": "Telangana CM Revanth Reddy fills SIR Enumeration Forms",
+    "link": "https://www.thehindu.com/news/national/telangana/telangana-cm-revanth-reddy-fills-sir-enumeration-forms/article71252419.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 12:31:07 +0530",
+    "topic": "Government Administration",
+    "summary": [
+      "Telangana Chief Minister Revanth Reddy participated in the SIR Enumeration Forms filling process",
+      "The move is part of the government's efforts to update and verify data for effective public service delivery"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:38.413971+00:00"
+  },
+  {
+    "title": "After AC ‘malfunctions’ during warranty, Kerala man wins Rs 61,000 payout",
+    "link": "https://indianexpress.com/article/legal-news/ac-malfunctions-warranty-kerala-man-wins-rs-61000-10797784/",
+    "source": "Indian Express",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 07:00:33 +0000",
+    "topic": "Consumer Rights",
+    "summary": [
+      "A Kerala man received a payout of Rs 61,000 after his air conditioner malfunctioned during the warranty period",
+      "The case highlights consumer rights and the importance of companies honoring their warranties"
+    ],
+    "impact": "LOW",
+    "fetched_at": "2026-07-22T07:08:38.941473+00:00"
+  },
+  {
+    "title": "Earthquake of 4.2 magnitude hits western Nepal",
+    "link": "https://indianexpress.com/article/world/earthquake-magnitude-western-nepal-10797929/",
+    "source": "Indian Express",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 06:54:20 +0000",
+    "topic": "NATURAL DISASTER",
+    "summary": [
+      "A 4.2 magnitude earthquake struck western Nepal",
+      "The earthquake's impact and any resulting damage or casualties are not yet fully reported"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:39.381068+00:00"
+  },
+  {
+    "title": "From my daughter’s question, a lessson for the government: Student protest isn’t just about politics",
+    "link": "https://indianexpress.com/article/opinion/columns/government-student-protest-politics-jantar-mantar-dipke-10797914/",
+    "source": "Indian Express",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 06:52:33 +0000",
+    "topic": "Student Protest and Government Policy",
+    "summary": [
+      "The article discusses a student protest and its implications on government policy",
+      "It highlights the need for the government to listen to the concerns of students and address their issues"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:40.009715+00:00"
+  },
+  {
+    "title": "Popular fast-food outlet in Ahmedabad sealed for serving ‘non-veg’ burger",
+    "link": "https://indianexpress.com/article/cities/ahmedabad/popular-fast-food-outlet-ahmedabad-sealed-non-veg-burger-10797896/",
+    "source": "Indian Express",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 06:47:41 +0000",
+    "topic": "Food Safety",
+    "summary": [
+      "A popular fast-food outlet in Ahmedabad was sealed for serving a non-veg burger",
+      "The incident highlights concerns over food safety and mislabeling in the fast-food industry"
+    ],
+    "impact": "LOW",
+    "fetched_at": "2026-07-22T07:08:40.587411+00:00"
+  },
+  {
+    "title": "TCS case: POSH member who told complainant to ‘drop it’ gets bail",
+    "link": "https://indianexpress.com/article/cities/mumbai/tcs-sexual-harassment-conversion-ashwini-chainani-manager-who-told-complainant-to-drop-it-gets-bail-10797911/",
+    "source": "Indian Express",
+    "category": "india_national",
+    "published": "Wed, 22 Jul 2026 06:45:57 +0000",
+    "topic": "Crime and Investigation",
+    "summary": [
+      "A POSH (Prevention of Sexual Harassment) committee member has been granted bail in the TCS case",
+      "The member had allegedly advised the complainant to drop the complaint"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-22T07:08:40.922275+00:00"
+  },
+  {
     "title": "Odisha CM attributes policy driven reforms to State being bracketed among top five performers by NITI Aayog",
     "link": "https://www.thehindu.com/news/national/odisha/odisha-cm-attributes-policy-driven-reforms-to-state-being-bracketed-among-top-five-performers-by-niti-aayog/article71252010.ece",
     "source": "The Hindu",
@@ -516,187 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-07-21T18:14:32.015613+00:00"
-  },
-  {
-    "title": "Three of family from Hyderabad killed in California road accident",
-    "link": "https://www.thehindu.com/news/cities/Hyderabad/three-of-family-from-hyderabad-killed-in-california-road-accident/article71250927.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 23:37:22 +0530",
-    "topic": "International Incident",
-    "summary": [
-      "A family of three from Hyderabad was killed in a road accident in California",
-      "The incident is being reported by a credible source, The Hindu"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T18:14:32.591223+00:00"
-  },
-  {
-    "title": "New curriculum for Classes IV-XII to include subjects on emerging technologies",
-    "link": "https://www.thehindu.com/news/cities/chennai/new-curriculum-for-classes-iv-xii-to-include-subjects-on-emerging-technologies/article71250047.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 23:35:05 +0530",
-    "topic": "Education Policy",
-    "summary": [
-      "The new curriculum will include subjects on emerging technologies for Classes IV-XII",
-      "The move aims to equip students with skills in cutting-edge technologies"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T18:14:33.021527+00:00"
-  },
-  {
-    "title": "Braving rain, thousands re-group at CJP protest site at Jantar Mantar",
-    "link": "https://www.thehindu.com/news/national/braving-rain-thousands-re-group-at-cjp-protest-site-at-jantar-mantar/article71250187.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 23:32:23 +0530",
-    "topic": "Protest at Jantar Mantar",
-    "summary": [
-      "Thousands of protesters gathered at Jantar Mantar despite rain",
-      "The protest is related to the CJP (Campaign for Judicial Accountability and Reforms) movement"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T18:14:33.511504+00:00"
-  },
-  {
-    "title": "SIT formed to look into allegations against Art of Living, says Karnataka Deputy Chief Minister",
-    "link": "https://www.thehindu.com/news/national/karnataka/sit-formed-to-look-into-allegations-against-art-of-living-says-karnataka-deputy-chief-minister/article71250381.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 23:29:44 +0530",
-    "topic": "Investigation into Art of Living",
-    "summary": [
-      "A Special Investigation Team (SIT) has been formed to investigate allegations against Art of Living",
-      "The announcement was made by Karnataka Deputy Chief Minister"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T18:14:34.258621+00:00"
-  },
-  {
-    "title": "Congress takes out Lok Bhavan march in Thiruvananthapuram",
-    "link": "https://www.thehindu.com/news/national/kerala/congress-takes-out-lok-bhavan-march-in-thiruvananthapuram/article71250907.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 23:28:01 +0530",
-    "topic": "Politics",
-    "summary": [
-      "Congress party organizes a march in Thiruvananthapuram, known as Lok Bhavan march",
-      "The event is likely a demonstration of political presence and public engagement in the region"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T18:14:35.073241+00:00"
-  },
-  {
-    "title": "Farmer leader Raju Shetti, Mahadev Jankar picked up by Delhi police",
-    "link": "https://indianexpress.com/article/cities/pune/raju-shetti-mahadev-jankar-detained-delhi-police-kisan-ghat-protest-india-us-trade-deal-10797349/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 17:44:40 +0000",
-    "topic": "Arrest of Farmer Leaders",
-    "summary": [
-      "Farmer leader Raju Shetti and Mahadev Jankar were picked up by Delhi police",
-      "The arrest is likely related to the ongoing farmers' protests in India"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T18:14:35.565056+00:00"
-  },
-  {
-    "title": "KMRL urged to repair Kochi metro diversion roads, ease bottlenecks",
-    "link": "https://www.thehindu.com/news/national/kerala/kmrl-urged-to-repair-kochi-metro-diversion-roads-ease-bottlenecks/article71250318.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 22:16:17 +0530",
-    "topic": "Infrastructure Development",
-    "summary": [
-      "The Kochi metro diversion roads need repair",
-      "Easing bottlenecks is necessary for smooth traffic flow"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T16:53:45.584520+00:00"
-  },
-  {
-    "title": "Farmers breach Baldota factory premises during protest in Koppal",
-    "link": "https://www.thehindu.com/news/national/karnataka/farmers-breach-baldota-factory-premises-during-protest-in-koppal/article71249838.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 22:15:18 +0530",
-    "topic": "Protest in Koppal",
-    "summary": [
-      "Farmers protested at the Baldota factory premises in Koppal",
-      "The protest led to a breach of the factory premises"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T16:53:45.967353+00:00"
-  },
-  {
-    "title": "Kannada organisations urge State to oppose Maharashtra govt.’s plan to build new reservoir in Kolhapur district",
-    "link": "https://www.thehindu.com/news/national/karnataka/kannada-organisations-urge-state-to-object-maharashtra-govts-plan-to-build-new-reservoir-in-kolhapur-district/article71249772.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 22:14:14 +0530",
-    "topic": "Interstate Water Dispute",
-    "summary": [
-      "Kannada organisations are opposing Maharashtra's plan to build a new reservoir in Kolhapur district",
-      "The reservoir could potentially affect the water supply and interests of Karnataka state"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T16:53:46.296792+00:00"
-  },
-  {
-    "title": "Congress surprises Govt, its own MPs with protest at PM's doorstep; thousands regroup at CJP's Jantar Mantar protest site | LIVE",
-    "link": "https://www.thehindu.com/news/national/cjp-protest-delhi-jantar-mantar-sonam-wangchuk-july-21-2026/article71247869.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 22:11:16 +0530",
-    "topic": "Indian Politics",
-    "summary": [
-      "Congress party protests at the Prime Minister's doorstep",
-      "Thousands regroup at the Chief Justice of India's Jantar Mantar protest site"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T16:53:47.014494+00:00"
-  },
-  {
-    "title": "India-U.K. FTA creates predictability for businesses on both sides: City of London policy chief",
-    "link": "https://www.thehindu.com/opinion/interview/india-uk-fta-creates-predictability-for-businesses-on-both-sides-city-of-london-policy-chief/article71248657.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 22:07:56 +0530",
-    "topic": "India-U.K. Free Trade Agreement",
-    "summary": [
-      "The India-U.K. Free Trade Agreement (FTA) provides predictability for businesses on both sides",
-      "According to the City of London policy chief, the FTA is expected to boost trade and investment between the two nations"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T16:53:47.466266+00:00"
-  },
-  {
-    "title": "Kannada organisations urge State to object Maharashtra govt.’s plan to build new reservoir in Kolhapur district",
-    "link": "https://www.thehindu.com/news/national/karnataka/kannada-organisations-urge-state-to-object-maharashtra-govts-plan-to-build-new-reservoir-in-kolhapur-district/article71249772.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 20:26:17 +0530",
-    "topic": "Interstate Water Dispute",
-    "summary": [
-      "Kannada organisations are protesting against Maharashtra's plan to build a new reservoir in Kolhapur district",
-      "The reservoir could potentially affect the water supply and rights of Karnataka state"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T15:02:06.874345+00:00"
-  },
-  {
-    "title": "Toxic gas kills 12 in Sikkim hydropower tunnel",
-    "link": "https://www.thehindu.com/news/national/sikkim/sikkim-tunnel-collapse-namchi-district-workers-trapped-death-toll-july-21/article71248097.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 21 Jul 2026 20:26:12 +0530",
-    "topic": "INDUSTRIAL ACCIDENT",
-    "summary": [
-      "Toxic gas leak in Sikkim hydropower tunnel results in 12 fatalities",
-      "Incident occurred at a hydropower project site, details of the leak and its cause under investigation"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-21T15:02:07.669976+00:00"
   }
 ]
