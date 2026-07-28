@@ -1,5 +1,103 @@
 [
   {
+    "title": "The urban nightmare — a fire with no escape",
+    "link": "https://www.thehindu.com/opinion/lead/the-urban-nightmare-a-fire-with-no-escape/article71277999.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 01:46:28 +0530",
+    "topic": "Fire Safety Concerns in Urban Areas",
+    "summary": [
+      "A recent fire incident highlights the lack of escape routes in urban areas",
+      "The incident raises concerns about fire safety and emergency preparedness in densely populated cities"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T20:42:01.274053+00:00"
+  },
+  {
+    "title": "Iran’s Afghan balancing act amid regional upheaval",
+    "link": "https://www.thehindu.com/opinion/op-ed/irans-afghan-balancing-act-amid-regional-upheaval/article71278038.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 01:45:11 +0530",
+    "topic": "Geopolitics",
+    "summary": [
+      "Iran is navigating its relationship with Afghanistan amid regional instability",
+      "The situation has implications for international relations and geopolitical dynamics in the region"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T20:42:01.695058+00:00"
+  },
+  {
+    "title": "Artistes oppose bid to privatise Kolhapur’s Palace Theatre",
+    "link": "https://www.thehindu.com/news/cities/mumbai/artistes-oppose-bid-to-privatise-kolhapurs-palace-theatre/article71277654.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 01:43:46 +0530",
+    "topic": "Cultural Heritage and Privatization",
+    "summary": [
+      "The Palace Theatre in Kolhapur is facing a potential privatization bid",
+      "Local artistes are opposing the move, citing concerns over cultural heritage and access"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T20:42:02.192870+00:00"
+  },
+  {
+    "title": "Protecting protest: On mass protests",
+    "link": "https://www.thehindu.com/opinion/editorial/protecting-protest-on-mass-protests/article71277247.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 01:34:27 +0530",
+    "topic": "Mass Protests Protection",
+    "summary": [
+      "The article discusses the importance of protecting the right to protest in a democratic society",
+      "It highlights the need for the government to balance maintaining law and order with respecting the rights of protesters"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T20:42:02.523017+00:00"
+  },
+  {
+    "title": "BJP bids to stave off JSP, RJD challenge as campaigning ends for Bankipur byelection",
+    "link": "https://www.thehindu.com/news/national/bihar/bjp-bids-to-stave-off-jsp-rjd-challenge-as-campaigning-ends-for-bankipur-byelection/article71277579.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 01:34:14 +0530",
+    "topic": "Indian Politics",
+    "summary": [
+      "The BJP is campaigning to maintain its position in the Bankipur byelection",
+      "The JSP and RJD are posing a challenge to the BJP in the election"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T20:42:02.901723+00:00"
+  },
+  {
+    "title": "Assam floods: Death toll reaches 75, MLAs to donate a month’s salary for flood relief",
+    "link": "https://www.thehindu.com/news/national/assam/all-assam-mlas-pledge-one-month-salary-for-flood-relief-except-for-raijor-dal-members/article71275917.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 01:20:59 +0530",
+    "topic": "Natural Disaster",
+    "summary": [
+      "Death toll from Assam floods reaches 75",
+      "MLAs to donate a month’s salary for flood relief efforts"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T20:42:03.373070+00:00"
+  },
+  {
+    "title": "NMC releases eligibility guidelines for NEET candidates with disability – two weeks after results",
+    "link": "https://indianexpress.com/article/india/nmc-releases-eligibility-guidelines-for-neet-candidates-with-disability-two-weeks-after-results-10808011/",
+    "source": "Indian Express",
+    "category": "india_national",
+    "published": "Tue, 28 Jul 2026 19:15:56 +0000",
+    "topic": "NEET Eligibility Guidelines for Candidates with Disability",
+    "summary": [
+      "The National Medical Commission (NMC) has released eligibility guidelines for NEET candidates with disabilities",
+      "The guidelines were released two weeks after the NEET results, potentially affecting candidates' admission prospects"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T20:42:04.307224+00:00"
+  },
+  {
     "title": "Bar Councils must collect data on lawyers facing criminal records, says Madras High Court",
     "link": "https://www.thehindu.com/news/national/tamil-nadu/bar-councils-must-collect-data-on-lawyers-facing-criminal-records-says-madras-high-court/article71278146.ece",
     "source": "The Hindu",
@@ -600,103 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-07-28T11:34:51.325631+00:00"
-  },
-  {
-    "title": "Ebola cases in Congo top 3,200, nearing record of the country’s worst outbreak",
-    "link": "https://www.thehindu.com/news/international/ebola-cases-in-congo-top-3200-nearing-record-of-the-countrys-worst-outbreak/article71276382.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 16:53:53 +0530",
-    "topic": "Health Outbreak",
-    "summary": [
-      "Ebola cases in Congo have surpassed 3,200",
-      "The current outbreak is nearing the record of the country's worst outbreak"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T11:34:51.753674+00:00"
-  },
-  {
-    "title": "When students spoke, government listened",
-    "link": "https://indianexpress.com/article/opinion/columns/when-students-spoke-government-listened-10807421/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 11:21:06 +0000",
-    "topic": "Government Policy Change",
-    "summary": [
-      "The government has taken action in response to student concerns",
-      "This move indicates a shift in the government's approach to student voices"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T11:34:52.454037+00:00"
-  },
-  {
-    "title": "Expert Explains | What the entry of the Houthis means for the US-Iran conflict",
-    "link": "https://indianexpress.com/article/explained/explained-global/iran-war-houthi-red-sea-shipping-explained-10807399/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 11:18:08 +0000",
-    "topic": "US-Iran conflict and Houthi involvement",
-    "summary": [
-      "The entry of the Houthis into the US-Iran conflict could escalate tensions in the Middle East",
-      "Expert analysis suggests the Houthis' involvement may have significant implications for regional and global stability"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T11:34:52.918067+00:00"
-  },
-  {
-    "title": "Days after its opening, massive crater appears on road leading to Rs 16-crore bridge in Dehradun",
-    "link": "https://indianexpress.com/article/india/dehradun-bridge-road-caves-in-nanda-chowki-congress-accuses-bjp-10807426/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 11:12:05 +0000",
-    "topic": "Infrastructure",
-    "summary": [
-      "A massive crater has appeared on the road leading to a newly opened Rs 16-crore bridge in Dehradun",
-      "The incident occurred just days after the bridge's opening, raising concerns about the construction quality and maintenance"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T11:34:53.279776+00:00"
-  },
-  {
-    "title": "No more Gandhinagar trips: Gujarat raises district collectors’ land allotment powers",
-    "link": "https://indianexpress.com/article/cities/ahmedabad/gujarat-land-allotment-rules-collectors-powers-increased-10807413/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 11:10:26 +0000",
-    "topic": "Policy Change",
-    "summary": [
-      "Gujarat government has increased the land allotment powers of district collectors",
-      "This move aims to reduce the need for frequent trips to Gandhinagar for land allotment approvals"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T11:34:53.747984+00:00"
-  },
-  {
-    "title": "Case pending since 2005, Punjab and Haryana High Court ‘saves’ 2 ‘from stigma of jail life’",
-    "link": "https://indianexpress.com/article/legal-news/case-pending-2005-punjab-haryana-high-court-saves-2-stgma-jail-life-10806916/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 11:09:08 +0000",
-    "topic": "Crime and Justice",
-    "summary": [
-      "The Punjab and Haryana High Court has made a significant decision in a case pending since 2005",
-      "The court's ruling has saved two individuals from the stigma of jail life"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T11:34:54.072328+00:00"
-  },
-  {
-    "title": "Parliament Monsoon Session Day 7 LIVE: LS takes up Public Examinations Amendment Bill; 'Govt. not serious about education,' Gaurav Gogoi says, opening discussion for Oppn.",
-    "link": "https://www.thehindu.com/news/national/parliament-monsoon-lok-sabha-live-updates-2026-july-28-2026-exam-amendment-bill-news/article71275442.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 14:38:28 +0530",
-    "topic": "Indian Parliament Monsoon Session",
-    "summary": [
-      "The Lok Sabha takes up the Public Examinations Amendment Bill",
-      "Opposition leader Gaurav Gogoi criticizes the government's stance on education"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T09:16:36.891269+00:00"
   }
 ]
