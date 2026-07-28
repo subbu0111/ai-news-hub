@@ -1,5 +1,103 @@
 [
   {
+    "title": "Japan earthquake LIVE: At least two dead in shopping mall hit by quake, says report",
+    "link": "https://www.thehindu.com/news/international/japan-earthquake-today-live-updates-seismic-activity-tsunami-warnings-on-july-28-2026-several-dead-injured/article71276753.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 04:10:53 +0530",
+    "topic": "Natural Disaster",
+    "summary": [
+      "At least two people are dead after an earthquake hit a shopping mall in Japan",
+      "The report comes from a credible source, The Hindu, indicating a significant incident"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T23:29:10.613802+00:00"
+  },
+  {
+    "title": "West Asia war updates: Trump says 'good talks' with Iran, threatens to strike if deal not made",
+    "link": "https://www.thehindu.com/news/international/iran-israel-us-war-july-28-2026-latest-updates-strait-of-hormuz-donald-trump-oil-prices-today/article71275308.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 04:10:22 +0530",
+    "topic": "International Relations",
+    "summary": [
+      "US President Trump reports having 'good talks' with Iran",
+      "Trump threatens to strike Iran if a deal is not made"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T23:29:10.889535+00:00"
+  },
+  {
+    "title": "Ahead of 2027 Punjab polls, AAP’s welfare spree sparks questions over timing, intent",
+    "link": "https://www.thehindu.com/news/national/punjab/ahead-of-2027-punjab-polls-aaps-welfare-spree-sparks-questions-over-timing-intent/article71277513.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 04:05:07 +0530",
+    "topic": "Indian Politics",
+    "summary": [
+      "AAP's welfare initiatives ahead of 2027 Punjab polls raise questions about timing and intent",
+      "The move is seen as an attempt to woo voters and gain an advantage in the upcoming elections"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T23:29:11.297954+00:00"
+  },
+  {
+    "title": "CPI(M), PDP condemn killings by security forces in POK",
+    "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/cpim-pdp-condemn-killings-by-security-forces-in-pok/article71277896.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 03:34:43 +0530",
+    "topic": "Killings in POK",
+    "summary": [
+      "CPI(M) and PDP have condemned the killings by security forces in Pakistan-occupied Kashmir (POK)",
+      "The incident has sparked political reactions in India, with opposition parties criticizing the security forces' actions"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T23:29:11.666612+00:00"
+  },
+  {
+    "title": "Delhi HC directs ECI to avoid imposing ‘unbearable’ burden on teachers during SIR",
+    "link": "https://www.thehindu.com/news/cities/Delhi/delhi-hc-directs-eci-to-avoid-imposing-unbearable-burden-on-teachers-during-sir/article71276781.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 02:54:40 +0530",
+    "topic": "Delhi HC directs ECI to avoid imposing burden on teachers",
+    "summary": [
+      "The Delhi High Court has given directions to the Election Commission of India (ECI) regarding the deployment of teachers during the Summary Revision (SIR) of electoral rolls",
+      "The court's order aims to prevent an 'unbearable' burden on teachers and ensure they can focus on their primary duties"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T23:29:12.073763+00:00"
+  },
+  {
+    "title": "CBI files charge sheet against 13 accused in NEET-UG 2026 paper leak case",
+    "link": "https://www.thehindu.com/news/national/cbi-files-charge-sheet-against-13-accused-in-neet-ug-2026-paper-leak-case/article71278505.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Wed, 29 Jul 2026 02:46:05 +0530",
+    "topic": "Crime/Investigation",
+    "summary": [
+      "The CBI has filed a charge sheet against 13 accused in the NEET-UG 2026 paper leak case",
+      "The case involves a significant breach of exam security, affecting thousands of students"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T23:29:12.504668+00:00"
+  },
+  {
+    "title": "IPS trainee arrested in sexual harassment case that rocked National Police Academy",
+    "link": "https://indianexpress.com/article/india/ips-trainee-arrested-in-sexual-harassment-case-that-rocked-national-police-academy-10808159/",
+    "source": "Indian Express",
+    "category": "india_national",
+    "published": "Tue, 28 Jul 2026 23:05:11 +0000",
+    "topic": "Crime and Investigation",
+    "summary": [
+      "An IPS trainee has been arrested in a sexual harassment case",
+      "The incident occurred at the National Police Academy"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-07-28T23:29:12.878475+00:00"
+  },
+  {
     "title": "Unwise to link women’s quota with delimitation: K.T. Rama Rao",
     "link": "https://www.thehindu.com/news/national/student-protest-an-inflexion-point-but-govt-still-has-time-to-win-them-over-ktr/article71276249.ece",
     "source": "The Hindu",
@@ -600,103 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-07-28T14:00:10.858812+00:00"
-  },
-  {
-    "title": "4,884 complaints against National Highway toll plazas in Karnataka in three years; only five cases remain pending",
-    "link": "https://www.thehindu.com/news/national/karnataka/4884-complaints-against-national-highway-toll-plazas-in-karnataka-in-three-years-only-five-cases-remain-pending/article71262656.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 19:23:09 +0530",
-    "topic": "Infrastructure and Development",
-    "summary": [
-      "4,884 complaints filed against National Highway toll plazas in Karnataka over three years",
-      "Only five cases remain pending, indicating a high resolution rate"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T14:00:11.348331+00:00"
-  },
-  {
-    "title": "Parliament Monsoon Session Day 7 LIVE: Venugopal questions absence of Amit Shah in Lok Sabha, says 'he is the person who rules Delhi'",
-    "link": "https://www.thehindu.com/news/national/parliament-monsoon-lok-sabha-live-updates-2026-july-28-2026-exam-amendment-bill-news/article71275442.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 19:22:27 +0530",
-    "topic": "Indian Politics",
-    "summary": [
-      "Venugopal questions Amit Shah's absence in Lok Sabha",
-      "Venugopal states Amit Shah is the person who rules Delhi, implying his influence on the government"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T14:00:12.019521+00:00"
-  },
-  {
-    "title": "Rameshan Paleri, chairman of Kerala-based Uralungal cooperative society, dies",
-    "link": "https://www.thehindu.com/news/national/kerala/ramesan-paleri-chairman-of-kerala-based-uralungal-cooperative-society-dies/article71275565.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 19:21:21 +0530",
-    "topic": "OBITUARY",
-    "summary": [
-      "Rameshan Paleri, chairman of Kerala-based Uralungal cooperative society, has passed away",
-      "The Uralungal cooperative society is a significant organization in Kerala, known for its contributions to the state's economy and social development"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T14:00:12.441118+00:00"
-  },
-  {
-    "title": "Clean up or pay Rs 1 lakh fine: Bengaluru residents urged to report vacant-plot waste",
-    "link": "https://indianexpress.com/article/cities/bangalore/bengaluru-vacant-plot-fine-waste-clearance-august-15-gba-10807708/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 13:52:53 +0000",
-    "topic": "Environmental Policy",
-    "summary": [
-      "Bengaluru residents are being urged to report waste in vacant plots",
-      "Failure to clean up may result in a fine of Rs 1 lakh"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T14:00:13.020627+00:00"
-  },
-  {
-    "title": "Why the vitality of pressure groups in a democracy remains incontestable",
-    "link": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/why-the-vitality-of-pressure-groups-in-a-democracy-remains-incontestable-10807624/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 13:43:42 +0000",
-    "topic": "Importance of Pressure Groups in Democracy",
-    "summary": [
-      "Pressure groups play a crucial role in shaping public policy and holding governments accountable",
-      "Their vitality is essential for a healthy democracy, as they provide a platform for diverse voices and interests to be represented"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T14:00:14.209603+00:00"
-  },
-  {
-    "title": "Industrial growth rises to 7.3% in June, highest in 23 months",
-    "link": "https://indianexpress.com/article/business/industrial-growth-rises-june-highest-23-months-10807681/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 13:39:33 +0000",
-    "topic": "Economic Growth",
-    "summary": [
-      "India's industrial growth has risen to 7.3% in June",
-      "This is the highest growth in 23 months"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T14:00:14.646565+00:00"
-  },
-  {
-    "title": "India funds construction of school building in Nepal with NPR 75 million aid",
-    "link": "https://indianexpress.com/article/education/india-funds-construction-of-school-building-in-nepal-with-npr-75-million-aid-10807684/",
-    "source": "Indian Express",
-    "category": "india_national",
-    "published": "Tue, 28 Jul 2026 13:32:53 +0000",
-    "topic": "International Development",
-    "summary": [
-      "India provides NPR 75 million aid to Nepal for school building construction",
-      "The aid reflects India's commitment to supporting Nepal's education sector"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-28T14:00:15.293375+00:00"
   }
 ]
