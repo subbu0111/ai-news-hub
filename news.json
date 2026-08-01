@@ -1,5 +1,19 @@
 [
   {
+    "title": "IMD sees below-normal August-September rains, reviving inflation fears",
+    "link": "https://www.livemint.com/news/india/imd-sees-below-normal-august-september-rains-reviving-inflation-fears-11785504521750.html",
+    "source": "Mint",
+    "category": "india_business",
+    "published": "Fri, 31 Jul 2026 21:55:17 +0530",
+    "topic": "Economic Indicators",
+    "summary": [
+      "India Meteorological Department (IMD) forecasts below-normal rainfall for August-September",
+      "This prediction may lead to inflation concerns due to potential impact on agricultural production and food prices"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-01T00:03:07.307336+00:00"
+  },
+  {
     "title": "Waqf registrations rise by 35,000 in West Bengal after UMEED portal launch",
     "link": "https://www.thehindu.com/news/national/west-bengal/waqf-registrations-rise-by-35000-in-west-bengal-after-umeed-portal-launch/article71290916.ece",
     "source": "The Hindu",
@@ -684,19 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-07-31T12:53:45.876411+00:00"
-  },
-  {
-    "title": "Daily drinking water supply to all wards in Thoothukudi Corporation from August 15, announces Mayor Jegan Periyasamy",
-    "link": "https://www.thehindu.com/news/cities/Madurai/daily-drinking-water-supply-to-all-wards-in-thoothukudi-corporation-from-august-15-announces-mayor-jegan-periyasamy/article71290268.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Fri, 31 Jul 2026 18:09:29 +0530",
-    "topic": "Infrastructure Development",
-    "summary": [
-      "Thoothukudi Corporation to provide daily drinking water supply to all wards",
-      "Mayor Jegan Periyasamy announces the initiative to start from August 15"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-07-31T12:53:46.312759+00:00"
   }
 ]
