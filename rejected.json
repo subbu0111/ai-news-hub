@@ -1,325 +1,5 @@
 [
   {
-    "title": "Health, safety, AI: test your business creativity with Edition 243 of our weekly quiz!",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/health-safety-ai-business-creativity-quiz-entrepreneur",
-    "rejected_at": "2026-08-02T08:20:04.582851+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Humour, passion, connection: Montreal Comiccon celebrates summer edition",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/07/humour-passion-connection-montreal-comiccon-creativity-photography",
-    "rejected_at": "2026-08-02T08:20:04.635245+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Sarvam’s AI Arsenal",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/features/sarvams-ai-arsenal/",
-    "rejected_at": "2026-08-02T08:20:04.698586+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "[Update] Zepto Confirms IPO Pause, Plans Pre-IPO Fundraise",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/zepto-to-now-re-attempt-ipo-by-may-2027-report/",
-    "rejected_at": "2026-08-02T08:20:04.756286+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Shadowfax Leads New-Age Tech Stocks This Week, Pine Labs Slides On Q1 Earnings",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/shadowfax-leads-new-age-tech-stocks-this-week-pine-labs-slides-on-q1-earnings/",
-    "rejected_at": "2026-08-02T08:20:04.809130+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
-    "rejected_at": "2026-08-02T08:20:04.863846+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "From Freehand To Sid’s Farms — Indian Startups Raised $142 Mn This Week",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/from-freehand-to-sids-farms-indian-startups-raised-142-mn-this-week/",
-    "rejected_at": "2026-08-02T08:20:04.918680+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Inside the London hacker house taking a stand against founder burnout",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
-    "rejected_at": "2026-08-02T08:20:04.970578+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-    "rejected_at": "2026-08-02T08:20:05.060233+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-    "rejected_at": "2026-08-02T08:20:05.113018+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Should you still buy your next smartphone — or subscribe to it instead?",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/01/should-you-still-buy-your-next-smartphone-or-subscribe-to-it-instead/",
-    "rejected_at": "2026-08-02T08:20:05.164394+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Sam Altman is still making the case for parenting via ChatGPT",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
-    "rejected_at": "2026-08-02T08:20:05.222056+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "This $9 key physically locks your most addictive apps",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
-    "rejected_at": "2026-08-02T08:20:05.310596+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Uber is building an autonomous vehicle empire, and here’s every company it’s using to do it",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker/",
-    "rejected_at": "2026-08-02T08:20:05.372005+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Apps that help you break free from doomscrolling and get active",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/01/apps-that-help-you-break-free-from-doomscrolling-and-get-active/",
-    "rejected_at": "2026-08-02T08:20:05.429749+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "‘If you believe PM Modi is developing India, then why…’: Raj Thackeray questions Vivek Oberoi, R Madhavan's Dubai move",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/if-you-believe-pm-modi-is-developing-india-then-why-raj-thackeray-questions-vivek-oberoi-r-madhavans-dubai-move-11785660692025.html",
-    "rejected_at": "2026-08-02T10:13:50.477641+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Quote of the day on Friendship Day: 'A true friend is someone who is there for you when he'd rather be…'",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/quote-of-the-day-on-friendship-day-a-true-friend-is-someone-who-is-there-for-you-when-hed-rather-be-11785658053062.html",
-    "rejected_at": "2026-08-02T10:13:51.131208+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Quote Of The Day: 'The sincere friends of this world...' — Giotto Di Bondone's timeless lesson on friendship",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/trends/quote-of-the-day-the-sincere-friends-of-this-world-giotto-di-bondones-timeless-lesson-on-friendship-11785660893272.html",
-    "rejected_at": "2026-08-02T10:13:51.278844+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Rahul Gandhi's adorable ‘Korean finger heart’ post on Friendship Day takes internet by storm: ‘Bro is entering Gen Z….'",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/trends/rahul-gandhi-adorable-korean-finger-heart-post-on-friendship-day-takes-internet-by-storm-is-entering-gen-z-lesson-sign-11785657012632.html",
-    "rejected_at": "2026-08-02T10:13:51.429067+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Mountaineer Nirmal Purja's final message before fatal broad peak avalanche: 'Never took a mountain for granted'",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/trends/mountaineer-nirmal-purjas-final-message-before-fatal-broad-peak-avalanche-never-took-a-mountain-for-granted-11785656669961.html",
-    "rejected_at": "2026-08-02T10:13:51.477178+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Quote of the day by Charles Eastman on valuing bonds beyond blood: ‘Friendship is held to be the severest….’",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/quote-of-the-day-by-charles-eastman-on-valuing-bonds-beyond-blood-friendship-is-held-to-be-the-severest-11785652918044.html",
-    "rejected_at": "2026-08-02T10:13:51.629600+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Bonalu fervour grips Secunderabad as lakhs throng Ujjaini Mahankali Temple",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/cities/Hyderabad/bonalu-fervour-grips-secunderabad-as-lakhs-throng-ujjaini-mahankali-temple/article71297251.ece",
-    "rejected_at": "2026-08-02T10:13:51.686954+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Hours-long wait, VIP movement leave Mahankali Bonalu devotees fuming",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/cities/Hyderabad/hours-long-wait-vip-movement-leave-mahankali-bonalu-devotees-fuming/article71297282.ece",
-    "rejected_at": "2026-08-02T10:13:51.740347+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Monsoon breathes new life into Nalla Cheruvu in Uppal",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/monsoon-breathes-new-life-into-nalla-cheruvu-in-uppal/article71295107.ece",
-    "rejected_at": "2026-08-02T10:13:51.795549+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Godavari in spate at Bhadrachalam, swollen streams disrupt road links",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/godavari-in-spate-at-bhadrachalam-swollen-streams-disrupt-road-links/article71295233.ece",
-    "rejected_at": "2026-08-02T10:13:51.846755+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Remembering Jikki, the voice that transformed South Indian cinema",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/remembering-jikki-the-voice-that-transformed-south-indian-cinema",
-    "rejected_at": "2026-08-02T10:13:51.899547+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Students lead ‘Nasha Mukt Bharat’ campaign at Fit India Sundays on Cycle event",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/students-lead-nasha-mukt-bharat-campaign-at-fit-india-sundays-on-cycle-event",
-    "rejected_at": "2026-08-02T10:13:51.956019+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Jasprit Bumrah unlikely to feature in Sri Lanka Tests due to knee injury",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/jasprit-bumrah-unlikely-to-feature-in-sri-lanka-tests-due-to-knee-injury",
-    "rejected_at": "2026-08-02T10:13:52.005516+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Rahul threatened by PM Modi’s popularity among youth: Piyush Goyal",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/rahul-threatened-by-pm-modis-popularity-among-youth-piyush-goyal",
-    "rejected_at": "2026-08-02T10:13:52.058677+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Will Telangana government introduce the Hate Speech and CURE Bills this session?",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/will-telangana-government-introduce-the-hate-speech-and-cure-bills-this-session",
-    "rejected_at": "2026-08-02T10:13:52.111481+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Agricultural worker’s son Praveen Chithravel’s CWG silver sparks celebrations in Tamil Nadu village",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/agricultural-workers-son-praveen-chithravels-cwg-silver-sparks-celebrations-in-tamil-nadu-village",
-    "rejected_at": "2026-08-02T10:13:52.160008+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "MasterChef India Tamil Finalist Chef Preethi Raghunandan Brings Authentic Tamil Cuisine to Hyderabad",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/masterchef-india-tamil-finalist-chef-preethi-raghunandan-brings-authentic-tamil-cuisine-to-hyderabad",
-    "rejected_at": "2026-08-02T10:13:52.214167+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "SC to hear pleas on alleged police excesses during NEET protest",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/sc-to-hear-pleas-on-alleged-police-excesses-during-neet-protest",
-    "rejected_at": "2026-08-02T10:13:52.264203+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Uplers introduces AI-powered matching to help startups hire faster",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/07/uplers-introduces-ai-powered-matching-help-startups-hire-faster",
-    "rejected_at": "2026-08-02T10:13:52.324009+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "EbixCash World Money gets perpetual RBI licence for trade and family remittances",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/07/ebixcash-world-money-gets-perpetual-rbi-licence-for-trade-and-family-remittances",
-    "rejected_at": "2026-08-02T10:13:52.378795+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Youth Photographic Society showcases winners of 2026 international competition",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/07/youth-photographic-society-creativity-awards",
-    "rejected_at": "2026-08-02T10:13:52.430986+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Own it, launch it, talk to them: A practical playbook from Hostinger's CEO for Indian MSMEs",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/07/own-it-launch-it-talk-to-them-a-practical-playbook-from-hostingers-ceo-for-indian-msmes",
-    "rejected_at": "2026-08-02T10:13:52.483825+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "(Weekly funding roundup July 25-31) VC funding drops to another low",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/07/weekly-funding-roundup-july-25-31-vc-funding-drops-to-another-low",
-    "rejected_at": "2026-08-02T10:13:52.538838+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Health, safety, AI: test your business creativity with Edition 243 of our weekly quiz!",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/health-safety-ai-business-creativity-quiz-entrepreneur",
-    "rejected_at": "2026-08-02T10:13:52.588087+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "7 Books about the importance of valuing your attention",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/06/7-books-teach-value-attention",
-    "rejected_at": "2026-08-02T10:13:52.639512+00:00",
-    "reason": "Not relevant"
-  },
-  {
     "title": "Humour, passion, connection: Montreal Comiccon celebrates summer edition",
     "source": "YourStory",
     "category": "india_tech",
@@ -3997,6 +3677,326 @@
     "category": "global_tech",
     "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
     "rejected_at": "2026-08-02T22:53:32.470029+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Had to prove that I deserved to be part of Asian Games team: Ankur Bhattacharjee",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/sport/other-sports/had-to-prove-that-i-deserved-to-be-part-of-asian-games-team-ankur-bhattacharjee/article71299138.ece",
+    "rejected_at": "2026-08-02T23:56:13.866561+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Quote of the Day by Spider-Man: 'Anyone can win a fight when the odds are easy! It's when the going's tough…'",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/us-news/quote-of-the-day-by-spider-man-anyone-can-win-a-fight-when-the-odds-are-easy-its-when-the-goings-tough-11785704162330.html",
+    "rejected_at": "2026-08-02T23:56:14.415925+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Spider-Man Brand New Day Box Office Collection Day 4: Peter Parker set to swing into the $1 billion club globally",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/trends/spiderman-brand-new-day-box-office-collection-day-4-peter-parker-set-to-swing-into-the-1-billion-club-globally-11785702223231.html",
+    "rejected_at": "2026-08-02T23:56:14.630854+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Pakistan suicide attack: Bomber strikes anti-militant rally in Khyber Pakhtunkhwa, leaving 14 dead",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/world/pakistan-suicide-attack-bomber-strikes-anti-militant-rally-in-khyber-pakhtunkhwa-leaving-14-dead-11785693310106.html",
+    "rejected_at": "2026-08-02T23:56:15.096800+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Miami’s ‘Billionaire Bunker’ — A man-made island for the .01% like Jeff Bezos and Mark Zuckerberg",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/us-news/miamis-billionaire-bunker-a-man-made-island-for-the-01-like-jeff-bezos-and-mark-zuckerberg-11785684137754.html",
+    "rejected_at": "2026-08-02T23:56:15.198860+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Slipper hurled at Pappu Yadav during press conference as MP defends Ram temple donation skit",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/slipper-hurled-at-pappu-yadav-during-press-conference-as-mp-defends-ram-temple-donation-skit-11785688535623.html",
+    "rejected_at": "2026-08-02T23:56:15.272585+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Congress failed to fulfil promises made to unemployed youth: Puvvada Ajay",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/congress-failed-to-fulfil-promises-made-to-unemployed-youth-puvvada-ajay/article71298495.ece",
+    "rejected_at": "2026-08-02T23:56:15.780596+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Six-year-old girl dies after falling under lorry in Balanagar",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/six-year-old-girl-dies-after-falling-under-lorry-in-balanagar/article71298393.ece",
+    "rejected_at": "2026-08-02T23:56:15.860033+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Over 950 motorists booked for drunk driving across Hyderabad, Cyberabad and Future City",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/over-950-motorists-booked-for-drunk-driving-across-hyderabad-cyberabad-and-future-city/article71298197.ece",
+    "rejected_at": "2026-08-02T23:56:15.985031+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Book on milestones in Telangana’s history launched at ATA conference in Baltimore",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/book-on-milestones-in-telanganas-history-launched-at-ata-conference-in-baltimore/article71297904.ece",
+    "rejected_at": "2026-08-02T23:56:16.071725+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Bhatti invites global investors to be part of Telangana’s growth story",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/bhatti-invites-global-investors-to-be-part-of-telanganas-growth-story/article71297979.ece",
+    "rejected_at": "2026-08-02T23:56:16.146654+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Flood warnings withdrawn as Godavari recedes at Bhadrachalam",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/flood-warnings-withdrawn-as-godavari-recedes-at-bhadrachalam/article71298151.ece",
+    "rejected_at": "2026-08-02T23:56:16.217538+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Arunachal duo first women to scale 7,077-metre Mt Kun",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/arunachal-duo-first-women-to-scale-7077-metre-mt-kun",
+    "rejected_at": "2026-08-02T23:56:16.300270+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "RSS leader Atul Limaye calls Jantar Mantar protest ‘anti-national’",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/rss-leader-atul-limaye-calls-jantar-mantar-protest-anti-national",
+    "rejected_at": "2026-08-02T23:56:16.385155+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Editorial: Gig workers must get fair deal",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/editorial-gig-workers-must-get-fair-deal",
+    "rejected_at": "2026-08-02T23:56:16.741046+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Opinion: Honouring Telangana’s legacy—a story of identity, culture and self-respect",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/opinion-honouring-telanganas-legacy-a-story-of-identity-culture-and-self-respect",
+    "rejected_at": "2026-08-02T23:56:16.847027+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Trump to hold off on Iran strikes citing framework to end war",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/trump-to-hold-off-on-iran-strikes-citing-framework-to-end-war",
+    "rejected_at": "2026-08-02T23:56:16.931066+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Pakistan: Fifteen killed in Swat police station suicide blast",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/pakistan-fifteen-killed-in-swat-police-station-suicide-blast",
+    "rejected_at": "2026-08-02T23:56:17.004768+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Elderly man killed as minor rams car into scooter in Hyderabad’s Karmika Nagar",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/elderly-man-killed-as-minor-rams-car-into-scooter-in-hyderabads-karmika-nagar",
+    "rejected_at": "2026-08-02T23:56:17.082380+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Parliament skit row: Slipper hurled at Pappu Yadav during Delhi presser",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/parliament-skit-row-slipper-hurled-at-pappu-yadav-during-delhi-presser",
+    "rejected_at": "2026-08-02T23:56:17.156612+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Health, safety, AI: test your business creativity with Edition 243 of our weekly quiz!",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/health-safety-ai-business-creativity-quiz-entrepreneur",
+    "rejected_at": "2026-08-02T23:56:17.527297+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "EbixCash World Money gets perpetual RBI licence for trade and family remittances",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/07/ebixcash-world-money-gets-perpetual-rbi-licence-for-trade-and-family-remittances",
+    "rejected_at": "2026-08-02T23:56:17.602875+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "(Weekly funding roundup July 25-31) VC funding drops to another low",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/07/weekly-funding-roundup-july-25-31-vc-funding-drops-to-another-low",
+    "rejected_at": "2026-08-02T23:56:17.692163+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Uplers introduces AI-powered matching to help startups hire faster",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/07/uplers-introduces-ai-powered-matching-help-startups-hire-faster",
+    "rejected_at": "2026-08-02T23:56:17.771644+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Humour, passion, connection: Montreal Comiccon celebrates summer edition",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/07/humour-passion-connection-montreal-comiccon-creativity-photography",
+    "rejected_at": "2026-08-02T23:56:17.845344+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "7 Books about the importance of valuing your attention",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/06/7-books-teach-value-attention",
+    "rejected_at": "2026-08-02T23:56:17.929066+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Own it, launch it, talk to them: A practical playbook from Hostinger's CEO for Indian MSMEs",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/07/own-it-launch-it-talk-to-them-a-practical-playbook-from-hostingers-ceo-for-indian-msmes",
+    "rejected_at": "2026-08-02T23:56:18.312847+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "RoshAi makes the trucks you already own drive themselves",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/07/roshai-self-driving-truck-technology",
+    "rejected_at": "2026-08-02T23:56:18.392779+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indian Startup IPO Tracker 2026",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
+    "rejected_at": "2026-08-02T23:56:18.479747+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Sarvam’s AI Arsenal",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/sarvams-ai-arsenal/",
+    "rejected_at": "2026-08-02T23:56:18.951921+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "[Update] Zepto Confirms IPO Pause, Plans Pre-IPO Fundraise",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/zepto-to-now-re-attempt-ipo-by-may-2027-report/",
+    "rejected_at": "2026-08-02T23:56:19.043289+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Shadowfax Leads New-Age Tech Stocks This Week, Pine Labs Slides On Q1 Earnings",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/shadowfax-leads-new-age-tech-stocks-this-week-pine-labs-slides-on-q1-earnings/",
+    "rejected_at": "2026-08-02T23:56:19.140326+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
+    "rejected_at": "2026-08-02T23:56:19.212963+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "The global memory shortage hits the MacBook Air",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/02/the-global-memory-shortage-hits-the-macbook-air/",
+    "rejected_at": "2026-08-02T23:56:19.294412+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Sam Altman and AI’s decel debate",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+    "rejected_at": "2026-08-02T23:56:19.369643+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/",
+    "rejected_at": "2026-08-02T23:56:19.450054+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
+    "rejected_at": "2026-08-02T23:56:19.566818+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Inside the London hacker house taking a stand against founder burnout",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/01/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
+    "rejected_at": "2026-08-02T23:56:19.652925+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+    "rejected_at": "2026-08-02T23:56:19.727009+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+    "rejected_at": "2026-08-02T23:56:19.825843+00:00",
     "reason": "Not relevant"
   }
 ]
