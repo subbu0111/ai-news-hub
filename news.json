@@ -1,5 +1,117 @@
 [
   {
+    "title": "Several WhatsApp users say their accounts 'put under review'",
+    "link": "https://www.thehindu.com/news/national/several-whatsapp-users-say-their-accounts-put-under-review/article71302768.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Tue, 04 Aug 2026 02:58:34 +0530",
+    "topic": "WhatsApp Account Review",
+    "summary": [
+      "Several WhatsApp users report their accounts being put under review",
+      "The issue is currently being investigated, with no official statement from WhatsApp"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-03T21:38:37.013241+00:00"
+  },
+  {
+    "title": "India will be the biggest destination for Japanese capital in a decade: AMFI chairman Sundeep Sikka",
+    "link": "https://www.thehindu.com/business/markets/india-will-be-the-biggest-destination-for-japanese-capital-in-a-decade-amfi-chairman-sandeep-sikka/article71294766.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Tue, 04 Aug 2026 02:45:58 +0530",
+    "topic": "ECONOMY",
+    "summary": [
+      "India is expected to be the biggest destination for Japanese capital in the next decade",
+      "Statement made by AMFI chairman Sundeep Sikka, indicating significant foreign investment"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-03T21:38:37.414756+00:00"
+  },
+  {
+    "title": "Delhi police move against social media handles over misleading Jantar Mantar protest videos",
+    "link": "https://www.thehindu.com/news/cities/Delhi/delhi-police-move-against-social-media-handles-over-misleading-jantar-mantar-protest-videos/article71301492.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Tue, 04 Aug 2026 02:29:40 +0530",
+    "topic": "Social Media Regulation",
+    "summary": [
+      "Delhi police take action against social media handles spreading misleading videos of Jantar Mantar protest",
+      "The move aims to curb the spread of misinformation and maintain public order"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-03T21:38:37.935348+00:00"
+  },
+  {
+    "title": "Cauvery water issue: DMK members walk out from both Houses in protest",
+    "link": "https://www.thehindu.com/news/national/dmk-protests-in-both-houses-of-parliament-on-cauvery-issue/article71301906.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Tue, 04 Aug 2026 02:23:38 +0530",
+    "topic": "Cauvery water issue",
+    "summary": [
+      "DMK members walked out from both Houses in protest",
+      "The protest is related to the ongoing Cauvery water dispute"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-03T21:38:38.235139+00:00"
+  },
+  {
+    "title": "Baghel asks workers to beware of ‘traitors’ within Punjab Congress",
+    "link": "https://www.thehindu.com/news/national/punjab/baghel-asks-workers-to-beware-of-traitors-within-punjab-congress/article71302264.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Tue, 04 Aug 2026 02:23:22 +0530",
+    "topic": "Indian Politics",
+    "summary": [
+      "Chhattisgarh Chief Minister Bhupesh Baghel warns Congress workers in Punjab about potential traitors within the party",
+      "The statement comes amidst internal conflicts and power struggles within the Punjab Congress"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-03T21:38:38.727439+00:00"
+  },
+  {
+    "title": "Opposition MPs protest over Ram Temple donation theft",
+    "link": "https://www.thehindu.com/news/national/opposition-parties-protest-outside-makar-dwar-in-parliament-house/article71301582.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Tue, 04 Aug 2026 02:22:05 +0530",
+    "topic": "Protest over Ram Temple donation theft",
+    "summary": [
+      "Opposition MPs are protesting over the theft of donations meant for the Ram Temple",
+      "The incident has sparked outrage and calls for investigation"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-03T21:38:39.893307+00:00"
+  },
+  {
+    "title": "AI and cyber, the double helix of today’s security threats",
+    "link": "https://www.thehindu.com/opinion/lead/ai-and-cyber-the-double-helix-of-todays-security-threats/article71302018.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Tue, 04 Aug 2026 02:12:49 +0530",
+    "topic": "Cybersecurity and AI",
+    "summary": [
+      "The increasing threat of AI-powered cyber attacks",
+      "The need for advanced security measures to combat these threats"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-03T21:38:40.170999+00:00"
+  },
+  {
+    "title": "Critical minerals, the foundation of strategic power",
+    "link": "https://www.thehindu.com/opinion/op-ed/critical-minerals-the-foundation-of-strategic-power/article71302082.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Tue, 04 Aug 2026 02:11:34 +0530",
+    "topic": "Critical Minerals and Strategic Power",
+    "summary": [
+      "The article discusses the importance of critical minerals in shaping a nation's strategic power",
+      "It highlights the need for India to focus on securing access to these minerals to support its economic and military growth"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-03T21:38:40.643360+00:00"
+  },
+  {
     "title": "DU student alleges Meta restricted four CJP protest videos",
     "link": "https://www.thehindu.com/todays-paper/tp-national/tp-newdelhi/du-student-alleges-meta-restricted-four-cjp-protest-videos/article71302815.ece",
     "source": "The Hindu",
@@ -586,117 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-08-03T13:23:47.407468+00:00"
-  },
-  {
-    "title": "Kerala High Court allows two crew members of capsized MSC Elsa 3 to return home",
-    "link": "https://www.thehindu.com/news/national/kerala/kerala-high-court-allows-two-crew-members-of-capsized-msc-elsa-3-to-return-home/article71301009.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Mon, 03 Aug 2026 18:34:55 +0530",
-    "topic": "Maritime Incident",
-    "summary": [
-      "The Kerala High Court has granted permission for two crew members of the capsized ship MSC Elsa 3 to return home.",
-      "The decision comes after the ship capsized, and the crew members were awaiting court clearance to leave the country."
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-03T13:23:47.873917+00:00"
-  },
-  {
-    "title": "He quit an  ₹11 LPA job in Bengaluru, now earns  ₹28 lakh a year selling water in hometown",
-    "link": "https://www.livemint.com/news/trends/he-quit-an-11-lpa-job-in-bengaluru-now-earns-28-lakh-a-year-selling-water-in-hometown-11785759890662.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Mon, 03 Aug 2026 18:41:42 +0530",
-    "topic": "Entrepreneurship",
-    "summary": [
-      "An individual quit a high-paying job in Bengaluru to start a water business in their hometown",
-      "The business has been successful, with the individual now earning ₹28 lakh per year"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-03T13:23:48.366077+00:00"
-  },
-  {
-    "title": "India, Iran explore interim Chabahar Port management deal amid hopes of US sanctions relief",
-    "link": "https://www.livemint.com/news/india/india-iran-explore-interim-chabahar-port-management-deal-amid-hopes-of-us-sanctions-relief-11785757111692.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Mon, 03 Aug 2026 18:00:22 +0530",
-    "topic": "International Trade",
-    "summary": [
-      "India and Iran are discussing an interim deal for the management of Chabahar Port",
-      "The move comes amid hopes of relief from US sanctions"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-03T13:23:48.773311+00:00"
-  },
-  {
-    "title": "India, Uzbekistan target doubling bilateral trade in three years",
-    "link": "https://www.livemint.com/news/india-uzbekistan-target-doubling-bilateral-trade-in-three-years-11785754406214.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Mon, 03 Aug 2026 17:53:23 +0530",
-    "topic": "India-Uzbekistan Trade",
-    "summary": [
-      "India and Uzbekistan aim to double their bilateral trade within three years",
-      "The target is part of efforts to strengthen economic ties between the two countries"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-03T13:23:49.221391+00:00"
-  },
-  {
-    "title": "SC narrows 'criminal antecedents' clause from protest order; CJP says 'confusion' removed, seeks assurance from govt",
-    "link": "https://www.livemint.com/news/india/sc-narrows-criminal-antecedents-clause-from-protest-order-cjp-says-confusion-removed-seeks-assurance-from-govt-11785757341812.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Mon, 03 Aug 2026 17:35:36 +0530",
-    "topic": "Indian Supreme Court Ruling",
-    "summary": [
-      "The Supreme Court of India has narrowed the 'criminal antecedents' clause from a protest order",
-      "The Chief Justice of Pakistan (CJP) stated that 'confusion' has been removed and seeks assurance from the government"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-03T13:23:49.536533+00:00"
-  },
-  {
-    "title": "Netaji's grandnephew Chandra Kumar Bose quits TMC, cites 'personal reasons'",
-    "link": "https://www.livemint.com/news/india/netajis-grandnephew-chandra-kumar-bose-quits-tmc-cites-personal-reasons-11785757634665.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Mon, 03 Aug 2026 17:23:27 +0530",
-    "topic": "Indian Politics",
-    "summary": [
-      "Chandra Kumar Bose, grandnephew of Netaji Subhas Chandra Bose, has quit the Trinamool Congress (TMC) party",
-      "The reason cited for his resignation is 'personal reasons'"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-03T13:23:49.941069+00:00"
-  },
-  {
-    "title": "Right to walk safely: SC orders Centre to ensure pedestrian walkways, reaffirms it as fundamental right",
-    "link": "https://www.livemint.com/news/india/right-to-walk-safely-sc-orders-centre-to-ensure-pedestrian-walkways-reaffirms-it-as-fundamental-right-11785751257798.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Mon, 03 Aug 2026 16:56:56 +0530",
-    "topic": "Pedestrian Rights",
-    "summary": [
-      "The Supreme Court has ordered the Centre to ensure pedestrian walkways",
-      "The court reaffirmed the right to walk safely as a fundamental right"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-03T13:23:50.233238+00:00"
-  },
-  {
-    "title": "Govt moots mandatory vehicle-to-vehicle communication in new vehicles from October 2028",
-    "link": "https://www.livemint.com/news/india/mandatory-vehicle-to-vehicle-v2v-communication-systems-october-2028-11785746933391.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Mon, 03 Aug 2026 16:44:12 +0530",
-    "topic": "Government Regulation",
-    "summary": [
-      "The government is considering making vehicle-to-vehicle communication mandatory in new vehicles from October 2028",
-      "This move aims to improve road safety by enabling vehicles to communicate with each other and reduce accidents"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-03T13:23:50.702015+00:00"
   }
 ]
