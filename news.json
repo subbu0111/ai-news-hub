@@ -1,5 +1,61 @@
 [
   {
+    "title": "Cabinet expansion unrest: Congress in damage control mode",
+    "link": "https://www.thehindu.com/news/national/karnataka/cabinet-expansion-unrest-congress-in-damage-control-mode/article71310612.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Thu, 06 Aug 2026 05:17:26 +0530",
+    "topic": "Indian Politics",
+    "summary": [
+      "The Cabinet expansion has led to unrest within the Congress party",
+      "The party is in damage control mode to mitigate the fallout"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-05T23:58:58.338196+00:00"
+  },
+  {
+    "title": "A.P. govt. issues draft regulations for private AYUSH facilities",
+    "link": "https://www.thehindu.com/news/national/andhra-pradesh/ap-govt-issues-draft-regulations-for-private-ayush-facilities/article71310246.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Thu, 06 Aug 2026 05:15:59 +0530",
+    "topic": "Healthcare Regulations",
+    "summary": [
+      "The Andhra Pradesh government has issued draft regulations for private AYUSH facilities",
+      "The regulations aim to standardize and monitor the services provided by these facilities"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-05T23:58:58.857164+00:00"
+  },
+  {
+    "title": "A.P. CM tells officials to draw micro-level development plans for Visakhapatnam Economic Region",
+    "link": "https://www.thehindu.com/news/national/andhra-pradesh/ap-cm-tells-officials-to-draw-micro-level-development-plans-for-visakhapatnam-economic-region/article71309098.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Thu, 06 Aug 2026 05:14:01 +0530",
+    "topic": "Development Plans for Visakhapatnam Economic Region",
+    "summary": [
+      "Andhra Pradesh Chief Minister directs officials to create micro-level development plans",
+      "Focus on Visakhapatnam Economic Region for potential growth and investment opportunities"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-05T23:58:59.294039+00:00"
+  },
+  {
+    "title": "Why Lightspeed is going all-in on creator-led venture capital",
+    "link": "https://techcrunch.com/video/why-lightspeed-is-going-all-in-on-creator-led-venture-capital/",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "published": "Wed, 05 Aug 2026 20:48:54 +0000",
+    "topic": "Lightspeed's Venture Capital Strategy",
+    "summary": [
+      "Lightspeed is shifting focus towards creator-led venture capital",
+      "This move indicates a growing trend of investing in creator-driven startups and initiatives"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-05T23:59:02.844769+00:00"
+  },
+  {
     "title": "Maharashtra Food and Drug Administration places one-year ban on analogue, non-dairy paneer",
     "link": "https://www.thehindu.com/news/national/maharashtra/maharashtra-food-and-drug-administration-places-one-year-ban-on-analogue-non-dairy-paneer/article71309700.ece",
     "source": "The Hindu",
@@ -642,61 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-08-05T14:02:02.640160+00:00"
-  },
-  {
-    "title": "RBI plans to roll out polymer banknotes by FY28",
-    "link": "https://www.livemint.com/news/india/rbi-polymer-banknotes-india-rollout-fy28-pilot-security-features-11785932489302.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Wed, 05 Aug 2026 19:25:14 +0530",
-    "topic": "RBI's Plan for Polymer Banknotes",
-    "summary": [
-      "The Reserve Bank of India (RBI) is planning to introduce polymer banknotes by FY28",
-      "This move is expected to increase the durability and security of Indian currency"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-05T14:02:03.101220+00:00"
-  },
-  {
-    "title": "Deepfakes worry Indians: 1 in 2 surveyed say they watched multiple fake videos; 7 in 10 want them criminalised",
-    "link": "https://www.livemint.com/news/india/deepfakes-worry-indians-1-in-2-surveyed-say-they-watched-multiple-fake-videos-7-in-10-want-them-criminalised-11785933915890.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Wed, 05 Aug 2026 18:57:22 +0530",
-    "topic": "Deepfakes in India",
-    "summary": [
-      "1 in 2 Indians surveyed have watched multiple fake videos",
-      "7 in 10 Indians want deepfakes to be criminalised"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-05T14:02:03.589936+00:00"
-  },
-  {
-    "title": "Rivers run dry: How scorching summer shuts Europe's power plants, chokes supply chains",
-    "link": "https://www.livemint.com/news/world/rivers-run-dry-how-scorching-summer-shuts-europes-power-plants-chokes-supply-chains-11785930500896.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Wed, 05 Aug 2026 18:52:14 +0530",
-    "topic": "European Power Plants and Supply Chains",
-    "summary": [
-      "Scorching summer in Europe is causing rivers to run dry",
-      "This is affecting the operation of power plants and choking supply chains"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-05T14:02:04.226461+00:00"
-  },
-  {
-    "title": "Michigan Democratic Senate primary results: Abdul El-Sayed projected to win after tight race against Haley Stevens",
-    "link": "https://www.livemint.com/news/us-news/michigan-democratic-senate-primary-results-abdul-el-sayed-projected-to-win-after-tight-race-against-haley-stevens-11785933861997.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Wed, 05 Aug 2026 18:46:48 +0530",
-    "topic": "US Politics",
-    "summary": [
-      "Abdul El-Sayed is projected to win the Michigan Democratic Senate primary",
-      "The race was tight against opponent Haley Stevens"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-05T14:02:04.678625+00:00"
   }
 ]
