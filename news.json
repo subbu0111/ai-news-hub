@@ -1,5 +1,33 @@
 [
   {
+    "title": "30 autorickshaws seized for violation of Motor Vehicles Act",
+    "link": "https://www.thehindu.com/news/cities/Madurai/30-autorickshaws-seized-for-violation-of-motor-vehicles-act/article71277861.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Fri, 07 Aug 2026 23:35:10 +0530",
+    "topic": "Transportation Enforcement",
+    "summary": [
+      "30 autorickshaws were seized for violating the Motor Vehicles Act",
+      "The seizure was likely due to non-compliance with regulations such as overloading, improper licensing, or other safety standards"
+    ],
+    "impact": "LOW",
+    "fetched_at": "2026-08-07T18:10:25.004078+00:00"
+  },
+  {
+    "title": "PM meets NDA MPs over breakfast, raises concern over Parliament disruptions",
+    "link": "https://www.thehindu.com/news/national/pm-meets-nda-mps-over-breakfast-raises-concern-over-parliament-disruptions/article71319047.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Fri, 07 Aug 2026 23:34:52 +0530",
+    "topic": "Indian Politics",
+    "summary": [
+      "The Prime Minister met with NDA MPs over breakfast to discuss concerns",
+      "The meeting focused on addressing Parliament disruptions"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-07T18:10:25.446870+00:00"
+  },
+  {
     "title": "Rash driving by private buses continues to endanger commuters in Tiruchi",
     "link": "https://www.thehindu.com/news/cities/Tiruchirapalli/rash-driving-by-private-buses-continues-to-endanger-commuters-in-tiruchi/article71277116.ece",
     "source": "The Hindu",
@@ -670,33 +698,5 @@
     ],
     "impact": "LOW",
     "fetched_at": "2026-08-07T08:11:04.491680+00:00"
-  },
-  {
-    "title": "India, China agree to use diplomatic, military channels ‘to resolve’ LAC, border issues; MEA shares details",
-    "link": "https://www.livemint.com/news/india/india-china-agree-to-use-diplomatic-military-channels-to-resolve-lac-border-issues-mea-shares-details-11786086954595.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Fri, 07 Aug 2026 13:06:00 +0530",
-    "topic": "Geopolitics",
-    "summary": [
-      "India and China have agreed to use diplomatic and military channels to resolve border issues",
-      "The agreement aims to address issues along the Line of Actual Control (LAC)"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-07T08:11:05.498111+00:00"
-  },
-  {
-    "title": "Mint Sustainability Summit: Net zero’s next phase demands deeper changes across supply chains",
-    "link": "https://www.livemint.com/news/mint-sustainability-summit-2026-net-zero-sustainability-esg-circular-economy-circularity-supply-chains-decarbonization-11786080268194.html",
-    "source": "Mint",
-    "category": "india_business",
-    "published": "Fri, 07 Aug 2026 12:30:20 +0530",
-    "topic": "Sustainability and Supply Chain Changes",
-    "summary": [
-      "The Mint Sustainability Summit discusses the next phase of net zero",
-      "Deeper changes are required across supply chains for effective implementation"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-07T08:11:05.899557+00:00"
   }
 ]
