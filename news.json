@@ -1,5 +1,33 @@
 [
   {
+    "title": "Four killed in helicopter crash in Rio de Janeiro",
+    "link": "https://www.thehindu.com/news/international/brazil-helicopter-crash-death-toll/article71323031.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 09 Aug 2026 03:46:17 +0530",
+    "topic": "ACCIDENT",
+    "summary": [
+      "A helicopter crash in Rio de Janeiro has resulted in four fatalities",
+      "The incident is being reported by a credible news source, The Hindu"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-08T22:24:58.286578+00:00"
+  },
+  {
+    "title": "OMCs refute chloride contamination, excess moisture in E20 fuel",
+    "link": "https://www.thehindu.com/business/Industry/omcs-refute-chloride-contamination-excess-moisture-in-e20-fuel/article71318865.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 09 Aug 2026 03:42:01 +0530",
+    "topic": "Fuel Contamination",
+    "summary": [
+      "Oil Marketing Companies (OMCs) deny claims of chloride contamination in E20 fuel",
+      "OMCs also refute allegations of excess moisture in E20 fuel"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-08T22:24:58.733591+00:00"
+  },
+  {
     "title": "Indo-Japan relations critical to stability of Indo-Pacific region in future, say experts",
     "link": "https://www.thehindu.com/news/national/tamil-nadu/indo-japan-relations-critical-to-stability-of-indo-pacific-region-in-future-say-experts/article71317843.ece",
     "source": "The Hindu",
@@ -670,33 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-08-08T10:28:39.485687+00:00"
-  },
-  {
-    "title": "CrystalBall builds type-certified mapping drones for government surveys and mining operators",
-    "link": "https://yourstory.com/2026/08/crystalball-mapping-drones",
-    "source": "YourStory",
-    "category": "india_tech",
-    "published": "Fri, 07 Aug 2026 13:40:41 GMT",
-    "topic": "CrystalBall mapping drones",
-    "summary": [
-      "CrystalBall is developing type-certified mapping drones",
-      "The drones are intended for government surveys and mining operators"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-08T10:28:41.853250+00:00"
-  },
-  {
-    "title": "Towards nutritional literacy: navigating food labels, social media feeds and traditional wisdom to arrive at better diets",
-    "link": "https://www.thehindu.com/sci-tech/health/towards-nutritional-literacy-navigating-food-labels-social-media-feeds-and-traditional-wisdom-to-arrive-at-better-diets/article71289627.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sat, 08 Aug 2026 14:58:13 +0530",
-    "topic": "Nutritional Literacy",
-    "summary": [
-      "The article discusses the importance of understanding food labels and social media feeds to make informed dietary choices",
-      "It highlights the need to balance traditional wisdom with modern nutritional knowledge to achieve better health outcomes"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-08T09:34:32.697419+00:00"
   }
 ]
