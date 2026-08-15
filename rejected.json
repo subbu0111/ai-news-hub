@@ -1,373 +1,5 @@
 [
   {
-    "title": "(Weekly funding roundup Aug 8-14) Tepid VC inflow but Yulu provides relief",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/weekly-funding-roundup-aug-8-14-fund-inflow-turns-tepid-but-yulu-deal-provides-relief",
-    "rejected_at": "2026-08-15T10:19:02.120947+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "CRED-Backed NewTap Finance’s FY26 Profit More Than Doubles To ₹2.4 Cr",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/cred-backed-newtap-finances-fy26-profit-more-than-doubles-to-%e2%82%b92-4-cr/",
-    "rejected_at": "2026-08-15T10:19:02.170967+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "EaseMyTrip Slips Into Red With ₹11.7 Cr Loss In Q1; Revenue Rises 18% YoY",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/easemytrip-slips-into-red-with-%e2%82%b911-7-cr-loss-in-q1-revenue-rises-18-yoy/",
-    "rejected_at": "2026-08-15T10:19:02.217980+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "IPO-Bound Zetwerk’s FY26 Loss Widens To ₹1,606.2 Cr Despite 40% Uptick In Revenue",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/ipo-bound-zetwerk-fy26-loss-widens-to-%e2%82%b91606-2-cr-despite-40-uptick-in-revenue/",
-    "rejected_at": "2026-08-15T10:19:02.261738+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "PM Modi Bets On Tech To Empower Youth With AI Skilling, Online Coaching",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/pm-modi-bets-on-tech-to-empower-youth-with-ai-skilling-online-coaching/",
-    "rejected_at": "2026-08-15T10:19:02.304804+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Indian Unicorn Tracker: Funding, Investors, Revenue And More",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/features/indian-unicorn-tracker-funding-investors-revenue-and-more/",
-    "rejected_at": "2026-08-15T10:19:02.347919+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "AI Startups To Watch: 5 Startups That Caught Our Eye In August",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/startups/ai-startups-to-watch-5-startups-that-caught-our-eye-in-august/",
-    "rejected_at": "2026-08-15T10:19:02.393938+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "From Yulu To Discovered Materials — Indian Startups Raised $140 Mn This Week",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/from-yulu-to-discovered-materials-indian-startups-raised-140-mn-this-week/",
-    "rejected_at": "2026-08-15T10:19:02.439105+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Atomberg To Form JV With Voltas To Manufacture AC Compressors",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/atomberg-to-form-jv-with-voltas-to-manufacture-ac-compressors/",
-    "rejected_at": "2026-08-15T10:19:02.489318+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Talks to sell PayPal to Stripe and Advent are heating up",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
-    "rejected_at": "2026-08-15T10:19:02.530603+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
-    "rejected_at": "2026-08-15T10:19:02.580156+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "What we know about the alleged Iranian hacks on US water utilities",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
-    "rejected_at": "2026-08-15T10:19:02.623755+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Read-it-later app Pocket shut down — here are the best alternatives",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/read-it-later-app-pocket-is-shutting-down-here-are-the-best-alternatives/",
-    "rejected_at": "2026-08-15T10:19:02.667774+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Unforgetful is a new reminders app for people who can’t stop hitting snooze",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
-    "rejected_at": "2026-08-15T10:19:02.717043+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Google will now allow users to remove visible watermark from its AI generations",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-    "rejected_at": "2026-08-15T10:19:02.763226+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-    "rejected_at": "2026-08-15T10:19:02.815746+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "IND vs SL Test Day 1 | Rahul, Padikkal fifties take India to 197/1 at tea",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/sport/cricket/india-srilanka-test-match-day-1-match-updates/article71348548.ece",
-    "rejected_at": "2026-08-15T10:47:21.072919+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "West Asia war LIVE: Israeli airstrike on southern Lebanon kills 7 people, Lebanese state media say",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/international/iran-us-war-west-asia-conflict-donald-trump-strait-of-hormuz-rising-oil-prices-live-updates-august-15-2026/article71348347.ece",
-    "rejected_at": "2026-08-15T10:47:21.126856+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Independence Day LIVE updates: Kerala CM warns against communalism; Assam remembers flood-affected families",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/india-80th-independence-day-2026-live-updates-on-august-15-pm-modi-speech-red-fort/article71348349.ece",
-    "rejected_at": "2026-08-15T10:47:21.176269+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Funds sanctioned for re-tendered stretches in Kollam under PMGSY",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/kerala/funds-sanctioned-for-re-tendered-stretches-in-kollam-under-pmgsy/article71349162.ece",
-    "rejected_at": "2026-08-15T10:47:21.232703+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Congress fighting nationwide to protect Constitution, says Ramesh Chennithala",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/kerala/congress-fighting-nationwide-to-protect-constitution-says-ramesh-chennithala/article71348688.ece",
-    "rejected_at": "2026-08-15T10:47:21.337624+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "NLSIU students, alumni seek BCI's 'apology' to NALSAR; oppose Manan Kumar Mishra, CJI's presence at convocation",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/nlsiu-students-alumni-seek-bcis-apology-to-nalsar-oppose-manan-kumar-mishra-cjis-presence-at-convocation-11786789136592.html",
-    "rejected_at": "2026-08-15T10:47:21.390760+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Windfall tax on petrol exports cut to 0 after early August hike; diesel duty down  ₹1.5/litre, ATF by  ₹2.5/litre",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/windfall-tax-export-cut-petrol-0-jet-fuel-hike-from-august-prices-change-diesel-duty-cut-1-5-atf-rate-down-2-5-per-litre-11786784148492.html",
-    "rejected_at": "2026-08-15T10:47:21.441187+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Who is Nupur Prasad? IPS officer who headed Sushant Singh Rajput death probe awarded President's Medal",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/who-is-nupur-prasad-ips-officer-headed-sushant-singh-rajput-death-probe-awarded-presidents-medal-independence-day-2026-11786783329093.html",
-    "rejected_at": "2026-08-15T10:47:21.494925+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Rahul Gandhi, Mallikarjun Kharge skip Red Fort I-Day event for second year in a row, BJP calls it 'childish'",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/rahul-gandhi-mallikarjun-kharge-skip-red-fort-i-day-event-for-second-year-in-a-row-bjp-calls-it-childish-11786784472102.html",
-    "rejected_at": "2026-08-15T10:47:21.548562+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "What is the Fragile Five, a term that PM Modi used to highlight India's growth in the last 12 years in his I-Day speech?",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/what-is-the-fragile-five-a-term-that-pm-modi-used-to-highlight-indias-growth-in-the-last-12-years-in-his-i-day-speech-11786781973119.html",
-    "rejected_at": "2026-08-15T10:47:21.604421+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "'Armed Naxals may be eliminated, but Dimagi Naxals still lurking:' PM Modi launches scathing attack; Congress hits back",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/armed-naxals-may-be-eliminated-but-dimagi-naxals-still-lurking-pm-modi-launches-scathing-attack-congress-hits-back-11786777529874.html",
-    "rejected_at": "2026-08-15T10:47:22.020114+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "CJP's Abhijeet Dipke launches 'School Thik Karo' campaign, conducts first audit: ‘No matter which party ruled…’",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/cjps-abhijeet-dipke-launches-school-thik-karo-campaign-conducts-first-audit-no-matter-which-party-ruled-11786775526104.html",
-    "rejected_at": "2026-08-15T10:47:22.071432+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Telangana Govt to credit fee reimbursement amounts in advance to avoid hardship to students: CM",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/govt-to-credit-fee-reimbursement-amounts-in-advance-to-avoid-hardship-to-students-cm/article71346164.ece",
-    "rejected_at": "2026-08-15T10:47:22.125463+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Notices to 43 medical shops in Telangana over sale of Mounjaro, Ozempic without prescription",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/notices-to-43-medical-shops-in-telangana-over-sale-of-mounjaro-ozempic-without-prescription/article71348448.ece",
-    "rejected_at": "2026-08-15T10:47:22.175162+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Priest held after allegedly being found in objectionable situation with girl inside temple",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/priest-held-after-allegedly-being-found-in-objectionable-situation-with-girl-inside-temple/article71348609.ece",
-    "rejected_at": "2026-08-15T10:47:22.226002+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "NALSAR Student Bar says provisions cited by BCI do not authorise restrictions on enrolment of entire batch",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/nalsar-student-bar-says-provisions-cited-by-bci-do-not-authorise-restrictions-on-enrolment-of-entire-batch/article71348599.ece",
-    "rejected_at": "2026-08-15T10:47:22.282486+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "The day Hyderabad celebrated two Independence Days on August 15, 1947",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/the-day-hyderabad-celebrated-two-independence-days-on-august-15-1947/article71345678.ece",
-    "rejected_at": "2026-08-15T10:47:22.334266+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "PD Act invoked against rice miller over ‘repeated custom-milled rice diversion’",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/pd-act-invoked-against-rice-miller-over-repeated-custom-milled-rice-diversion/article71346743.ece",
-    "rejected_at": "2026-08-15T10:47:22.384951+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "KL Rahul, Devdutt Padikkal dominate as India take control of Galle Test against Sri Lanka",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/kl-rahul-devdutt-padikkal-dominate-as-india-take-control-of-galle-test-against-sri-lanka",
-    "rejected_at": "2026-08-15T10:47:22.443761+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "KTR asks Modi, Rahul Gandhi to act on Rajgopal Reddy’s corruption charges",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/ktr-asks-modi-rahul-gandhi-to-act-on-rajgopal-reddys-corruption-charges",
-    "rejected_at": "2026-08-15T10:47:22.497949+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "2026 FIFA WC hero Ferran Torres joins PSG on contract until 2031",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/2026-fifa-wc-hero-ferran-torres-joins-psg-on-contract-until-2031",
-    "rejected_at": "2026-08-15T10:47:22.554546+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Maharashtra is nation’s primary growth engine: CM Fadnavis",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/maharashtra-is-nations-primary-growth-engine-cm-fadnavis",
-    "rejected_at": "2026-08-15T10:47:22.604079+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "RGV’s Independence Day post: Filmmaker calls freedom from marriage his biggest liberation",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/rgvs-independence-day-post-filmmaker-calls-freedom-from-marriage-his-biggest-liberation",
-    "rejected_at": "2026-08-15T10:47:22.654319+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "7:29 pm on August 15: The moment MS Dhoni retired from international cricket",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/729-pm-on-august-15-the-moment-ms-dhoni-retired-from-international-cricket",
-    "rejected_at": "2026-08-15T10:47:22.710782+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "India has over 2.5 lakh startups, says PM Modi",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/india-has-over-2-5-lakh-startups-says-pm-modi",
-    "rejected_at": "2026-08-15T10:47:22.761825+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Telangana swimmers display Tricolour in pool to mark 80th Independence Day",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/telangana-swimmers-display-tricolour-in-pool-to-mark-80th-independence-day",
-    "rejected_at": "2026-08-15T10:47:22.811487+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "KD Cancer Centre delivers integrated, patient-centric treatment",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/kd-cancer-centre-delivers-integrated-patient-centric-treatment",
-    "rejected_at": "2026-08-15T10:47:22.864040+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Indigotex has made denim from wool that keeps you warm and skips the water",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/indigotex-wool-denim",
-    "rejected_at": "2026-08-15T10:47:22.917817+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "PM Modi announces free online coaching for youth",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/pm-modi-announces-free-online-coaching-for-youth",
-    "rejected_at": "2026-08-15T10:47:22.968489+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Meet the faujis who swapped uniforms for startups",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/meet-the-faujis-who-swapped-uniforms-for-startups",
-    "rejected_at": "2026-08-15T10:47:23.024998+00:00",
-    "reason": "Not relevant"
-  },
-  {
     "title": "Altmin is building India's first factory to manufacture  the cathodes inside lithium batteries",
     "source": "YourStory",
     "category": "india_tech",
@@ -3997,6 +3629,374 @@
     "category": "global_tech",
     "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
     "rejected_at": "2026-08-15T15:44:07.333059+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Patriotic celebrations marked the 80th Independence Day in South Coastal Andhra",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/andhra-pradesh/patriotic-celebrations-marked-the-80th-independence-day-in-south-coastal-andhra/article71350265.ece",
+    "rejected_at": "2026-08-15T16:20:22.309364+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Charges of corruption on govt. by ruling party leaders indicate ground reality: KTR",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/telangana/charges-of-corruption-on-govt-by-ruling-party-leaders-indicate-ground-reality-ktr/article71349752.ece",
+    "rejected_at": "2026-08-15T16:20:22.375819+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Fadnavis backs Modi’s ‘intellectual Naxals’ remark",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/maharashtra/fadnavis-backs-modis-intellectual-naxals-remark/article71349884.ece",
+    "rejected_at": "2026-08-15T16:20:22.509702+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "CJP founder Abhijeet Dipke kicks off school cleaning campaign",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/dipke-set-to-launch-school-thik-karo-campaign-accuses-parties-of-neglecting-govt-run-schools/article71348483.ece",
+    "rejected_at": "2026-08-15T16:20:22.583580+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indonesia Earthquake: several killed, thousands evacuated",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/videos/indonesia-earthquake-several-killed-thousands-evacuated/article71350437.ece",
+    "rejected_at": "2026-08-15T16:20:22.668444+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "‘Biggest scam ever in the world’: Nithin Kamath asks startup founders not to brag about AI; social media reacts",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/trends/biggest-scam-ever-in-the-world-nithin-kamath-asks-startup-founders-not-to-brag-about-ai-social-media-reacts-11786806679753.html",
+    "rejected_at": "2026-08-15T16:20:22.718388+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Tukaram Mundhe's Maharashtra FDA suspends Parle Agro warehouse licence: Expired Frooti seized — what else was found?",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/tukaram-mundhe-ias-maharashtra-fda-suspends-parle-agro-warehouse-licence-expired-frooti-seized-mumbai-news-food-license-11786790766030.html",
+    "rejected_at": "2026-08-15T16:20:22.765066+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Elon Musk plans $100 million push for Republicans in US midterms months after Trump feud: Report",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/us-news/elon-musk-plans-100-million-push-for-republicans-in-us-midterms-months-after-trump-feud-report-11786802345962.html",
+    "rejected_at": "2026-08-15T16:20:22.844685+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Physics Wallah: Alakh Pandey offers ‘unconditional support’ to PM Modi for free online classes, seeks no profit",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/trends/physics-wallah-alakh-pandey-offers-unconditional-support-to-pm-modi-for-free-online-classes-seeks-no-profit-11786800728745.html",
+    "rejected_at": "2026-08-15T16:20:22.928371+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Trump administration gets court nod to end temporary protected status for thousands of Somali nationals",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/us-news/trump-administration-gets-court-nod-to-end-temporary-protected-status-for-thousands-of-somali-nationals-11786799285681.html",
+    "rejected_at": "2026-08-15T16:20:22.975424+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Virginia State University Shooting: Campus lockdown lifted after multiple shots fired; several injured",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/us-news/virginia-state-university-shooting-police-say-campus-on-lockdown-after-multiple-people-injured-11786796995983.html",
+    "rejected_at": "2026-08-15T16:20:23.069068+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "'How can any kid use this toilet?': Dipke launches 'School Thik Karo' campaign, inspects govt school in Maharashtra",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/how-can-any-kid-use-this-toilet-dipke-launches-school-thik-karo-campaign-inspects-govt-school-in-maharashtra-11786795739601.html",
+    "rejected_at": "2026-08-15T16:20:23.154280+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Over 60,000 applications received for 7,340 affordable flats in CURE; applications invited for 1,920 flats in 4 more constituencies",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/cities/Hyderabad/over-60000-applications-received-for-7340-affordable-flats-in-cure-applications-invited-for-1920-flats-in-4-more-constituencies/article71350232.ece",
+    "rejected_at": "2026-08-15T16:20:23.239508+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Congress govt. committed to ensure welfare of the poor, says Bhatti",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/congress-govt-committed-to-ensure-welfare-of-the-poor-says-bhatti/article71349750.ece",
+    "rejected_at": "2026-08-15T16:20:23.302633+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Priest held after being found in objectionable situation with girl inside temple",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/priest-held-after-allegedly-being-found-in-objectionable-situation-with-girl-inside-temple/article71348609.ece",
+    "rejected_at": "2026-08-15T16:20:23.383781+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Hyderabad marks Independence Day with flags, festivities and illuminated landmarks",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-marks-independence-day-with-flags-festivities-and-illuminated-landmarks/article71349808.ece",
+    "rejected_at": "2026-08-15T16:20:23.468908+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "SHG women members in Telangana’s Yadadri get drones, mobile millet cafes",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/shg-women-members-in-telanganas-yadadri-get-drones-mobile-millet-cafes/article71349666.ece",
+    "rejected_at": "2026-08-15T16:20:23.547619+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indira Gandhi Indoor Stadium ready for BWF World Championships",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/indira-gandhi-indoor-stadium-ready-for-bwf-world-championships",
+    "rejected_at": "2026-08-15T16:20:23.638432+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Hitesh Reddy wins Children-1 dressage honours at HPRC challenge",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/hitesh-reddy-wins-children-1-dressage-honours-at-hprc-challenge",
+    "rejected_at": "2026-08-15T16:20:23.720588+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "I-Day: Telangana Guv hosts ‘At Home’ reception at Lok Bhavan",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/i-day-telangana-guv-hosts-at-home-reception-at-lok-bhavan",
+    "rejected_at": "2026-08-15T16:20:23.801955+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Golden jubilee celebrations begin at ISKCON Abids",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/golden-jubilee-celebrations-begin-at-iskcon-abids",
+    "rejected_at": "2026-08-15T16:20:23.867726+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Delhi doctors launch ‘2 Ghante Desh Ke Naam’ for free weekly consultations",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/delhi-doctors-launch-2-ghante-desh-ke-naam-for-free-weekly-consultations",
+    "rejected_at": "2026-08-15T16:20:23.948149+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Gap between Congress and CPI widens in Kothagudem Assembly, cadres confused",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/gap-between-congress-and-cpi-widens-in-kothagudem-assembly-cadres-confused",
+    "rejected_at": "2026-08-15T16:20:24.027740+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Tamil Nadu revokes temporary ban on 11 TASMAC liquor brands",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/tamil-nadu-revokes-temporary-ban-on-11-tasmac-liquor-brands",
+    "rejected_at": "2026-08-15T16:20:24.114955+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "IIT-H plants 10K saplings, hoists national flag on 100-feet high mast on Independence Day",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/iit-h-plants-10k-saplings-hoists-national-flag-on-100-feet-high-mast-on-independence-day",
+    "rejected_at": "2026-08-15T16:20:24.180950+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "KD Cancer Centre delivers integrated, patient-centric treatment",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/kd-cancer-centre-delivers-integrated-patient-centric-treatment",
+    "rejected_at": "2026-08-15T16:20:24.328334+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "7 Must-read books on India’s pre-1947 business pioneers",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/books-india-business-pioneers-pre-1947",
+    "rejected_at": "2026-08-15T16:20:24.494566+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "5 Books that reveal the power of uncomfortable truths",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/07/power-reveal-uncomfortable-truths-books",
+    "rejected_at": "2026-08-15T16:20:24.573019+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indigotex has made denim from wool that keeps you warm and skips the water",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/indigotex-wool-denim",
+    "rejected_at": "2026-08-15T16:20:24.653426+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "10 Landmark books that document India's tech evolution",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/landmark-books-document-india-tech-evolution",
+    "rejected_at": "2026-08-15T16:20:24.738999+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "UrjanovaC captures carbon dioxide from factory chimneys and turns it into something commercial",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/urjanovac-carbon-capture-products",
+    "rejected_at": "2026-08-15T16:20:24.806358+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Every drone that flies over a city is one motor failure from being a falling object. This startup is building a safety kit to combat such failures.",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/drone-safety-system-motor-failure",
+    "rejected_at": "2026-08-15T16:20:24.853003+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Turtlemint Jumps 23% To Lead Weekly Gains In New-Age Tech Stocks, Veefin Biggest Loser",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/turtlemint-jumps-23-to-lead-weekly-gains-in-new-age-tech-stocks-veefin-biggest-loser/",
+    "rejected_at": "2026-08-15T16:20:24.935170+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "CRED-Backed NewTap Finance’s FY26 Profit More Than Doubles To ₹2.4 Cr",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/cred-backed-newtap-finances-fy26-profit-more-than-doubles-to-%e2%82%b92-4-cr/",
+    "rejected_at": "2026-08-15T16:20:25.020378+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "EaseMyTrip Slips Into Red With ₹11.7 Cr Loss In Q1; Revenue Rises 18% YoY",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/easemytrip-slips-into-red-with-%e2%82%b911-7-cr-loss-in-q1-revenue-rises-18-yoy/",
+    "rejected_at": "2026-08-15T16:20:25.102723+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Zetwerk’s Revenue Surges 40% To ₹15,913 Cr In FY26 Ahead Of IPO",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/ipo-bound-zetwerk-fy26-loss-widens-to-%e2%82%b91606-2-cr-despite-40-uptick-in-revenue/",
+    "rejected_at": "2026-08-15T16:20:25.190633+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "PM Modi Bets On Tech To Empower Youth With AI Skilling, Online Coaching",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/pm-modi-bets-on-tech-to-empower-youth-with-ai-skilling-online-coaching/",
+    "rejected_at": "2026-08-15T16:20:25.273818+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indian Unicorn Tracker: Funding, Investors, Revenue And More",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/indian-unicorn-tracker-funding-investors-revenue-and-more/",
+    "rejected_at": "2026-08-15T16:20:25.359249+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "AI Startups To Watch: 5 Startups That Caught Our Eye In August",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/startups/ai-startups-to-watch-5-startups-that-caught-our-eye-in-august/",
+    "rejected_at": "2026-08-15T16:20:25.444914+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "How to tell if your AI platforms’ accounts have been hacked",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
+    "rejected_at": "2026-08-15T16:20:25.518135+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Every fusion startup that has raised over $100M",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
+    "rejected_at": "2026-08-15T16:20:25.644392+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Talks to sell PayPal to Stripe and Advent are heating up",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
+    "rejected_at": "2026-08-15T16:20:25.730069+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
+    "rejected_at": "2026-08-15T16:20:25.815906+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "What we know about the alleged Iranian hacks on US water utilities",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
+    "rejected_at": "2026-08-15T16:20:25.944043+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Read-it-later app Pocket shut down — here are the best alternatives",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/read-it-later-app-pocket-is-shutting-down-here-are-the-best-alternatives/",
+    "rejected_at": "2026-08-15T16:20:26.009501+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Unforgetful is a new reminders app for people who can’t stop hitting snooze",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
+    "rejected_at": "2026-08-15T16:20:26.093840+00:00",
     "reason": "Not relevant"
   }
 ]
