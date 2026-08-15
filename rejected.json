@@ -1,397 +1,5 @@
 [
   {
-    "title": "10 Landmark books that document India's tech evolution",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/landmark-books-document-india-tech-evolution",
-    "rejected_at": "2026-08-15T05:26:32.465849+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "From Yulu To Discovered Materials — Indian Startups Raised $140 Mn This Week",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/from-yulu-to-discovered-materials-indian-startups-raised-140-mn-this-week/",
-    "rejected_at": "2026-08-15T05:26:32.553423+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Atomberg To Form JV With Voltas To Manufacture AC Compressors",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/atomberg-to-form-jv-with-voltas-to-manufacture-ac-compressors/",
-    "rejected_at": "2026-08-15T05:26:32.615226+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "WeWork Inc Sells 2.5% Stake In WeWork India For ₹244 Cr",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/wework-inc-sells-2-5-stake-in-wework-india-for-%e2%82%b9244-cr/",
-    "rejected_at": "2026-08-15T05:26:32.672035+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Maharashtra FDA Suspends Licences of 14 Dark Stores Of Blinkit, Zepto & Instamart",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/maharashtra-fda-suspends-licences-of-14-dark-stores-of-blinkit-zepto-instamart/",
-    "rejected_at": "2026-08-15T05:26:32.730617+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "[Update] Shiprocket IPO Closes With 99.38X Oversubscription",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/shiprocket-ipo-subscribed-25-8x-so-far-on-final-day-of-bidding/",
-    "rejected_at": "2026-08-15T05:26:32.819011+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "PhysicsWallah Q1 Revenue Crosses ₹1,000 Cr Mark, Loss Down 31% YoY",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/physicswallah-q1-revenue-crosses-%e2%82%b91000-cr-mark-loss-down-31-yoy/",
-    "rejected_at": "2026-08-15T05:26:32.885734+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Turtlemint Q1: Loss Declines 19% YoY To ₹38 Cr, Revenue Up 40%",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/turtlemint-q1-loss-trims-19-yoy-to-%e2%82%b938-cr-operating-revenue-increased-40/",
-    "rejected_at": "2026-08-15T05:26:32.937005+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Talks to sell PayPal to Stripe and Advent are heating up",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
-    "rejected_at": "2026-08-15T05:26:33.299444+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
-    "rejected_at": "2026-08-15T05:26:33.352764+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "What we know about the alleged Iranian hacks on US water utilities",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
-    "rejected_at": "2026-08-15T05:26:33.440662+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Read-it-later app Pocket shut down — here are the best alternatives",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/read-it-later-app-pocket-is-shutting-down-here-are-the-best-alternatives/",
-    "rejected_at": "2026-08-15T05:26:33.494312+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Unforgetful is a new reminders app for people who can’t stop hitting snooze",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
-    "rejected_at": "2026-08-15T05:26:33.548774+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Google will now allow users to remove visible watermark from its AI generations",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-    "rejected_at": "2026-08-15T05:26:33.608773+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-    "rejected_at": "2026-08-15T05:26:33.666557+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Why Chennai journalists went on a fast on Independence Day 25 years ago",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/cities/chennai/why-chennai-journalists-went-on-a-fast-on-independence-day-25-years-ago/article71348416.ece",
-    "rejected_at": "2026-08-15T05:51:05.470688+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Supreme Court stays Madras HC order striking down compassionate appointments for Karur stampede victims’ kin",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/supreme-court-stays-madras-hc-verdict-quashing-govt-jobs-order-to-karur-stampede-victims-kin/article71344306.ece",
-    "rejected_at": "2026-08-15T05:51:05.521708+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Powerful earthquake off Indonesia kills 20, sparks mass evacuations",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/international/indonesia-earthquake-august-15-2026/article71347456.ece",
-    "rejected_at": "2026-08-15T05:51:05.573121+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Independence Day 2026: PM Modi appeals to Oppn. to help implement women’s quota, says ‘you may take the credit’",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/pm-modi-independence-day-2026-speech-women-reservation-opposition-appeal-maoism-mindset/article71348509.ece",
-    "rejected_at": "2026-08-15T05:51:05.629897+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Independence Day 2026: India aims to be strong contender for 2036 Olympics, says PM Modi",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/independence-day-2026-india-aims-to-be-strong-contender-for-2036-olympics-says-pm-modi/article71348516.ece",
-    "rejected_at": "2026-08-15T05:51:05.688324+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Rain fury: Five Army personnel missing in Arunachal Pradesh after flash flood, four killed following massive landslide",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/rain-fury-five-army-personnel-missing-in-arunachal-pradesh-after-flash-flood-four-killed-following-massive-landslide-11786772263958.html",
-    "rejected_at": "2026-08-15T05:51:05.742434+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Census 2027: PM Modi tells youth why their ‘1-2 hours’ matter, how they can help family, ensure accurate data records",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/independence-day-2027-census-2027-pm-modi-youth-hours-matter-how-they-can-help-family-ensure-accurate-data-records-11786771391577.html",
-    "rejected_at": "2026-08-15T05:51:05.799518+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Modi puts manufacturing, youth at heart of India’s 2047 growth push, unveils seven-pronged strategy",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/modi-independence-day-speech-2026-modi-2047-vision-viksit-bharat-2047-pm-modi-11786768584147.html",
-    "rejected_at": "2026-08-15T05:51:05.851102+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "80th Independence Day: PM Modi delivers shortest Red Fort speech in 4 years - When was his longest?",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/indian-independence-day-celebration-15-august-narendra-modi-speech-red-fort-flag-hoisting-india-rahul-kharge-11786767948839.html",
-    "rejected_at": "2026-08-15T05:51:05.905355+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "PM Modi announces civil defence network in Independence Day speech, flags threats within borders: Here's what he said",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/independence-day-2027-pm-modi-announces-civil-defence-network-speech-flags-threats-within-borders-heres-what-he-said-11786767230873.html",
-    "rejected_at": "2026-08-15T05:51:05.960719+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Saptadhara to civil defence and vision for the Gen-Z: Key takeaways from PM Modi's Independence Day speech from Red Fort",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/pm-modi-independence-day-speech-2026-key-takeaways-viksit-bharat-aatmanirbhar-bharat-energy-reforms-west-asia-crisis-11786761334060.html",
-    "rejected_at": "2026-08-15T05:51:06.012747+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "CJP Instagram account back after founder Abhijeet Dipke claims it was taken down; here's what happened",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/cjp-instagram-account-back-after-founder-abhijeet-dipke-claims-it-was-taken-down-heres-what-happened-11786762266254.html",
-    "rejected_at": "2026-08-15T05:51:06.064438+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "The day Hyderabad celebrated two Independence Days on August 15, 1947",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/the-day-hyderabad-celebrated-two-independence-days-on-august-15-1947/article71345678.ece",
-    "rejected_at": "2026-08-15T05:51:06.125595+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "PD Act invoked against rice miller over ‘repeated custom-milled rice diversion’",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/pd-act-invoked-against-rice-miller-over-repeated-custom-milled-rice-diversion/article71346743.ece",
-    "rejected_at": "2026-08-15T05:51:06.181685+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "ABVP, NSUI members clash at EFLU campus, cases booked",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/abvp-nsui-members-clash-at-eflu-campus-cases-booked/article71347157.ece",
-    "rejected_at": "2026-08-15T05:51:06.240979+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Telangana gives another two-year age relaxation for uniformed services recruitment",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/telangana-gives-another-two-year-age-relaxation-for-uniformed-services-recruitment/article71346919.ece",
-    "rejected_at": "2026-08-15T05:51:06.297343+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Govt. to credit fee reimbursement amounts in advance to avoid hardship to students: CM",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/govt-to-credit-fee-reimbursement-amounts-in-advance-to-avoid-hardship-to-students-cm/article71346164.ece",
-    "rejected_at": "2026-08-15T05:51:06.352328+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "‘Peace begins from within’",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/peace-begins-from-within/article71346619.ece",
-    "rejected_at": "2026-08-15T05:51:06.402454+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Kishan Reddy alleges attempts to incite attacks on Parliament, Supreme Court",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/kishan-reddy-alleges-attempts-to-incite-attacks-on-parliament-supreme-court/article71346810.ece",
-    "rejected_at": "2026-08-15T05:51:06.464532+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "PM Modi unveils ‘Sapta Dhara’ framework for India’s growth and Viksit Bharat",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/pm-modi-unveils-sapta-dhara-framework-for-indias-growth-and-viksit-bharat",
-    "rejected_at": "2026-08-15T05:51:06.513789+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Sanjay Dutt calls 7 Dogs a unique experience ahead of international film release",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/sanjay-dutt-calls-7-dogs-a-unique-experience-ahead-of-international-film-release",
-    "rejected_at": "2026-08-15T05:51:06.565911+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "CPM leaders arrested ahead of Komatireddy Venkat Reddy’s house allotment programme",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/cpm-leaders-arrested-ahead-of-komatireddy-venkat-reddys-house-allotment-programme",
-    "rejected_at": "2026-08-15T05:51:06.648682+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Freedom a responsibility to walk on path of truth, hold Constitution values: Rahul",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/freedom-a-responsibility-to-walk-on-path-of-truth-hold-constitution-values-rahul",
-    "rejected_at": "2026-08-15T05:51:06.697682+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Ciro Immobile retires from football at 36 after prolific career with Lazio and Italy",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/ciro-immobile-retires-from-football-at-36-after-prolific-career-with-lazio-and-italy",
-    "rejected_at": "2026-08-15T05:51:06.749202+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "India elect to bat against Sri Lanka in 1st Test, Padikkal and Kuldeep included",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/india-elect-to-bat-against-sri-lanka-in-1st-test-padikkal-and-kuldeep-included",
-    "rejected_at": "2026-08-15T05:51:06.800871+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Trump claims historic fall in US violent crime",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/trump-claims-historic-fall-in-us-violent-crime",
-    "rejected_at": "2026-08-15T05:51:06.853667+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Khushbu Sundar completes 40 years in South cinema, recalls Telugu debut film Kaliyuga Pandavulu",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/khushbu-sundar-completes-40-years-in-south-cinema-recalls-telugu-debut-film-kaliyuga-pandavulu",
-    "rejected_at": "2026-08-15T05:51:06.903420+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Indigotex has made denim from wool that keeps you warm and skips the water",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/indigotex-wool-denim",
-    "rejected_at": "2026-08-15T05:51:06.959966+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "KD Cancer Centre delivers integrated, patient-centric treatment",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/kd-cancer-centre-delivers-integrated-patient-centric-treatment",
-    "rejected_at": "2026-08-15T05:51:07.012747+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "7 Must-read books on India’s pre-1947 business pioneers",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/books-india-business-pioneers-pre-1947",
-    "rejected_at": "2026-08-15T05:51:07.071097+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Art for a cause: Bhoomi exhibition highlights creativity for nature and social impact",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/art-cause-bhoomi-exhibition-nature-compassion-creativity-photography",
-    "rejected_at": "2026-08-15T05:51:07.123629+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "10 Landmark books that document India's tech evolution",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/landmark-books-document-india-tech-evolution",
-    "rejected_at": "2026-08-15T05:51:07.173601+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "5 Books that reveal the power of uncomfortable truths",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/07/power-reveal-uncomfortable-truths-books",
-    "rejected_at": "2026-08-15T05:51:07.225361+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Zetwerk files updated IPO papers with SEBI",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/08/zetwerk-files-updated-ipo-papers-with-sebi",
-    "rejected_at": "2026-08-15T05:51:07.276814+00:00",
-    "reason": "Not relevant"
-  },
-  {
     "title": "Meet the former military people who are now entrepreneurs and industry leaders",
     "source": "YourStory",
     "category": "india_tech",
@@ -3997,6 +3605,398 @@
     "category": "global_tech",
     "link": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
     "rejected_at": "2026-08-15T10:47:24.006705+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "One crore jobs by 2030 and reforms in exams are top priorities of Bihar govt., says Chief Minister",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/bihar-chief-minister-promises-one-crore-jobs-by-2030-and-reforms-in-exams/article71349086.ece",
+    "rejected_at": "2026-08-15T11:17:03.362474+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Solar Mela in Alwarpet on August 16",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/cities/chennai/solarmela-inalwarpeton-august-16/article71349295.ece",
+    "rejected_at": "2026-08-15T11:17:03.479309+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "PM’s I-Day speech — Reforms, AI skilling for youth, free online coaching and a warning on ‘dimagi Naxal’",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/pm-modi-lays-out-seven-point-sapta-dhara-framework-for-viksit-bharat/article71348519.ece",
+    "rejected_at": "2026-08-15T11:17:03.559177+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Watch: Jharkhand police forcefully stop JLKM leader Devendra Nath Mahto from joining Tiranga Yatra",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/videos/shorts/watch-jharkhand-police-forcefully-stop-jlkm-leader-devendra-nath-mahto-from-joining-tiranga-yatra/article71349289.ece",
+    "rejected_at": "2026-08-15T11:17:03.647087+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Silent protest at Nageswara Rao Park on August 16",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/cities/chennai/silent-protest-at-nageswara-rao-park-on-august-16/article71349281.ece",
+    "rejected_at": "2026-08-15T11:17:03.726954+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indonesia earthquake today: Death toll rises to 38, victims ‘trapped’ in buildings after 7.7 magnitude quake—10 updates",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/world/indonesia-earthquake-today-death-toll-rises-38-victims-trapped-buildings-7-7-magnitude-10-updates-news-tsunami-warning-11786786965722.html",
+    "rejected_at": "2026-08-15T11:17:03.805213+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Watch: Meerut gig worker beaten up on camera over delay in delivery; social media reacts, ‘Put them behind bars’",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/trends/watch-meerut-gig-worker-beaten-up-on-camera-over-delay-in-delivery-social-media-reacts-put-them-behind-bars-11786789903089.html",
+    "rejected_at": "2026-08-15T11:17:03.882971+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "NLSIU students, alumni seek BCI's 'apology' to NALSAR; oppose Manan Kumar Mishra, CJI's presence at convocation",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/nlsiu-students-alumni-seek-bcis-apology-to-nalsar-oppose-manan-kumar-mishra-cjis-presence-at-convocation-11786789136592.html",
+    "rejected_at": "2026-08-15T11:17:03.953856+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Windfall tax on petrol exports cut to 0 after early August hike; diesel duty down  ₹1.5/litre, ATF by  ₹2.5/litre",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/windfall-tax-export-cut-petrol-0-jet-fuel-hike-from-august-prices-change-diesel-duty-cut-1-5-atf-rate-down-2-5-per-litre-11786784148492.html",
+    "rejected_at": "2026-08-15T11:17:04.071147+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Who is Nupur Prasad? IPS officer who headed Sushant Singh Rajput death probe awarded President's Medal",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/who-is-nupur-prasad-ips-officer-headed-sushant-singh-rajput-death-probe-awarded-presidents-medal-independence-day-2026-11786783329093.html",
+    "rejected_at": "2026-08-15T11:17:04.191234+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Rahul Gandhi, Mallikarjun Kharge skip Red Fort I-Day event for second year in a row, BJP calls it 'childish'",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/rahul-gandhi-mallikarjun-kharge-skip-red-fort-i-day-event-for-second-year-in-a-row-bjp-calls-it-childish-11786784472102.html",
+    "rejected_at": "2026-08-15T11:17:04.440463+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "What is the Fragile Five, a term that PM Modi used to highlight India's growth in the last 12 years in his I-Day speech?",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/what-is-the-fragile-five-a-term-that-pm-modi-used-to-highlight-indias-growth-in-the-last-12-years-in-his-i-day-speech-11786781973119.html",
+    "rejected_at": "2026-08-15T11:17:04.546010+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Telangana Govt to credit fee reimbursement amounts in advance to avoid hardship to students: CM",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/govt-to-credit-fee-reimbursement-amounts-in-advance-to-avoid-hardship-to-students-cm/article71346164.ece",
+    "rejected_at": "2026-08-15T11:17:04.642364+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Notices to 43 medical shops in Telangana over sale of Mounjaro, Ozempic without prescription",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/notices-to-43-medical-shops-in-telangana-over-sale-of-mounjaro-ozempic-without-prescription/article71348448.ece",
+    "rejected_at": "2026-08-15T11:17:04.789353+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Priest held after allegedly being found in objectionable situation with girl inside temple",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/priest-held-after-allegedly-being-found-in-objectionable-situation-with-girl-inside-temple/article71348609.ece",
+    "rejected_at": "2026-08-15T11:17:04.924958+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "NALSAR Student Bar says provisions cited by BCI do not authorise restrictions on enrolment of entire batch",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/nalsar-student-bar-says-provisions-cited-by-bci-do-not-authorise-restrictions-on-enrolment-of-entire-batch/article71348599.ece",
+    "rejected_at": "2026-08-15T11:17:05.017602+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "The day Hyderabad celebrated two Independence Days on August 15, 1947",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/the-day-hyderabad-celebrated-two-independence-days-on-august-15-1947/article71345678.ece",
+    "rejected_at": "2026-08-15T11:17:05.102067+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "PD Act invoked against rice miller over ‘repeated custom-milled rice diversion’",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/pd-act-invoked-against-rice-miller-over-repeated-custom-milled-rice-diversion/article71346743.ece",
+    "rejected_at": "2026-08-15T11:17:05.226540+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Hyderabad agency stitches country’s largest national flag",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/hyderabad-agency-stitches-countrys-largest-national-flag",
+    "rejected_at": "2026-08-15T11:17:05.346310+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "KL Rahul retires hurt after severe cramps during India’s Galle Test against Sri Lanka",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/kl-rahul-retires-hurt-after-severe-cramps-during-indias-galle-test-against-sri-lanka",
+    "rejected_at": "2026-08-15T11:17:05.444479+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Marvel announces star cast for new X-Men film",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/marvel-announces-star-cast-for-new-x-men-film",
+    "rejected_at": "2026-08-15T11:17:05.565159+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "‘Paris Cafe’ trailer: Guru Somasundaram and Anumol lead emotional romantic drama",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/paris-cafe-trailer-guru-somasundaram-and-anumol-lead-emotional-romantic-drama",
+    "rejected_at": "2026-08-15T11:17:05.694063+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Developed West Bengal key to Viksit Bharat by 2047: Suvendu Adhikari",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/developed-west-bengal-key-to-viksit-bharat-by-2047-suvendu-adhikari",
+    "rejected_at": "2026-08-15T11:17:05.781849+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Gold prices rise 0.86 per cent as weak US data lifts demand",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/gold-prices-rise-0-86-per-cent-as-weak-us-data-lifts-demand",
+    "rejected_at": "2026-08-15T11:17:05.935973+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "CBI arrests senior railway officer, aide in Chhattisgarh bribery case",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/cbi-arrests-senior-railway-officer-aide-in-chhattisgarh-bribery-case",
+    "rejected_at": "2026-08-15T11:17:06.023143+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "KL Rahul, Devdutt Padikkal dominate as India take control of Galle Test against Sri Lanka",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/kl-rahul-devdutt-padikkal-dominate-as-india-take-control-of-galle-test-against-sri-lanka",
+    "rejected_at": "2026-08-15T11:17:06.120432+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Art for a cause: Bhoomi exhibition highlights creativity for nature and social impact",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/art-cause-bhoomi-exhibition-nature-compassion-creativity-photography",
+    "rejected_at": "2026-08-15T11:17:06.205547+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "(Weekly funding roundup Aug 8-14) Tepid VC inflow but Yulu provides relief",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/weekly-funding-roundup-aug-8-14-fund-inflow-turns-tepid-but-yulu-deal-provides-relief",
+    "rejected_at": "2026-08-15T11:17:06.365457+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indigotex has made denim from wool that keeps you warm and skips the water",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/indigotex-wool-denim",
+    "rejected_at": "2026-08-15T11:17:06.703852+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "10 Landmark books that document India's tech evolution",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/landmark-books-document-india-tech-evolution",
+    "rejected_at": "2026-08-15T11:17:06.825059+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "7 Must-read books on India’s pre-1947 business pioneers",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/books-india-business-pioneers-pre-1947",
+    "rejected_at": "2026-08-15T11:17:06.946274+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "KD Cancer Centre delivers integrated, patient-centric treatment",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/kd-cancer-centre-delivers-integrated-patient-centric-treatment",
+    "rejected_at": "2026-08-15T11:17:07.051950+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Tagbin has built an AI platform that turns words into 3D building designs",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/tagbin-brixx-ai-building-design-bim-platform",
+    "rejected_at": "2026-08-15T11:17:07.201161+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "PM Modi announces free online coaching for youth",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/08/pm-modi-announces-free-online-coaching-for-youth",
+    "rejected_at": "2026-08-15T11:17:07.308529+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "CRED-Backed NewTap Finance’s FY26 Profit More Than Doubles To ₹2.4 Cr",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/cred-backed-newtap-finances-fy26-profit-more-than-doubles-to-%e2%82%b92-4-cr/",
+    "rejected_at": "2026-08-15T11:17:07.410647+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "EaseMyTrip Slips Into Red With ₹11.7 Cr Loss In Q1; Revenue Rises 18% YoY",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/easemytrip-slips-into-red-with-%e2%82%b911-7-cr-loss-in-q1-revenue-rises-18-yoy/",
+    "rejected_at": "2026-08-15T11:17:07.768102+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "IPO-Bound Zetwerk’s FY26 Loss Widens To ₹1,606.2 Cr Despite 40% Uptick In Revenue",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/ipo-bound-zetwerk-fy26-loss-widens-to-%e2%82%b91606-2-cr-despite-40-uptick-in-revenue/",
+    "rejected_at": "2026-08-15T11:17:07.859749+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "PM Modi Bets On Tech To Empower Youth With AI Skilling, Online Coaching",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/pm-modi-bets-on-tech-to-empower-youth-with-ai-skilling-online-coaching/",
+    "rejected_at": "2026-08-15T11:17:07.943745+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indian Unicorn Tracker: Funding, Investors, Revenue And More",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/features/indian-unicorn-tracker-funding-investors-revenue-and-more/",
+    "rejected_at": "2026-08-15T11:17:08.024929+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "AI Startups To Watch: 5 Startups That Caught Our Eye In August",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/startups/ai-startups-to-watch-5-startups-that-caught-our-eye-in-august/",
+    "rejected_at": "2026-08-15T11:17:08.105095+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "From Yulu To Discovered Materials — Indian Startups Raised $140 Mn This Week",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/from-yulu-to-discovered-materials-indian-startups-raised-140-mn-this-week/",
+    "rejected_at": "2026-08-15T11:17:08.216727+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Atomberg To Form JV With Voltas To Manufacture AC Compressors",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/atomberg-to-form-jv-with-voltas-to-manufacture-ac-compressors/",
+    "rejected_at": "2026-08-15T11:17:08.334272+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Talks to sell PayPal to Stripe and Advent are heating up",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
+    "rejected_at": "2026-08-15T11:17:08.483258+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
+    "rejected_at": "2026-08-15T11:17:08.598275+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "What we know about the alleged Iranian hacks on US water utilities",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
+    "rejected_at": "2026-08-15T11:17:08.690058+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Read-it-later app Pocket shut down — here are the best alternatives",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/read-it-later-app-pocket-is-shutting-down-here-are-the-best-alternatives/",
+    "rejected_at": "2026-08-15T11:17:08.775011+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Unforgetful is a new reminders app for people who can’t stop hitting snooze",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
+    "rejected_at": "2026-08-15T11:17:08.893638+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Google will now allow users to remove visible watermark from its AI generations",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+    "rejected_at": "2026-08-15T11:17:09.003919+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+    "rejected_at": "2026-08-15T11:17:09.085145+00:00",
     "reason": "Not relevant"
   }
 ]
