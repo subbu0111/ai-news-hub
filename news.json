@@ -1,5 +1,47 @@
 [
   {
+    "title": "Ukraine attacks Russia's Samara industrial site as Kyiv ramps up long-range strikes",
+    "link": "https://www.thehindu.com/news/international/ukraine-attacks-russias-samara-industrial-site-as-kyiv-ramps-up-long-range-strikes/article71350605.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sat, 15 Aug 2026 23:09:11 +0530",
+    "topic": "International Relations",
+    "summary": [
+      "Ukraine has launched an attack on Russia's Samara industrial site",
+      "The attack is part of Kyiv's increased long-range strikes against Russia"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-15T17:44:39.675303+00:00"
+  },
+  {
+    "title": "Lebanon reports 11 dead in strikes that Israel says targeted Hezbollah",
+    "link": "https://www.thehindu.com/news/international/israeli-airstrike-on-southern-lebanon-kills-7-people-lebanese-state-media-say/article71348904.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sat, 15 Aug 2026 23:08:53 +0530",
+    "topic": "Geopolitical Conflict",
+    "summary": [
+      "Lebanon reports 11 dead in strikes",
+      "Israel claims the strikes targeted Hezbollah"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-15T17:44:39.948596+00:00"
+  },
+  {
+    "title": "Elon Musk plans $100 million push for Republicans in US midterms months after Trump feud: Report",
+    "link": "https://www.livemint.com/news/us-news/elon-musk-plans-100-million-push-for-republicans-in-us-midterms-months-after-trump-feud-report-11786802345962.html",
+    "source": "Mint",
+    "category": "india_business",
+    "published": "Sat, 15 Aug 2026 19:38:52 +0530",
+    "topic": "US Midterm Elections",
+    "summary": [
+      "Elon Musk plans to spend $100 million to support Republicans in the US midterms",
+      "This move comes months after Musk's public feud with former President Donald Trump"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-15T17:44:42.307064+00:00"
+  },
+  {
     "title": "Government rolls out foreign asset disclosure scheme for small taxpayers",
     "link": "https://www.thehindu.com/business/Economy/government-rolls-out-foreign-asset-disclosure-scheme-for-small-taxpayers/article71350429.ece",
     "source": "The Hindu",
@@ -656,47 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-08-15T06:32:35.052734+00:00"
-  },
-  {
-    "title": "After Gen-Z, its Gen Alpha's turn to seek accountability: Kejriwal",
-    "link": "https://www.thehindu.com/news/cities/Delhi/after-gen-z-its-gen-alphas-turn-to-seek-accountability-kejriwal/article71348672.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sat, 15 Aug 2026 11:54:14 +0530",
-    "topic": "Indian Politics",
-    "summary": [
-      "Delhi Chief Minister Arvind Kejriwal mentions Gen Alpha seeking accountability",
-      "Implication of younger generations demanding change in Indian governance"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-15T06:32:35.623947+00:00"
-  },
-  {
-    "title": "CJP’s Instagram handle briefly taken down, restored later",
-    "link": "https://www.thehindu.com/news/national/cjp-instagram-handle-briefly-taken-down-restored-later/article71348612.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sat, 15 Aug 2026 11:13:11 +0530",
-    "topic": "Cybersecurity and Government",
-    "summary": [
-      "The Instagram handle of the Chief Justice of Pakistan was briefly taken down",
-      "The account was later restored, with the reason for the temporary removal unclear"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-15T05:51:05.001092+00:00"
-  },
-  {
-    "title": "Defence production rises nearly four-fold to ₹1.78 lakh crore, says Rajnath Singh",
-    "link": "https://www.thehindu.com/news/national/defence-production-rises-nearly-four-fold-to-178-lakh-crore-says-rajnath-singh/article71346269.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sat, 15 Aug 2026 11:11:55 +0530",
-    "topic": "Defence Production",
-    "summary": [
-      "Defence production in India has risen nearly four-fold to ₹1.78 lakh crore",
-      "The increase is according to Defence Minister Rajnath Singh"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-15T05:51:05.419223+00:00"
   }
 ]
