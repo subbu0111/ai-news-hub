@@ -1,5 +1,61 @@
 [
   {
+    "title": "Thousands evacuate after Indonesia earthquake kills 51, cuts roads",
+    "link": "https://www.thehindu.com/news/international/indonesia-earthquake-death-toll-flores-island-damage-and-evacuations/article71352038.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 16 Aug 2026 10:43:52 +0530",
+    "topic": "Natural Disaster",
+    "summary": [
+      "A significant earthquake in Indonesia has resulted in 51 deaths",
+      "Thousands are evacuating the area due to damaged roads and infrastructure"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-16T05:24:47.350645+00:00"
+  },
+  {
+    "title": "Devendra Nath Mahto | The making of an agitator",
+    "link": "https://www.thehindu.com/news/national/jharkhand/profile-devendra-nath-mahto-the-making-of-an-agitator/article71350580.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 16 Aug 2026 10:42:45 +0530",
+    "topic": "Indian Politics",
+    "summary": [
+      "The article discusses the life and rise of Devendra Nath Mahto, a key figure in Indian politics",
+      "It explores his transformation into an agitator and his impact on the political landscape"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-16T05:24:47.830658+00:00"
+  },
+  {
+    "title": "Even as government considers MDR charge on UPI, data shows cash usage quickening in economy",
+    "link": "https://www.thehindu.com/business/Economy/even-as-government-considers-mdr-charge-on-upi-data-shows-cash-usage-quickening-in-economy/article71345365.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 16 Aug 2026 10:41:10 +0530",
+    "topic": "Economy and Policy",
+    "summary": [
+      "The Indian government is considering introducing a Merchant Discount Rate (MDR) charge on Unified Payments Interface (UPI) transactions",
+      "Despite the potential charge, data indicates an increase in cash usage within the economy"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-16T05:24:48.306180+00:00"
+  },
+  {
+    "title": "Why Gangtok is India’s most walkable city",
+    "link": "https://www.thehindu.com/life-and-style/travel/why-gangtok-is-indias-most-walkable-city/article70950320.ece",
+    "source": "The Hindu",
+    "category": "india_national",
+    "published": "Sun, 16 Aug 2026 10:39:10 +0530",
+    "topic": "Urban Development",
+    "summary": [
+      "Gangtok's pedestrian-friendly infrastructure",
+      "The city's initiatives to promote walking and reduce traffic congestion"
+    ],
+    "impact": "MEDIUM",
+    "fetched_at": "2026-08-16T05:24:48.746946+00:00"
+  },
+  {
     "title": "Morocco arrests 111 migrants headed for Spain’s Ceuta in security crackdown",
     "link": "https://www.thehindu.com/news/international/morocco-arrests-migrants-headed-for-spains-ceuta-in-security-crackdown/article71351950.ece",
     "source": "The Hindu",
@@ -642,61 +698,5 @@
     ],
     "impact": "MEDIUM",
     "fetched_at": "2026-08-15T16:49:41.599768+00:00"
-  },
-  {
-    "title": "PM Modi's I-Day speech will be a milestone towards Viksit Bharat journey: Amit Shah",
-    "link": "https://www.thehindu.com/news/national/pm-modis-i-day-speech-will-be-a-milestone-towards-viksit-bharat-journey-amit-shah/article71350057.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sat, 15 Aug 2026 22:11:10 +0530",
-    "topic": "Indian Government",
-    "summary": [
-      "PM Modi's Independence Day speech is anticipated to be a significant milestone in the journey towards a developed India (Viksit Bharat)",
-      "Amit Shah's statement suggests the speech will outline key developments and initiatives for the country's progress"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-15T16:49:42.085834+00:00"
-  },
-  {
-    "title": "Police detain 12 juveniles in Tiruvottiyur schoolboy murder case",
-    "link": "https://www.thehindu.com/news/cities/chennai/police-detain-12-juveniles-in-tiruvottiyur-schoolboy-murder-case/article71349507.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sat, 15 Aug 2026 21:43:15 +0530",
-    "topic": "Crime/Investigation",
-    "summary": [
-      "Police have detained 12 juveniles in connection with the murder of a schoolboy in Tiruvottiyur",
-      "The case is being investigated by the local authorities, with The Hindu reporting on the developments"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-15T16:20:21.208860+00:00"
-  },
-  {
-    "title": "‘Attempt to stigmatise dissent’: Opposition hits out at PM Modi over ‘dimagi Naxal’ jibe",
-    "link": "https://www.thehindu.com/news/national/attempt-to-stigmatise-dissent-opposition-hits-out-at-pm-modi-over-dimagi-naxal-jibe/article71349200.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sat, 15 Aug 2026 21:42:00 +0530",
-    "topic": "Indian Politics",
-    "summary": [
-      "Indian Prime Minister Narendra Modi referred to some opposition members as 'dimagi Naxal', sparking criticism",
-      "The opposition has accused the PM of attempting to stigmatize dissent with his comment"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-15T16:20:21.667396+00:00"
-  },
-  {
-    "title": "Mysuru: Congress protests ‘purification’ ritual after Kharge rally",
-    "link": "https://www.thehindu.com/news/national/karnataka/mysuru-congress-protests-purification-ritual-after-kharge-rally/article71350228.ece",
-    "source": "The Hindu",
-    "category": "india_national",
-    "published": "Sat, 15 Aug 2026 21:41:50 +0530",
-    "topic": "Politics",
-    "summary": [
-      "Congress protests a ‘purification’ ritual in Mysuru after a rally by Kharge",
-      "The ritual was allegedly performed in response to the rally, sparking controversy"
-    ],
-    "impact": "MEDIUM",
-    "fetched_at": "2026-08-15T16:20:22.223552+00:00"
   }
 ]
