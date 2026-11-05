@@ -1,453 +1,5 @@
 [
   {
-    "title": "Somnath non-veg food ban continues: What Gujarat Govt says, why restaurants opposed it and court's latest order",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/somnath-non-veg-food-ban-continues-what-gujarat-govt-says-why-restaurants-opposed-it-and-courts-latest-order-11793619335490.html",
-    "rejected_at": "2026-11-02T12:44:38.321020+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Ukraine, Russia emergency alert apps hit by cyberattacks; fake nuclear radiation alerts sent to users — What we know",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/world/ukraine-russia-emergency-alert-apps-hit-by-cyberattacks-fake-nuclear-radiation-alerts-sent-to-users-what-we-know-11793616267791.html",
-    "rejected_at": "2026-11-02T12:44:38.376285+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "US Midterms: Can Democrats win back the Senate? Polls show party ahead in 5 GOP-held battleground seats",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/world/us-midterms-can-democrats-win-back-the-senate-polls-show-party-ahead-in-5-gop-held-battleground-seats-11793615598918.html",
-    "rejected_at": "2026-11-02T12:44:38.439499+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Delhi AQI turns 'very poor' for first time this season; doctor advises 'masks, medicines' and other precautions",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/delhi-aqi-turns-very-poor-for-first-time-this-season-doctor-advises-masks-medicines-and-other-precautions-11793616039265.html",
-    "rejected_at": "2026-11-02T12:44:38.499267+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Union Home Minister Amit Shah in Hyderabad for padayatra",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/amit-shah-in-hyderabad-for-padayatra/article71656185.ece",
-    "rejected_at": "2026-11-02T12:44:38.555366+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Cyclone Murasu: Red alert in two Telangana districts, orange in three more on November 3",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-red-alert-in-two-telangana-districts-orange-in-three-more-on-november-3/article71655916.ece",
-    "rejected_at": "2026-11-02T12:44:38.616656+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "RPO Hyderabad’s Passport Mela on November 21",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/rpo-hyderabads-passport-mela-on-november-21/article71655920.ece",
-    "rejected_at": "2026-11-02T12:44:38.693890+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Cyclone Murasu: 12 flight services cancelled at Vijayawada; Visakhapatnam flights hit",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-12-flight-services-cancelled-at-vijayawada-visakhapatnam-flights-hit/article71655530.ece",
-    "rejected_at": "2026-11-02T12:44:38.751540+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Oocyte racket in Telangana: Women paid ₹20,000 as operators made around ₹3 lakh per cycle",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/oocyte-extraction-racket-women-paid-20000-as-operators-made-around-3-lakh-per-cycle/article71653455.ece",
-    "rejected_at": "2026-11-02T12:44:38.809384+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Cyclone Murasu | Paddy farmers in Telangana fear crop damage amid high market prices",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-paddy-farmers-in-telangana-fear-crop-damage-amid-high-market-prices/article71653493.ece",
-    "rejected_at": "2026-11-02T12:44:38.861776+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "El Nino: Telangana employees seek five-day work week",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/el-nino-hyderabad-employees-seek-five-day-work-week/article71652504.ece",
-    "rejected_at": "2026-11-02T12:44:38.915221+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Traffic restrictions in place across central Hyderabad on November 2; BJP padayatra from BJR Statue to MJ Market",
-    "source": "The Hindu Hyderabad",
-    "category": "hyderabad",
-    "link": "https://www.thehindu.com/news/national/telangana/traffic-restrictions-in-place-across-central-hyderabad-for-bjp-padayatra-on-november-2/article71653037.ece",
-    "rejected_at": "2026-11-02T12:44:38.971266+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Cyclone Murasu: Naidu directs officials to complete restoration works within 48 hours",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/cyclone-murasu-naidu-directs-officials-to-complete-restoration-works-within-48-hours",
-    "rejected_at": "2026-11-02T12:44:39.060256+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Adilabad CSC operator arrested for alleged illegal money-lending",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/adilabad-csc-operator-arrested-for-alleged-illegal-money-lending",
-    "rejected_at": "2026-11-02T12:44:39.115807+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "New quarters, renovated gas godown opened at Yousufguda battalion",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/new-quarters-renovated-gas-godown-opened-at-yousufguda-battalion",
-    "rejected_at": "2026-11-02T12:44:39.177950+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "How Medicine Apps Can Make Regular Medicines More Affordable",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/how-medicine-apps-can-make-regular-medicines-more-affordable",
-    "rejected_at": "2026-11-02T12:44:39.234216+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Jukkal MLA alleges verbal abuse by Health Minister in New Delhi",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/jukkal-mla-alleges-verbal-abuse-by-health-minister-in-new-delhi",
-    "rejected_at": "2026-11-02T12:44:39.292451+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Why Do Your Muscles Cramp at Night? Common Causes and When to Be Concerned",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/why-do-your-muscles-cramp-at-night-common-causes-and-when-to-be-concerned",
-    "rejected_at": "2026-11-02T12:44:39.348074+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Korea Open: Prannoy, Tanvi Sharma and Anmol Kharb spearhead Indian challenge",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/korea-open-prannoy-tanvi-sharma-and-anmol-kharb-spearhead-indian-challenge",
-    "rejected_at": "2026-11-02T12:44:39.402188+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Supreme Court allows certified green crackers in Delhi-NCR from November 2 to 8",
-    "source": "Telangana Today",
-    "category": "hyderabad",
-    "link": "https://telanganatoday.com/supreme-court-allows-certified-green-crackers-in-delhi-ncr-from-november-2-to-8",
-    "rejected_at": "2026-11-02T12:44:39.461381+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "antimattr is building voice AI wearables that cut through the noise",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/10/antimattr-is-building-voice-ai-wearables-that-work-even-in-noisy-spaces",
-    "rejected_at": "2026-11-02T12:44:39.530003+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Beyond funding: Why every startup founder needs an insurance plan",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/10/beyond-funding-why-every-startup-founder-needs-an-insurance-plan",
-    "rejected_at": "2026-11-02T12:44:39.594960+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "NTT DATA explores expansion in Mangaluru and Udupi, meets Priyank Kharge",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/11/ntt-data-explores-expansion-in-mangaluru-and-udupi-meets-priyank-kharge",
-    "rejected_at": "2026-11-02T12:44:39.652840+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Startup news and updates: daily roundup (November 02, 2026)",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/11/startup-news-and-updates-daily-roundup-november-02-2026",
-    "rejected_at": "2026-11-02T12:44:39.709670+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "ValueQuest Tristar Fund raises over Rs 2,100 Cr for advanced manufacturing",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/11/funding-valuequest-tristar-fund-beats-target-greenshoe-15-months-first-close",
-    "rejected_at": "2026-11-02T12:44:39.766853+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "WOI India launches venture studios, investor network, and startup support platforms at TechSparks 2026",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/11/woi-india-launches-venture-studios-investor-network-startup-support-platforms-techsparks-26",
-    "rejected_at": "2026-11-02T12:44:39.824935+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "From prompt engineers to tool builders: Intuit’s Vignesh Subrahmaniam on building AI that acts",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/11/prompt-engineers-tool-builders-intuits-vignesh-subrahmaniam-building-ai-acts",
-    "rejected_at": "2026-11-02T12:44:40.182974+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "From code to content: How AI could make India the world’s next story exporter",
-    "source": "YourStory",
-    "category": "india_tech",
-    "link": "https://yourstory.com/2026/11/from-code-to-content-how-ai-could-make-india-the-worlds-next-story-exporter",
-    "rejected_at": "2026-11-02T12:44:40.273884+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "TBO TEK Q2 Profit Rises 12.5% YoY To ₹76 Cr, Revenue Up 53%",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/tbo-tek-q2-profit-rises-12-5-yoy-to-%e2%82%b976-cr-revenue-up-53/",
-    "rejected_at": "2026-11-02T12:44:40.599363+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "ESDS Q2 Profit Zooms 41% YoY To ₹31.1 Cr, Revenue Up 48%",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/esds-q2-profit-zooms-41-yoy-to-%e2%82%b931-1-cr-revenue-up-48/",
-    "rejected_at": "2026-11-02T12:44:40.652935+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "PB Fintech’s Shares Hit Fresh Low Of ₹928.1, Down 48% Since IRDAI’s Proposed Insurance Overhaul",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/pb-fintechs-shares-hit-fresh-low-of-%e2%82%b9928-1-down-48-since-irdais-proposed-insurance-overhaul/",
-    "rejected_at": "2026-11-02T12:44:40.715116+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Pixxel Is Indian-Owned And Controlled, Says Founder Amid Backlash Over US Foray",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/pixxel-is-indian-owned-and-controlled-says-founder-amid-backlash-over-us-foray/",
-    "rejected_at": "2026-11-02T12:44:40.860750+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Pronto Founder’s Provision Labs Acquires Hardware Startup Basilisk Industries",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/pronto-founders-provision-labs-acquires-hardware-startup-basilisk-industries/",
-    "rejected_at": "2026-11-02T12:44:40.919784+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "MobiKwik Reports ₹11.8 Cr Profit In Q2, Revenue Rises 9% YoY",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/mobikwik-reports-%e2%82%b911-8-cr-profit-in-q2-revenue-rises-9-yoy/",
-    "rejected_at": "2026-11-02T12:44:40.974587+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Capillary Q2: Profit Jumps To ₹21.9 Cr, Revenue Surges 51.3% YoY",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/capillary-q2-profit-jumps-to-%e2%82%b921-9-cr-revenue-surges-51-3-yoy/",
-    "rejected_at": "2026-11-02T12:44:41.040904+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Delhivery Shares Jump Nearly 10% After Q2 Swing To ₹41 Cr Profit",
-    "source": "Inc42",
-    "category": "india_tech",
-    "link": "https://inc42.com/buzz/delhivery-shares-jump-nearly-10-after-q2-swing-to-%e2%82%b941-cr-profit/",
-    "rejected_at": "2026-11-02T12:44:41.099256+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Ford launches a ‘privacy promise’ and explains how and why it uses customer data",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/",
-    "rejected_at": "2026-11-02T12:44:41.155666+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Borrowed reading: stories from our extended colleagues",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
-    "rejected_at": "2026-11-02T12:44:41.210202+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-    "rejected_at": "2026-11-02T12:44:41.263882+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
-    "rejected_at": "2026-11-02T12:44:41.325117+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "TechCrunch Mobility: A new, bigger AV boom is here",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
-    "rejected_at": "2026-11-02T12:44:41.414413+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Binance resumes withdrawals following $6.3 billion breach",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
-    "rejected_at": "2026-11-02T12:44:41.469990+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/11/01/pixel-11-pro-fold-sturdy-rectengale-in-a-wide-wide-world/",
-    "rejected_at": "2026-11-02T12:44:41.524826+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Here’s what ‘renoa’ — the first new fiber in 25 years — feels like",
-    "source": "TechCrunch",
-    "category": "global_tech",
-    "link": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/",
-    "rejected_at": "2026-11-02T12:44:41.583368+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Delhi High Court stays JNU order dismissing professor and Congress MP Akoijam from services",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/cities/Delhi/delhi-high-court-stays-jnu-order-dismissing-professor-and-congress-mp-akoijam-from-services/article71657830.ece",
-    "rejected_at": "2026-11-02T22:06:35.910069+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Severe Cyclone Murasu: Landfall commences near Ongole",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/severe-cyclone-murasu-landfall-on-november-3-2026/article71658293.ece",
-    "rejected_at": "2026-11-02T22:06:35.975148+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Cyclone Murasu Live updates: Landfall commences over south coastal Andhra Pradesh",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/murasu-cyclone-live-updates-on-november-2-2026-tamil-nadu-telangana-andhra-pradesh-odisha/article71654226.ece",
-    "rejected_at": "2026-11-02T22:06:36.028604+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Cyclonic storm Murasu to make landfall close to Ongole",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/andhra-pradesh/cyclonic-storm-murasu-to-make-landfall-close-to-ongole/article71654237.ece",
-    "rejected_at": "2026-11-02T22:06:36.092922+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Maharashtra sets up drought mitigation panel, approves ₹291.91 crore relief for flood-hit farmers",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/maharashtra/maharashtra-sets-up-drought-mitigation-panel-approves-29191-crore-relief-for-flood-hit-farmers/article71657940.ece",
-    "rejected_at": "2026-11-02T22:06:36.154912+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Rahul Gandhi acting as a ‘toolkit’ for foreign forces says Nitin Nabin",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/west-bengal/rahul-gandhi-acting-as-a-toolkit-for-foreign-forces-says-nitin-nabin/article71657905.ece",
-    "rejected_at": "2026-11-02T22:06:36.207794+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Netanyahu pressing Trump to attack Iran after midterms, says officials",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/international/netanyahu-pressing-trump-to-attack-iran-after-midterms-says-officials/article71658356.ece",
-    "rejected_at": "2026-11-02T22:06:36.268717+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Amit Shah backs SIR, alleges 3 crore ‘illegal infiltrators’ identified in 13 crore deleted voters",
-    "source": "The Hindu",
-    "category": "india_national",
-    "link": "https://www.thehindu.com/news/national/telangana/amit-shah-backs-sir-alleges-three-crore-illegal-infiltrators-identified-in-13-crore-deleted-voters/article71656858.ece",
-    "rejected_at": "2026-11-02T22:06:36.331989+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Learjet May Have Broken Up Before Fatal Florida Crash, NTSB Says",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/learjet-may-have-broken-up-before-fatal-florida-crash-ntsb-says-11793653979319.html",
-    "rejected_at": "2026-11-02T22:06:36.393920+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Ukraine Says Russian Strike on Humanitarian Aid Center Kills 24",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/world/ukraine-says-russian-strike-on-humanitarian-aid-center-kills-24-11793651572830.html",
-    "rejected_at": "2026-11-02T22:06:36.459177+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Diwali 2026 with green crackers: What are approvals required by firework manufacturers as SC allows bursting on Nov 7, 8",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/india/diwali-2026-with-green-crackers-what-are-approvals-required-by-firework-manufacturers-as-sc-allows-bursting-on-nov-7-8-11793643481423.html",
-    "rejected_at": "2026-11-02T22:06:36.549451+00:00",
-    "reason": "Not relevant"
-  },
-  {
-    "title": "Top Indian restaurants in US: How Indian-origin entrepreneurs are introducing regional flavours to diners in America",
-    "source": "Mint",
-    "category": "india_business",
-    "link": "https://www.livemint.com/news/us-news/top-indian-restaurants-in-us-how-indian-origin-entrepreneurs-are-introducing-regional-flavours-to-diners-in-america-11793642366857.html",
-    "rejected_at": "2026-11-02T22:06:36.629358+00:00",
-    "reason": "Not relevant"
-  },
-  {
     "title": "Business is not always built on transactions alone': Shops in this state run without shopkeepers and customers pay too",
     "source": "Mint",
     "category": "india_business",
@@ -3997,6 +3549,454 @@
     "category": "global_tech",
     "link": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
     "rejected_at": "2026-11-04T21:23:24.056103+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "U.S. midterm elections 2026 LIVE: Republican U.S. House Speaker to step down; Zelenskyy hopes Democrat gains will bring more help for Ukraine",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/international/us-midterm-elections-2026-results-trump-senate-congress-races-winners-losers-live-updates-republicans-democrats/article71668404.ece",
+    "rejected_at": "2026-11-05T01:36:31.861748+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Mahadev app co-promoter Ravi Uppal arrested in UAE, India moves for his extradition",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/mahadev-app-co-promoter-ravi-uppal-arrested-in-uae-india-moves-for-his-extradition/article71668416.ece",
+    "rejected_at": "2026-11-05T01:36:31.918975+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "ECI separates online Form 6, accompanying declaration for States undergoing SIR",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/national/eci-separates-online-form-6-accompanying-declaration-for-states-undergoing-sir/article71665706.ece",
+    "rejected_at": "2026-11-05T01:36:31.976255+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "U.S. midterm elections 2026 highlights: Trump says 'largely true' Iran war caused election loss",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/international/us-midterm-elections-2026-senate-governor-races-winners-lossers-live-updates-trump-republicans-democrats-news/article71660811.ece",
+    "rejected_at": "2026-11-05T01:36:32.033500+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "After Republicans routed, Trump devotes first post-midterm event to White House ballroom",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/international/trump-says-republicans-harmed-byiran-war-inability-to-transfer-the-love-for-him/article71667372.ece",
+    "rejected_at": "2026-11-05T01:36:32.094828+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Morning Digest: Trump says ‘largely true’ Iran war caused midterms’ loss; ECI separates online Form 6, accompanying declaration for States undergoing SIR; and more",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/morning-digest-on-november-5-2026/article71668393.ece",
+    "rejected_at": "2026-11-05T01:36:32.148267+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Delhi Police arrest man with 312 kg of illegal firecrackers in Shahdara",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/cities/Delhi/delhi-police-arrest-man-with-312-kg-of-illegal-firecrackers-in-shahdara/article71666852.ece",
+    "rejected_at": "2026-11-05T01:36:32.213550+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Every rooftop in Delhi will become source of solar energy: CM",
+    "source": "The Hindu",
+    "category": "india_national",
+    "link": "https://www.thehindu.com/news/cities/Delhi/every-rooftop-in-delhi-will-become-source-of-solar-energy-cm/article71666943.ece",
+    "rejected_at": "2026-11-05T01:36:32.271567+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Tyre margins skid on costly rubber, firms mull more price hikes",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/tyre-makers-rubber-prices-raw-material-earnings-automobile-11793702486661.html",
+    "rejected_at": "2026-11-05T01:36:32.324868+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Iran War! JD Vance lists 4 reasons voters switched to Democrats: ‘Agree or disagree, that’s at least honest’",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/us-news/iran-war-jd-vance-lists-4-reasons-voters-switched-to-democrats-agree-or-disagree-that-s-at-least-honest-11793814944641.html",
+    "rejected_at": "2026-11-05T01:36:32.388591+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Ex-Indian hockey captain MM Somaya's 1980 Moscow Olympics gold medal stolen from Bengaluru residence",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/exindian-hockey-captain-mm-somayas-1980-moscow-olympics-gold-medal-stolen-from-bengaluru-residence-11793805863313.html",
+    "rejected_at": "2026-11-05T01:36:32.442410+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "India draws $400 bn in preliminary renewable investment pledges",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india-receives-investment-commitment-worth-400-billion-at-bharat-renewable-energy-summit-pralhad-joshi-11793806667651.html",
+    "rejected_at": "2026-11-05T01:36:32.504347+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Who is Sarah Jukaku? Meet Michigan Senator-elect Abdul El-Sayed's wife whose family has roots in Karnataka's Bhatkal",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/us-news/who-is-sarah-jukaku-meet-michigan-senator-elect-abdul-el-sayeds-wife-whose-family-has-roots-in-karnatakas-bhatkal-11793810149845.html",
+    "rejected_at": "2026-11-05T01:36:32.571482+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Bengaluru woman repays  ₹43 lakh education loan after 8 years, takes 3-year-old son to witness 'milestone'",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/trends/bengaluru-woman-repays-43-lakh-education-loan-after-8-years-takes-3-year-old-son-to-witness-milestone-11793808803298.html",
+    "rejected_at": "2026-11-05T01:36:32.631023+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "US midterm election 2026 results: What Democrats' Congress takeover means for Trump's $100,000 H-1B fee",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/us-news/us-midterm-election-2026-results-what-democrats-congress-takeover-means-for-trumps-100-000-h-1b-fee-11793803086958.html",
+    "rejected_at": "2026-11-05T01:36:32.697331+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Train travel rules: Madras High Court backs 10 PM–6 AM sleeping berth timings in reserved coaches; here’s why",
+    "source": "Mint",
+    "category": "india_business",
+    "link": "https://www.livemint.com/news/india/train-travel-rules-madras-high-court-backs-10-pm-6-am-sleeping-berth-timings-in-reserved-coaches-here-s-why-11793787993490.html",
+    "rejected_at": "2026-11-05T01:36:32.753006+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Cyclone Murasu impact on Telangana | Extremely heavy rains lash Bhadradri on November 4",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-impact-on-telangana-extremely-heavy-overnight-rain-in-bhadradri-and-khammam/article71664340.ece",
+    "rejected_at": "2026-11-05T01:36:32.809876+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Two 17-year-old students sexually assaulted at party, two booked under PoCSO",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/two-17-year-old-students-sexually-assaulted-at-party-two-booked-under-pocso/article71667068.ece",
+    "rejected_at": "2026-11-05T01:36:32.871918+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Nine rescue personnel feared missing as boats capsize in Telangana’s swollen Peddacheruvu",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/nine-rescue-personnel-feared-missing-as-boats-capsize-in-swollen-peddacheruvu-in-khammam-district/article71667132.ece",
+    "rejected_at": "2026-11-05T01:36:32.933126+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Future City Police to auction 244 unclaimed vehicles, owners given six months to stake claims",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/future-city-police-to-auction-244-unclaimed-vehicles-owners-given-six-months-to-stake-claims/article71666328.ece",
+    "rejected_at": "2026-11-05T01:36:32.989862+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Gaddam Vamsi Krishna launches KGF to turn Telangana’s youth into job creators",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/gaddam-vamsi-krishna-launches-kgf-to-turn-telanganas-youth-into-job-creators/article71666888.ece",
+    "rejected_at": "2026-11-05T01:36:33.048111+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "BRS seeks action against Agrivarsity VC over sexual harassment allegations",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/brs-seeks-action-against-agrivarsity-vc-over-sexual-harassment-allegations/article71666709.ece",
+    "rejected_at": "2026-11-05T01:36:33.109823+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Telangana is an enabler for industry, business: Deputy CM Bhatti Vikramarka",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/telangana-is-an-enabler-for-industry-business-deputy-cm-bhatti-vikramarka/article71666770.ece",
+    "rejected_at": "2026-11-05T01:36:33.203396+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "G+5 Indiramma Housing towers in Nalgonda, Warangal, Nizamabad and Karimangar corporations: Telangana Minister",
+    "source": "The Hindu Hyderabad",
+    "category": "hyderabad",
+    "link": "https://www.thehindu.com/news/national/telangana/g5-indiramma-housing-towers-in-nalgonda-warangal-nizamabad-and-karimangar-corporations-telangana-minister/article71666775.ece",
+    "rejected_at": "2026-11-05T01:36:33.259531+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Amul raises retail prices of ghee and butter across India",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/amul-raises-retail-prices-of-ghee-and-butter-across-india",
+    "rejected_at": "2026-11-05T01:36:33.317622+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Andhra Pradesh CID cracks Rs 15 crore transnational cryptocurrency fraud",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/andhra-pradesh-cid-cracks-rs-15-crore-transnational-cryptocurrency-fraud",
+    "rejected_at": "2026-11-05T01:36:33.367694+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Sonam Wangchuk alleges ‘witch-hunt’ by Ladakh administration against HIAL",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/sonam-wangchuk-alleges-witch-hunt-by-ladakh-administration-against-hial",
+    "rejected_at": "2026-11-05T01:36:33.428567+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Maharashtra minister alleges Opposition seeking ‘regime change’ to bring Sharia",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/maharashtra-minister-alleges-opposition-seeking-regime-change-to-bring-sharia",
+    "rejected_at": "2026-11-05T01:36:33.481461+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Two soldiers killed in Ladakh road accident",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/two-soldiers-killed-in-ladakh-road-accident",
+    "rejected_at": "2026-11-05T01:36:33.537939+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "JD Vance distances himself from Trump’s Iran policy following Republican election losses",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/jd-vance-distances-himself-from-trumps-iran-policy-following-republican-election-losses",
+    "rejected_at": "2026-11-05T01:36:33.602615+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Groundwater levels decline in 554 Telangana mandals",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/groundwater-levels-decline-in-554-telangana-mandals",
+    "rejected_at": "2026-11-05T01:36:33.660147+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "OU non-teaching staff stage protest, seek pension benefits and promotions",
+    "source": "Telangana Today",
+    "category": "hyderabad",
+    "link": "https://telanganatoday.com/ou-non-teaching-staff-stage-protest-seek-pension-benefits-and-promotions",
+    "rejected_at": "2026-11-05T01:36:33.718314+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Beyond assets: Why 'family continuity' is the missing link in personal finance",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/10/beyond-assets-why-family-continuity-is-the-missing-link-in-personal-finance",
+    "rejected_at": "2026-11-05T01:36:33.781109+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "ForgeCode’s Tushar Mathur wants software development to run like a factory, not a project",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/11/forgecodes-tushar-mathur-wants-software-development-to-run-like-a-factory-not-a-project",
+    "rejected_at": "2026-11-05T01:36:33.835607+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Priyank Kharge asks EV companies to shape Karnataka's growth roadmap",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/11/priyank-kharge-asks-ev-companies-to-shape-karnatakas-growth-roadmap",
+    "rejected_at": "2026-11-05T01:36:33.889473+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Peppermint Robotics bags Rs 100 Cr in pre-Series B funding round",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/11/peppermint-robotics-bags-rs-100-cr-in-pre-series-b-funding-round",
+    "rejected_at": "2026-11-05T01:36:33.941918+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "altM raises $10.3M in Series A funding led by Rainmatter, Mela Ventures",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/11/altm-raises-103m-series-a-funding-rainmatter-mela-ventures",
+    "rejected_at": "2026-11-05T01:36:34.036739+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "5 lessons from 30 Something Millionaire by Mohit Chawla",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/11/something-millionaire-lessons",
+    "rejected_at": "2026-11-05T01:36:34.093770+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Cabinet approves Rs 2,814 Cr scheme to promote processing of lithium, nickel",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/11/cabinet-approves-rs-2814-cr-scheme-to-promote-processing-of-lithium-nickel",
+    "rejected_at": "2026-11-05T01:36:34.152793+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Indian startups with over $500M valuation grow to 51 despite low number of AI entities: Report",
+    "source": "YourStory",
+    "category": "india_tech",
+    "link": "https://yourstory.com/2026/11/indian-startups-over-500m-valuation-grow-51-despite-low-number-ai-entities-report",
+    "rejected_at": "2026-11-05T01:36:34.209229+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Cleantech Startup altM Raises $10.3 Mn To Scale Manufacturing",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/cleantech-startup-altm-raises-10-3-mn-to-scale-manufacturing/",
+    "rejected_at": "2026-11-05T01:36:34.268082+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Mahadev Betting App Promoter Ravi Uppal Arrested In The UAE: Report",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/mahadev-betting-app-promoter-ravi-uppal-arrested-in-the-uae-report/",
+    "rejected_at": "2026-11-05T01:36:34.340677+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Cabinet Clears ₹2,814 Cr Scheme To Boost Lithium & Nickel Processing",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/cabinet-clears-%e2%82%b92814-cr-scheme-to-boost-lithium-nickel-processing/",
+    "rejected_at": "2026-11-05T01:36:34.396817+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Cybersecurity Agency I4C Warns Banks & Fintechs Against AI-Led Cyberattacks",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/cybersecurity-agency-i4c-warns-banks-fintechs-against-ai-led-cyberattacks/",
+    "rejected_at": "2026-11-05T01:36:34.461522+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Tracxn Q2 Loss Narrows 26% YoY To ₹4.1 Cr, Revenue Stays Flat",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/tracxn-q2-loss-narrows-26-yoy-to-%e2%82%b94-1-cr-revenue-stays-flat/",
+    "rejected_at": "2026-11-05T01:36:34.525597+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Now, upGrad Files Insolvency Petition Against Bira91 Over ₹1.02 Cr Dues",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/now-upgrad-files-insolvency-petition-against-bira91-over-%e2%82%b91-02-cr-dues/",
+    "rejected_at": "2026-11-05T01:36:34.576758+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "PhysicsWallah Returns To The Black In Q2, Posts A Profit of ₹143.6 Cr",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/physicswallah-returns-to-the-black-in-q2-posts-a-profit-of-%e2%82%b9143-6-cr/",
+    "rejected_at": "2026-11-05T01:36:34.638274+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "NPCI Expands Beyond Payments With AI, Blockchain-Focused Subsidiary",
+    "source": "Inc42",
+    "category": "india_tech",
+    "link": "https://inc42.com/buzz/npci-expands-beyond-payments-with-ai-blockchain-focused-subsidiary/",
+    "rejected_at": "2026-11-05T01:36:34.700763+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Apple is reportedly cutting budgets for its internal AI usage",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+    "rejected_at": "2026-11-05T01:36:34.755252+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "After the midterms, a bigger clash over data centers could be coming",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+    "rejected_at": "2026-11-05T01:36:34.819357+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+    "rejected_at": "2026-11-05T01:36:34.880020+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+    "rejected_at": "2026-11-05T01:36:34.937587+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Almost no one uses AI agents to book their Uber, company says",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+    "rejected_at": "2026-11-05T01:36:34.990485+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Snapchat surpasses 30M paid subscribers",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/11/04/snapchat-surpasses-30m-paid-subscribers/",
+    "rejected_at": "2026-11-05T01:36:35.048428+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "OpenAI is already trying to shape the 2028 election",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+    "rejected_at": "2026-11-05T01:36:35.120695+00:00",
+    "reason": "Not relevant"
+  },
+  {
+    "title": "Meta acquires AI coding startup Conductor",
+    "source": "TechCrunch",
+    "category": "global_tech",
+    "link": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+    "rejected_at": "2026-11-05T01:36:35.174929+00:00",
     "reason": "Not relevant"
   }
 ]
